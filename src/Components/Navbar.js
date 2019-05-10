@@ -9,8 +9,50 @@ export default class Navbar extends Component {
         {
           name: "Home",
           href: "./index.html",
-          class: "nav-link sk-col-black",
+          class: "nav-item active",
+          anchorClass: "nav-link sk-col-black",
           children: [<span className="sr-only">(current)</span>]
+        },
+        {
+          name: "Skills",
+          href: "./index.html#",
+          class: "nav-item dropdown",
+          anchorClass: "nav-link sk-col-grey dropdown-toggle",
+          anchorId: "skills-dd",
+          dropdown: (
+            <div className="dropdown-menu" aria-labelledby="skills-dd">
+              <a href="#compskills" className="dropdown-item">
+                Computer-related skills
+              </a>
+              <a href="#langskills" className="dropdown-item">
+                Language skills
+              </a>
+            </div>
+          )
+        },
+        {
+          name: "CV",
+          href: "#cv",
+          class: "nav-item",
+          anchorClass: "nav-link sk-col-grey"
+        },
+        {
+          name: "Publications",
+          href: "#pubs",
+          class: "nav-item",
+          anchorClass: "nav-link sk-col-grey"
+        },
+        {
+          name: "References",
+          href: "#refs",
+          class: "nav-item",
+          anchorClass: "nav-link sk-col-grey"
+        },
+        {
+          name: "Contact",
+          href: "#contact",
+          class: "nav-item",
+          anchorClass: "nav-link sk-col-grey"
         }
       ]
     };
