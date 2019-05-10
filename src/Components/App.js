@@ -3,6 +3,7 @@ import "../styles/App.scss";
 import MyNavbar from "./MyNavbar";
 import TitleImage from "./TitleImage";
 import Welcome from "./Welcome";
+import Blockquote from "./Blockquote";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <MyNavbar />
       <TitleImage />
       <Welcome />
+      <div className="sk-placeholder" />
+      <Blockquote />
     </div>
   );
 }
