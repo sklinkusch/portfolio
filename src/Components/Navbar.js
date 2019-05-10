@@ -22,7 +22,7 @@ export default class Navbar extends Component {
         role="navigation"
       >
         <div className="container sk-bg-ccc sk-col-black navbar-light">
-          <a className="navbar-brand sk-col-black" href="#">
+          <a className="navbar-brand sk-col-black" href="./index-html#">
             Dr. Stefan Klinkusch
           </a>
           <NavbarToggler />
