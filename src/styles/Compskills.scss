@@ -1,0 +1,47 @@
+// size of album image containers (computer-related skills)
+.album-item {
+  height: 250px;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+// Remove borders and autosizing from images
+.img-thumbnail {
+  border: none !important;
+  margin: auto;
+  height: auto;
+  display: block;
+}
+#html {
+  width: 220px;
+}
+#css {
+  width: 150px;
+}
+#sass {
+  width: 200px;
+}
+#git {
+  width: 200px;
+}
+#bootstrap {
+  width: 200px;
+}
+#cplusplus {
+  width: 190px;
+}
+#fortran {
+  width: 200px;
+}
+#perl {
+  min-height: 210px;
+  max-width: 250px;
+  max-height: 250px;
+  width: auto;
+}
+#bash {
+  width: 200px;
+}
+#latex {
+  width: 200px;
+}

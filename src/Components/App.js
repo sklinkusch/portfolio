@@ -4,6 +4,7 @@ import MyNavbar from "./MyNavbar";
 import TitleImage from "./TitleImage";
 import Welcome from "./Welcome";
 import Blockquote from "./Blockquote";
+import Compskills from "./Compskills";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Welcome />
       <div className="sk-placeholder" />
       <Blockquote />
+      <div className="sk-placeholder" />
+      <Compskills />
     </div>
   );
 }
