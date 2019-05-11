@@ -51,6 +51,11 @@ export default class Compskills extends React.Component {
           name: "Fortran 90",
           imageSrc: "images/f90-300x212.png",
           imageId: "fortran"
+        },
+        {
+          name: "Perl",
+          imageSrc: "images/Perl.png",
+          imageId: "perl"
         }
       ]
     };
