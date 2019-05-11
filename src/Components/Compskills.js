@@ -16,6 +16,11 @@ export default class Compskills extends React.Component {
           name: "CSS3",
           imageSrc: "images/CSS.3.svg.png",
           imageId: "css"
+        },
+        {
+          name: "Sass/SCSS",
+          imageSrc: "images/Sass_Logo_Color.svg",
+          imageId: "sass"
         }
       ]
     };
