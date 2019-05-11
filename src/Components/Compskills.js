@@ -41,6 +41,16 @@ export default class Compskills extends React.Component {
           name: "React",
           imageSrc: "images/React.svg",
           imageId: "react"
+        },
+        {
+          name: "C++",
+          imageSrc: "images/ISO_C++_Logo.svg",
+          imageId: "cplusplus"
+        },
+        {
+          name: "Fortran 90",
+          imageSrc: "images/f90-300x212.png",
+          imageId: "fortran"
         }
       ]
     };
