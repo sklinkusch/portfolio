@@ -56,6 +56,16 @@ export default class Compskills extends React.Component {
           name: "Perl",
           imageSrc: "images/Perl.png",
           imageId: "perl"
+        },
+        {
+          name: "Bourne-Again Shell",
+          imageSrc: "images/Bash.svg",
+          imageId: "bash"
+        },
+        {
+          name: "LaTeX",
+          imageSrc: "images/220px-LaTeX_logo.svg.png",
+          imageId: "latex"
         }
       ]
     };
