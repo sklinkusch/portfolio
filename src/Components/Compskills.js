@@ -31,6 +31,11 @@ export default class Compskills extends React.Component {
           name: "Bootstrap 4",
           imageSrc: "images/Boostrap_logo.svg",
           imageId: "bootstrap"
+        },
+        {
+          name: "ECMAScript 6",
+          imageSrc: "images/ES6LOGO.svg",
+          imageId: "ecmascript"
         }
       ]
     };
