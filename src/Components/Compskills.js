@@ -26,6 +26,11 @@ export default class Compskills extends React.Component {
           name: "git",
           imageSrc: "images/Git-logo.svg",
           imageId: "git"
+        },
+        {
+          name: "Bootstrap 4",
+          imageSrc: "images/Boostrap_logo.svg",
+          imageId: "bootstrap"
         }
       ]
     };
