@@ -5,6 +5,7 @@ import TitleImage from "./TitleImage";
 import Welcome from "./Welcome";
 import Blockquote from "./Blockquote";
 import Compskills from "./Compskills";
+import Langskills from "./Langskills";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Blockquote />
       <div className="sk-placeholder" />
       <Compskills />
+      <div className="sk-placeholder" />
+      <Langskills />
     </div>
   );
 }
