@@ -35,6 +35,56 @@ export default function Langskills() {
             aria-valuemax="100"
           />
         </div>
+        <div className="progress">
+          <div
+            className="progress-bar sk-w28 sk-col-white sk-pl15 sk-bg-blue bold sk-al"
+            role="progressbar"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            English
+          </div>
+          <div
+            className="progress-bar sk-w28 sk-bg-red"
+            role="progressbar"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          />
+          <div
+            className="progress-bar sk-bg-white sk-w28 sk-bt-black sk-br-black sk-bb-black"
+            role="progressbar"
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          />
+        </div>
+        <div className="progress">
+          <div
+            className="progress-bar sk-bg-blue sk-col-white sk-w25 sk-al sk-pl15 bold"
+            role="progressbar"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            French
+          </div>
+          <div
+            className="progress-bar sk-bg-white sk-w25 sk-bt-black sk-bb-black"
+            role="progressbar"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          />
+          <div
+            className="progress-bar sk-bg-red sk-w25"
+            role="progressbar"
+            aria-valuenow="75"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          />
+        </div>
       </section>
       <div className="sk-placeholder-tiny" />
     </div>
