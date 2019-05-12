@@ -85,6 +85,24 @@ export default function Langskills() {
             aria-valuemax="100"
           />
         </div>
+        <div className="progress">
+          <div
+            className="progress-bar sk-w30 sk-bg-yellow sk-bl-black sk-bt-black sk-bb-black sk-col-black bold sk-al sk-pl15"
+            role="progressbar"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            Latin
+          </div>
+          <div
+            className="progress-bar sk-w30 sk-bg-white sk-bt-black sk-bb-black sk-br-black"
+            role="progressbar"
+            aria-valuenow="100"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          />
+        </div>
       </section>
       <div className="sk-placeholder-tiny" />
     </div>
