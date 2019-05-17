@@ -1,42 +1,30 @@
 import React from "react";
 import CVTitle from "./CVTitle";
+import { Nav } from "reactstrap";
 
-export default function CVTitles() {
+export default function CVTitles(props) {
   const tabs = [
     {
-      title: "Education",
-      controls: "education",
-      href: "#edu",
-      id: "edu-tab",
-      active: true
+      title: "Education"
     },
     {
-      title: "Certificates",
-      controls: "certificates",
-      href: "#certs",
-      id: "cert-tab",
-      active: false
+      title: "Certificates"
     },
     {
-      title: "Work Experience",
-      controls: "work-experience",
-      href: "#work",
-      id: "work-tab",
-      active: false
+      title: "Work Experience"
     }
   ];
   return (
-    <ul className="nav nav-tabs" id="cvTab" role="tablist">
+    <Nav tabs>
       {tabs.map((tab, index) => (
         <CVTitle
-          active={tab.active}
-          id={tab.id}
-          href={tab.href}
-          controls={tab.controls}
+          activeTab={props.activeTab}
           title={tab.title}
+          number={index}
+          toggle={i => props.toggle(i)}
           key={index}
         />
       ))}
-    </ul>
+    </Nav>
   );
 }
