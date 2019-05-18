@@ -1,17 +1,20 @@
 import React from "react";
-import CVTitle from "./CVTitle";
 import { Nav } from "reactstrap";
+import CVTitle from "./CVTitle";
 
-export default function CVTitles(props) {
+export default function PubTitles(props) {
   const tabs = [
     {
-      title: "Education"
+      title: "Theses"
     },
     {
-      title: "Certificates"
+      title: "Journals"
     },
     {
-      title: "Work Experience"
+      title: "Posters"
+    },
+    {
+      title: "Talks"
     }
   ];
   return (
@@ -21,7 +24,7 @@ export default function CVTitles(props) {
           activeTab={props.activeTab}
           title={tab.title}
           number={index}
-          toggle={i => props.toggle(`${i}`)}
+          toggle={i => props.toggle(i)}
           key={index}
         />
       ))}

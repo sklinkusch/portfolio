@@ -7,6 +7,7 @@ import Blockquote from "./Blockquote";
 import Compskills from "./Compskills";
 import Langskills from "./Langskills";
 import CV from "./CV";
+import Publications from "./Publications";
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
       <Langskills />
       <div className="sk-placeholder" />
       <CV />
+      <div className="sk-placeholder" />
+      <Publications />
     </div>
   );
 }
