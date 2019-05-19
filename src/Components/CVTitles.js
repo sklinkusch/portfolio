@@ -21,7 +21,7 @@ export default function CVTitles(props) {
           activeTab={props.activeTab}
           title={tab.title}
           number={index}
-          toggle={i => props.toggle(`${i}`)}
+          toggle={i => props.toggle(i)}
           key={index}
         />
       ))}
