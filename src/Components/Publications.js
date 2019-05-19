@@ -3,6 +3,8 @@ import { TabContent } from "reactstrap";
 import PubTitles from "./PubTitles";
 import Theses from "./Theses";
 import Journals from "./Journals";
+import Posters from "./Posters";
+import Talks from "./Talks";
 
 export default class Publications extends Component {
   constructor(props) {
@@ -26,6 +28,8 @@ export default class Publications extends Component {
           <TabContent activeTab={this.state.activeTab}>
             <Theses />
             <Journals />
+            <Posters />
+            <Talks />
           </TabContent>
         </section>
       </div>
