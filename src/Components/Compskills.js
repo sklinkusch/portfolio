@@ -43,6 +43,11 @@ export default class Compskills extends React.Component {
           imageId: "react"
         },
         {
+          name: "Redux",
+          imageSrc: "images/redux-logo.png",
+          imageId: "redux"
+        },
+        {
           name: "C++",
           imageSrc: "images/ISO_C++_Logo.svg",
           imageId: "cplusplus"
