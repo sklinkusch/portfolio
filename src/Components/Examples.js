@@ -21,11 +21,15 @@ export default class Examples extends Component {
       javascript: [
         {
           title: "Fortune Teller Game Website",
-          href: "https://sklinkusch.github.io/fortune-js/"
+          href: "https://sklinkusch.github.io/fortune-js/",
+          src:
+            "https://github.com/sklinkusch/fortune-js/raw/master/Screenshot_en.png"
         },
         {
           title: "Animal Age Calculator",
-          href: "https://sklinkusch.github.io/JS-animal-age/"
+          href: "https://sklinkusch.github.io/JS-animal-age/",
+          src:
+            "https://github.com/sklinkusch/JS-animal-age/raw/master/Screenshot.png"
         },
         {
           title: "Quote of the Day",
@@ -54,12 +58,16 @@ export default class Examples extends Component {
         },
         {
           title: "ToDo list page using event handlers",
-          href: "https://fbw-12.github.io/architecture-eventlisteners/"
+          href: "https://sklinkusch.github.io/architecture-eventlisteners/",
+          src:
+            "https://github.com/sklinkusch/architecture-eventlisteners/raw/master/Screenshot.png"
         },
         {
           title:
             "overview of bus and train departures at defined station in Berlin",
-          href: "https://sklinkusch.github.io/bvg-test/"
+          href: "https://sklinkusch.github.io/bvg-test/",
+          src:
+            "https://raw.githubusercontent.com/sklinkusch/bvg-test/master/Screenshot.png"
         }
       ],
       react: [
