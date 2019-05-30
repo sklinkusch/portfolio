@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import HTMLEx from "./HTMLEx";
 import JSEx from "./JSEx";
 import ReactEx from "./ReactEx";
+import "../styles/Examples.scss";
 
 export default class Examples extends Component {
   constructor(props) {
@@ -64,40 +65,57 @@ export default class Examples extends Component {
       react: [
         {
           title: "information about many countries and dependent territories",
-          href: "https://countrydb.sklinkusch.now.sh/"
+          href: "https://countrydb.sklinkusch.now.sh/",
+          src:
+            "https://raw.githubusercontent.com/sklinkusch/country-db/master/Screenshot.png"
         },
         {
           title: "chat mockup using React components",
-          href: "https://sklinkusch.github.io/nice-chat"
+          href: "https://sklinkusch.github.io/nice-chat",
+          src:
+            "https://raw.githubusercontent.com/sklinkusch/nice-chat/master/Screenshot.png"
         },
         {
           title: "small clock tutorial with React",
-          href: "https://sklinkusch.github.io/react-clock"
+          href: "https://sklinkusch.github.io/react-clock",
+          src:
+            "https://raw.githubusercontent.com/sklinkusch/react-clock/master/Screenshot.png"
         },
         {
           title:
             "dashboard with a clock, a to-do-list, and a random background image",
-          href: "https://sklinkusch.github.io/react-dashboard"
+          href: "https://sklinkusch.github.io/react-dashboard",
+          src:
+            "https://raw.githubusercontent.com/sklinkusch/react-dashboard/master/Screenshot.png"
         },
         {
           title: "markdown editor page using React",
-          href: "https://sklinkusch.github.io/react-markdown-editor"
+          href: "https://sklinkusch.github.io/react-markdown-editor",
+          src:
+            "https://raw.githubusercontent.com/sklinkusch/react-markdown-editor/master/Screenshot.png"
         },
         {
           title: "a simple memo-list using React",
-          href: "https://sklinkusch.github.io/react-memolist"
+          href: "https://sklinkusch.github.io/react-memolist",
+          src:
+            "https://raw.githubusercontent.com/sklinkusch/react-memolist/master/Screenshot.png"
         },
         {
           title: "a world weather page using React and Context",
-          href: "https://react-weather.sklinkusch.now.sh/"
+          href: "https://react-weather.sklinkusch.now.sh/",
+          src:
+            "https://raw.githubusercontent.com/sklinkusch/react-weather/master/Screenshot.png"
         },
         {
           title: "iTunes search using React",
-          href: "https://sound-of-react.sklinkusch.now.sh/"
+          href: "https://sound-of-react.sklinkusch.now.sh/",
+          src:
+            "https://raw.githubusercontent.com/sklinkusch/sound-of-react/master/Screenshot.png"
         },
         {
           title: "VBB timetable page using React",
-          href: "https://sklinkusch.github.io/VBB"
+          href: "https://sklinkusch.github.io/VBB",
+          src: "https://github.com/sklinkusch/VBB/raw/master/Screenshot.png"
         }
       ]
     };
