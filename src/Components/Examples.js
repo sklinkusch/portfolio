@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import HTMLEx from "./HTMLEx";
 import JSEx from "./JSEx";
+import ReactEx from "./ReactEx";
 
 export default class Examples extends Component {
   constructor(props) {
@@ -59,6 +60,45 @@ export default class Examples extends Component {
             "overview of bus and train departures at defined station in Berlin",
           href: "https://sklinkusch.github.io/bvg-test/"
         }
+      ],
+      react: [
+        {
+          title: "information about many countries and dependent territories",
+          href: "https://countrydb.sklinkusch.now.sh/"
+        },
+        {
+          title: "chat mockup using React components",
+          href: "https://sklinkusch.github.io/nice-chat"
+        },
+        {
+          title: "small clock tutorial with React",
+          href: "https://sklinkusch.github.io/react-clock"
+        },
+        {
+          title:
+            "dashboard with a clock, a to-do-list, and a random background image",
+          href: "https://sklinkusch.github.io/react-dashboard"
+        },
+        {
+          title: "markdown editor page using React",
+          href: "https://sklinkusch.github.io/react-markdown-editor"
+        },
+        {
+          title: "a simple memo-list using React",
+          href: "https://sklinkusch.github.io/react-memolist"
+        },
+        {
+          title: "a world weather page using React and Context",
+          href: "https://react-weather.sklinkusch.now.sh/"
+        },
+        {
+          title: "iTunes search using React",
+          href: "https://sound-of-react.sklinkusch.now.sh/"
+        },
+        {
+          title: "VBB timetable page using React",
+          href: "https://sklinkusch.github.io/VBB"
+        }
       ]
     };
   }
@@ -70,6 +110,7 @@ export default class Examples extends Component {
           <h3>Examples of my work</h3>
           <HTMLEx data={this.state.html} />
           <JSEx data={this.state.javascript} />
+          <ReactEx data={this.state.react} />
         </section>
         <div className="sk-placeholder-tiny" />
       </div>
