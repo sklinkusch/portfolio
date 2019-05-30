@@ -8,6 +8,7 @@ import Compskills from "./Compskills";
 import Langskills from "./Langskills";
 import CV from "./CV";
 import Publications from "./Publications";
+import References from "./References";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
       <CV />
       <div className="sk-placeholder" />
       <Publications />
+      <div className="sk-placeholder" />
+      <References />
     </div>
   );
 }

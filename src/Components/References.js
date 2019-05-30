@@ -1,4 +1,5 @@
 import React from "react";
+import RefItem from "./RefItem";
 
 export default function References() {
   const references = [
@@ -48,57 +49,23 @@ export default function References() {
           <span className="italic">(Sonderforschungsbereich)</span> Sfb450 for
           funding
         </span>
-      )
+      ),
+      href: "http://users.physik.fu-berlin.de/~abt/sfb450/english.html",
+      subitems: []
     }
   ];
   return (
-    <div>
-      <h3>References in Chemistry</h3>
-      <ul>
-        {references.map(reference => {
-          const returnvalue =
-            reference.subitems.length > 0 ? (
-              <>
-                <li>
-                  <a
-                    href={reference.href}
-                    className="exlink"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {reference.title}
-                  </a>
-                </li>
-                <ul>
-                  {reference.subitems.map((subref, index) => (
-                    <li>
-                      <a
-                        href={subref.href}
-                        className="exlink"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {subref.title}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            ) : (
-              <li>
-                <a
-                  href={reference.href}
-                  className="exlink"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {reference.title}
-                </a>
-              </li>
-            );
-          return returnvalue;
-        })}
-      </ul>
+    <div className="container sk-bg-white">
+      <div className="sk-placeholder-tiny" />
+      <section id="refs">
+        <h3>References</h3>
+        <ul>
+          {references.map((reference, index) => (
+            <RefItem key={index} data={reference} />
+          ))}
+        </ul>
+      </section>
+      <div className="sk-placeholder-tiny" />
     </div>
   );
 }
