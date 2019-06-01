@@ -1,14 +1,30 @@
 import React, { Component } from "react";
-import HTMLEx from "./HTMLEx";
-import JSEx from "./JSEx";
-import ReactEx from "./ReactEx";
 import "../styles/Examples.scss";
+import ExampleSec from "./ExampleSec";
 
 export default class Examples extends Component {
   constructor(props) {
     super(props);
     this.state = {
       html: [
+        {
+          title: "Fake birdwatching site with structural HTML elements",
+          href: "https://sklinkusch.github.io/01-Structuring-the-Web/",
+          src:
+            "https://github.com/sklinkusch/01-Structuring-the-Web/raw/master/structuring-the-web.png"
+        },
+        {
+          title: "Basic information about myself",
+          href: "https://sklinkusch.github.io/02-css-basics/index.html",
+          src:
+            "https://github.com/sklinkusch/02-css-basics/raw/master/css-basics.png"
+        },
+        {
+          title: "Fake letter layout",
+          href: "https://sklinkusch.github.io/03-letter-layout/letter.html",
+          src:
+            "https://github.com/sklinkusch/03-letter-layout/raw/master/letter-layout.png"
+        },
         {
           title: "Post-it notes on a dark background",
           href: "https://sklinkusch.github.io/post-it/"
@@ -45,7 +61,9 @@ export default class Examples extends Component {
         },
         {
           title: "GithubSearch",
-          href: "https://fbw-12.github.io/17-mygithub-sklinkusch/"
+          href: "https://sklinkusch.github.io/Github-search/",
+          src:
+            "https://github.com/sklinkusch/Github-search/raw/master/Screenshot.png"
         },
         {
           title: "Coming Soon Countdown",
@@ -55,6 +73,18 @@ export default class Examples extends Component {
         {
           title: "New Tab page with Github content",
           href: "https://fbw-12.github.io/19-new-tab-github-sklinkusch/"
+        },
+        {
+          title: "Country information based on a search for the calling code",
+          href: "https://sklinkusch.github.io/country-codes/",
+          src:
+            "https://github.com/sklinkusch/country-codes/raw/master/Screenshot.png"
+        },
+        {
+          title: "World weather page consuming data from DarkSky API",
+          href: "https://sklinkusch.github.io/JS-weather/",
+          src:
+            "https://github.com/sklinkusch/JS-weather/raw/master/Screenshot.png"
         },
         {
           title: "ToDo list page using event handlers",
@@ -134,9 +164,15 @@ export default class Examples extends Component {
         <div className="sk-placeholder-tiny" />
         <section id="examples">
           <h3>Examples of my work</h3>
-          <HTMLEx data={this.state.html} />
-          <JSEx data={this.state.javascript} />
-          <ReactEx data={this.state.react} />
+          <ExampleSec
+            title="Examples using HTML, CSS/SCSS, and Bootstrap"
+            data={this.state.html}
+          />
+          <ExampleSec
+            title="Examples using vanilla JavaScript"
+            data={this.state.javascript}
+          />
+          <ExampleSec title="Examples using React.js" data={this.state.react} />
         </section>
         <div className="sk-placeholder-tiny" />
       </div>
