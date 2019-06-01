@@ -57,6 +57,9 @@ export default class MyNavbar extends Component {
               <NavLink href="#refs">References</NavLink>
             </NavItem>
             <NavItem>
+              <NavLink href="#examples">Examples</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink href="#contact">Contact</NavLink>
             </NavItem>
           </Nav>
