@@ -9,7 +9,8 @@ export default class Contact extends Component {
     this.subjField = React.createRef();
     this.messField = React.createRef();
   }
-  deleteAll = () => {
+  deleteAll = e => {
+    e.preventDefault();
     this.nameField.current.value = "";
     this.mailField.current.value = "";
     this.subjField.current.value = "";

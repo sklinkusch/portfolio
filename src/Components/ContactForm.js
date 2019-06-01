@@ -8,7 +8,7 @@ export default function ContactForm(props) {
     <form
       name="contactform"
       action="mailto:stefan.klinkusch@googlemail.com"
-      method="post"
+      //method="post"
     >
       <FormElement
         id="name"
