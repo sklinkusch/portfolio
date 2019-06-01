@@ -26,6 +26,24 @@ export default class Examples extends Component {
             "https://github.com/sklinkusch/03-letter-layout/raw/master/letter-layout.png"
         },
         {
+          title: "Fake blog page with blogposts",
+          href: "https://sklinkusch.github.io/06-blog-headlines/blog.html",
+          src:
+            "https://github.com/sklinkusch/06-blog-headlines/raw/master/Screenshot.png"
+        },
+        {
+          title: "Fake instagram profile page",
+          href: "https://sklinkusch.github.io/07-instagram-flexbox/",
+          src:
+            "https://github.com/sklinkusch/07-instagram-flexbox/raw/master/Screenshot.png"
+        },
+        {
+          title: "Webpage with a mega menu",
+          href: "https://sklinkusch.github.io/08-mega-menu/",
+          src:
+            "https://github.com/sklinkusch/08-mega-menu/raw/master/Screenshot.png"
+        },
+        {
           title: "Post-it notes on a dark background",
           href: "https://sklinkusch.github.io/post-it/"
         },
