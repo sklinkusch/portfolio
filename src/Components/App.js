@@ -11,6 +11,7 @@ import Publications from "./Publications";
 import References from "./References";
 import Examples from "./Examples";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
       <Examples />
       <div className="sk-placeholder" />
       <Contact />
+      <div className="sk-placeholder" />
+      <Footer />
     </div>
   );
 }
