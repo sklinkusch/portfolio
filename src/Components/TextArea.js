@@ -9,6 +9,7 @@ export default function TextArea(props) {
         id={props.id}
         rows="6"
         placeholder={props.placeholder}
+        ref={props.fieldRef}
         required
       />
     </div>

@@ -9,6 +9,7 @@ export default function FormElement(props) {
         className="form-control"
         id={props.id}
         placeholder={props.placeholder}
+        ref={props.fieldRef}
         required
       />
     </div>
