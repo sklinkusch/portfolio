@@ -26,6 +26,12 @@ export default class Examples extends Component {
             "https://github.com/sklinkusch/03-letter-layout/raw/master/letter-layout.png"
         },
         {
+          title: "Page layout such as in a book or pdf file",
+          href: "https://sklinkusch.github.io/04-page-layout/",
+          src:
+            "https://github.com/sklinkusch/04-page-layout/raw/master/page-layout.png"
+        },
+        {
           title: "Fake blog page with blogposts",
           href: "https://sklinkusch.github.io/06-blog-headlines/blog.html",
           src:
