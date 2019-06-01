@@ -10,6 +10,7 @@ import CV from "./CV";
 import Publications from "./Publications";
 import References from "./References";
 import Examples from "./Examples";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -31,6 +32,8 @@ function App() {
       <References />
       <div className="sk-placeholder" />
       <Examples />
+      <div className="sk-placeholder" />
+      <Contact />
     </div>
   );
 }
