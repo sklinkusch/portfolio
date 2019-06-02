@@ -1,6 +1,19 @@
 import React from "react";
 import CompskillCard from "./CompskillCard";
 import "../styles/Compskills.scss";
+import html from "../images/HTML5_logo_and_wordmark.svg";
+import css from "../images/CSS.3.svg.png";
+import sass from "../images/Sass_Logo_Color.svg";
+import git from "../images/Git-logo.svg";
+import bootstrap from "../images/Boostrap_logo.svg";
+import javascript from "../images/ES6LOGO.svg";
+import react from "../images/React.svg";
+import redux from "../images/redux-logo.png";
+import cplusplus from "../images/ISO_C++_Logo.svg";
+import fortran from "../images/f90-300x212.png";
+import perl from "../images/Perl.png";
+import bash from "../images/Bash.svg";
+import latex from "../images/220px-LaTeX_logo.svg.png";
 
 export default class Compskills extends React.Component {
   constructor(props) {
@@ -9,67 +22,67 @@ export default class Compskills extends React.Component {
       skills: [
         {
           name: "HTML5",
-          imageSrc: "images/HTML5_logo_and_wordmark.svg",
+          imageSrc: html,
           imageId: "html"
         },
         {
           name: "CSS3",
-          imageSrc: "images/CSS.3.svg.png",
+          imageSrc: css,
           imageId: "css"
         },
         {
           name: "Sass/SCSS",
-          imageSrc: "images/Sass_Logo_Color.svg",
+          imageSrc: sass,
           imageId: "sass"
         },
         {
           name: "git",
-          imageSrc: "images/Git-logo.svg",
+          imageSrc: git,
           imageId: "git"
         },
         {
           name: "Bootstrap 4",
-          imageSrc: "images/Boostrap_logo.svg",
+          imageSrc: bootstrap,
           imageId: "bootstrap"
         },
         {
           name: "ECMAScript 6",
-          imageSrc: "images/ES6LOGO.svg",
+          imageSrc: javascript,
           imageId: "ecmascript"
         },
         {
           name: "React",
-          imageSrc: "images/React.svg",
+          imageSrc: react,
           imageId: "react"
         },
         {
           name: "Redux",
-          imageSrc: "images/redux-logo.png",
+          imageSrc: redux,
           imageId: "redux"
         },
         {
           name: "C++",
-          imageSrc: "images/ISO_C++_Logo.svg",
+          imageSrc: cplusplus,
           imageId: "cplusplus"
         },
         {
           name: "Fortran 90",
-          imageSrc: "images/f90-300x212.png",
+          imageSrc: fortran,
           imageId: "fortran"
         },
         {
           name: "Perl",
-          imageSrc: "images/Perl.png",
+          imageSrc: perl,
           imageId: "perl"
         },
         {
           name: "Bourne-Again Shell",
-          imageSrc: "images/Bash.svg",
+          imageSrc: bash,
           imageId: "bash"
         },
         {
           name: "LaTeX",
-          imageSrc: "images/220px-LaTeX_logo.svg.png",
+          imageSrc: latex,
           imageId: "latex"
         }
       ]
