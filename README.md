@@ -1,68 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Portfolio of Stefan Klinkusch
 
-## Available Scripts
+This webpage was created by Stefan Klinkusch using SCSS, React.js, and Bootstrap.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+The webpage features
+- a header with a collapsable navbar
+- a title image with my photo inside
+- a jumbotron with a welcome message and a link to the contact form
+- a blockquote with a quotation of Erasmus of Rotterdam
+- my computer-related skills as an image gallery
+  - HTML5
+  - CSS3
+  - Sass/SCSS
+  - git
+  - Bootstrap 4
+  - JavaScript/ECMAScript 6
+  - React
+  - Redux
+  - C++
+  - Fortran 90
+  - Perl
+  - Bourne-again Shell (bash)
+  - LaTeX
+- my language skills shown as progress bars
+  - German (native)
+  - English
+  - French
+  - Latin
+- my Curriculum Vitae shown in a tab panel
+  - education
+  - certificates
+  - work experience
+- my publications also shown in a tab panel
+  - theses
+  - journals
+  - posters
+  - talks
+- my references
+- examples of my work shown in a photo gallery of screenshots
+  - examples using basic technologies as HTML, CSS or SCSS, and Bootstrap
+  - examples using vanilla JavaScript as an additional technology
+  - examples using React.js as the core technology
+- a contact form (not working yet) to send me a message
+- a footer containing the copyright and links to my further accounts
+  - [Github](https://github.com/sklinkusch)
+  - [Linkedin](https://www.linkedin.com/in/stefan-klinkusch-b0595216a)
+  - [Email](mailto:stefan.klinkusch@googlemail.com)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshot
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+![Screenshot](./Screenshot.png)
 
-### `npm test`
+## Acknowledgement
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+I would like to thank the people who taught me the technologies to generate this webpage:
+- [Jörg Pietschmann](http://www.pit-media.de/)
+- [Leandro Frigerio](https://github.com/LeandroDCI)
+- [Oliver Weber](https://github.com/oliverwebr)
+- [Hadi Nsreeny](https://github.com/hnsreeny)
