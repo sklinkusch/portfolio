@@ -7,13 +7,14 @@ export default function ContactForm(props) {
   return (
     <form
       name="contactform"
-      action="mailto:stefan.klinkusch@googlemail.com"
+      action="../PHP/mail.php"
       //method="post"
     >
       <FormElement
         id="name"
         type="text"
         label="Name"
+        name="name"
         placeholder="Your name, e.g. John Doe"
         fieldRef={props.nameField}
       />
@@ -21,6 +22,7 @@ export default function ContactForm(props) {
         id="email"
         type="email"
         label="Email address"
+        name="email"
         placeholder="Your email address, e.g. john.doe@example.com"
         fieldRef={props.mailField}
       />
@@ -28,12 +30,14 @@ export default function ContactForm(props) {
         id="subject"
         type="text"
         label="Subject"
+        name="subject"
         placeholder="Subject of your message"
         fieldRef={props.subjField}
       />
       <TextArea
         id="message"
         label="Message"
+        name="message"
         placeholder="Your message"
         fieldRef={props.messField}
       />
