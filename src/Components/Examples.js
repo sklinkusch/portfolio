@@ -50,8 +50,14 @@ export default class Examples extends Component {
             "https://github.com/sklinkusch/08-mega-menu/raw/master/Screenshot.png"
         },
         {
+          title: "Website with a responsive layout",
+          href: "https://sklinkusch.github.io/09-responsive-design/",
+          src: "https://github.com/sklinkusch/09-responsive-design/raw/master/Screenshot.png"
+        },
+        {
           title: "Post-it notes on a dark background",
-          href: "https://sklinkusch.github.io/post-it/"
+          href: "https://sklinkusch.github.io/post-it/",
+          src: "https://github.com/sklinkusch/post-it/raw/master/Screenshot.png"
         },
         {
           title: "Layout of an article from https://medium.com",
