@@ -10,6 +10,7 @@ import javascript from "../images/ES6LOGO.svg";
 import react from "../images/React.svg";
 import redux from "../images/redux-logo.png";
 import graphql from "../images/480px-GraphQL_Logo.svg.png";
+import nodejs from "../images/Node.js_logo.svg";
 import cplusplus from "../images/ISO_C++_Logo.svg";
 import fortran from "../images/f90-300x212.png";
 import perl from "../images/Perl.png";
@@ -65,6 +66,11 @@ export default class Compskills extends React.Component {
           name: "GraphQL",
           imageSrc: graphql,
           imageId: "graphql"
+        },
+        {
+          name: "Node.js",
+          imageSrc: nodejs,
+          imageId: "nodejs"
         },
         {
           name: "C++",
