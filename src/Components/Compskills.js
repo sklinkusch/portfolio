@@ -19,6 +19,7 @@ import latex from "../images/220px-LaTeX_logo.svg.png";
 import vscode from "../images/Visual_Studio_Code_1.35_icon.svg";
 import brackets from "../images/Brackets.png";
 import linux from "../images/Linux.svg";
+import ubuntu from "../images/Ubuntu.svg";
 
 export default class Compskills extends React.Component {
   constructor(props) {
@@ -114,6 +115,11 @@ export default class Compskills extends React.Component {
           name: "Linux",
           imageSrc: linux,
           imageId: "linux"
+        },
+        {
+          name: "Ubuntu",
+          imageSrc: ubuntu,
+          imageId: "ubuntu"
         }
       ]
     };
