@@ -20,6 +20,7 @@ import vscode from "../images/Visual_Studio_Code_1.35_icon.svg";
 import brackets from "../images/Brackets.png";
 import linux from "../images/Linux.svg";
 import ubuntu from "../images/Ubuntu.svg";
+import opensuse from "../images/OpenSUSE.svg";
 
 export default class Compskills extends React.Component {
   constructor(props) {
@@ -120,6 +121,11 @@ export default class Compskills extends React.Component {
           name: "Ubuntu",
           imageSrc: ubuntu,
           imageId: "ubuntu"
+        },
+        {
+          name: "openSUSE",
+          imageSrc: opensuse,
+          imageId: "opensuse"
         }
       ]
     };
