@@ -21,6 +21,7 @@ import brackets from "../images/Brackets.png";
 import linux from "../images/Linux.svg";
 import ubuntu from "../images/Ubuntu.svg";
 import opensuse from "../images/OpenSUSE.svg";
+import slack from "../images/Slack.svg";
 
 export default class Compskills extends React.Component {
   constructor(props) {
@@ -126,6 +127,11 @@ export default class Compskills extends React.Component {
           name: "openSUSE",
           imageSrc: opensuse,
           imageId: "opensuse"
+        },
+        {
+          name: "Slack",
+          imageSrc: slack,
+          imageId: "slack"
         }
       ]
     };
