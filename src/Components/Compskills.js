@@ -18,6 +18,7 @@ import bash from "../images/Bash.svg";
 import latex from "../images/220px-LaTeX_logo.svg.png";
 import vscode from "../images/Visual_Studio_Code_1.35_icon.svg";
 import brackets from "../images/Brackets.png";
+import linux from "../images/Linux.svg";
 
 export default class Compskills extends React.Component {
   constructor(props) {
@@ -108,6 +109,11 @@ export default class Compskills extends React.Component {
           name: "Brackets",
           imageSrc: brackets,
           imageId: "brackets"
+        },
+        {
+          name: "Linux",
+          imageSrc: linux,
+          imageId: "linux"
         }
       ]
     };
