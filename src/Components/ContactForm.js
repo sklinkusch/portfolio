@@ -35,6 +35,11 @@ export default function ContactForm(props) {
         fieldRef={props.messField}
       />
       <Buttons deleteAll={props.deleteAll} />
+      <div style={{ display: "none" }} className="thankyou_message">
+        <h4>
+          <em>Thank you for contacting me! I will reply to you soon!</em>
+        </h4>
+      </div>
     </form>
   );
 }
