@@ -1,6 +1,5 @@
 import React from "react";
 import FormElement from "./FormElement";
-import TextArea from "./TextArea";
 import Buttons from "./Buttons";
 
 export default function ContactForm(props) {
