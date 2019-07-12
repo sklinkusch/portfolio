@@ -6,9 +6,11 @@ import Buttons from "./Buttons";
 export default function ContactForm(props) {
   return (
     <form
+      className="gform"
       name="contactform"
-      action="../PHP/mail.php"
-      //method="post"
+      method="POST"
+      data-email="stefan.klinkusch@googlemail.com"
+      action="https://script.google.com/macros/s/AKfycbym7tLzfVpSgrTC8D88lGqh163RMXwfP9m3FGqYZGyY99UrY5M/exec"
     >
       <FormElement
         id="name"
@@ -27,14 +29,6 @@ export default function ContactForm(props) {
         fieldRef={props.mailField}
       />
       <FormElement
-        id="subject"
-        type="text"
-        label="Subject"
-        name="subject"
-        placeholder="Subject of your message"
-        fieldRef={props.subjField}
-      />
-      <TextArea
         id="message"
         label="Message"
         name="message"
