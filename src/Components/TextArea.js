@@ -8,6 +8,7 @@ export default function TextArea(props) {
         className="form-control"
         id={props.id}
         rows="6"
+        name={props.name}
         placeholder={props.placeholder}
         ref={props.fieldRef}
         required
