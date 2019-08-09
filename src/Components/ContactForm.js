@@ -1,5 +1,6 @@
 import React from "react";
 import FormElement from "./FormElement";
+import TextArea from "./TextArea";
 import Buttons from "./Buttons";
 
 export default function ContactForm(props) {
@@ -27,7 +28,7 @@ export default function ContactForm(props) {
         placeholder="Your email address, e.g. john.doe@example.com"
         fieldRef={props.mailField}
       />
-      <FormElement
+      <TextArea
         id="message"
         label="Message"
         name="message"
