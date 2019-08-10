@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CompskillCard(props) {
+const CompskillCard = props => {
   const { imageSrc, name, imageId } = props.skill;
   return (
     <div className="col-xs-6 col-md-4 col-lg-3">
@@ -10,4 +10,6 @@ export default function CompskillCard(props) {
       </div>
     </div>
   );
-}
+};
+
+export default CompskillCard;

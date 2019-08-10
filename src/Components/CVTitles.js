@@ -1,30 +1,24 @@
 import React from "react";
 import CVTitle from "./CVTitle";
+import AppContext from "../Context/AppContext";
 import { Nav } from "reactstrap";
 
-export default function CVTitles(props) {
-  const tabs = [
-    {
-      title: "Education"
-    },
-    {
-      title: "Certificates"
-    },
-    {
-      title: "Work Experience"
-    }
-  ];
-  return (
-    <Nav tabs>
-      {tabs.map((tab, index) => (
-        <CVTitle
-          activeTab={props.activeTab}
-          title={tab.title}
-          number={index}
-          toggle={i => props.toggle(i)}
-          key={index}
-        />
-      ))}
-    </Nav>
-  );
-}
+const CVTitles = props => (
+  <Nav tabs>
+    <AppContext.Consumer>
+      {context =>
+        context.CVTabTitles.map((tab, index) => (
+          <CVTitle
+            activeTab={props.activeTab}
+            title={tab.title}
+            number={index}
+            toggle={i => props.toggle(i)}
+            key={index}
+          />
+        ))
+      }
+    </AppContext.Consumer>
+  </Nav>
+);
+
+export default CVTitles;

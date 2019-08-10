@@ -1,7 +1,7 @@
 import React from "react";
 import { TabPane } from "reactstrap";
 
-export default function CVTab(props) {
+const CVTab = props => {
   const { list } = props.data;
   return (
     <TabPane tabId={props.number}>
@@ -15,4 +15,6 @@ export default function CVTab(props) {
       </dl>
     </TabPane>
   );
-}
+};
+
+export default CVTab;

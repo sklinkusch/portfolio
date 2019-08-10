@@ -5,6 +5,7 @@ This webpage was created by Stefan Klinkusch using SCSS, React.js, and Bootstrap
 ## Features
 
 The webpage features
+
 - a header with a collapsable navbar
 - a title image with my photo inside
 - a jumbotron with a welcome message and a link to the contact form
@@ -48,6 +49,20 @@ The webpage features
   - [Linkedin](https://www.linkedin.com/in/stefan-klinkusch-b0595216a)
   - [Email](mailto:stefan.klinkusch@googlemail.com)
 
+## Technologies
+
+The website uses the following technologies:
+
+- HTML5
+- Sassy CSS (SCSS)
+- Bootstrap
+- JavaScript
+- React.js
+  - Context API
+  - React Hooks
+    - `useState`
+    - `useRef`
+
 ## Screenshot
 
 ![Screenshot](./Screenshot.png)
@@ -55,6 +70,7 @@ The webpage features
 ## Acknowledgement
 
 I would like to thank the people who taught me the technologies to generate this webpage:
+
 - [Jörg Pietschmann](http://www.pit-media.de/)
 - [Leandro Frigerio](https://github.com/LeandroDCI)
 - [Oliver Weber](https://github.com/oliverwebr)

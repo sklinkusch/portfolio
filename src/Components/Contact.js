@@ -1,41 +1,35 @@
-import React, { Component } from "react";
+import React, { useRef } from "react";
 import ContactForm from "./ContactForm";
 
-export default class Contact extends Component {
-  constructor(props) {
-    super(props);
-    this.nameField = React.createRef();
-    this.mailField = React.createRef();
-    this.subjField = React.createRef();
-    this.messField = React.createRef();
-  }
-  deleteAll = e => {
-    e.preventDefault();
-    this.nameField.current.value = "";
-    this.mailField.current.value = "";
-    this.subjField.current.value = "";
-    this.messField.current.value = "";
+const Contact = () => {
+  const nameField = useRef(null);
+  const mailField = useRef(null);
+  const messField = useRef(null);
+  const deleteAll = event => {
+    event.preventDefault();
+    nameField.current.value = "";
+    mailField.current.value = "";
+    messField.current.value = "";
   };
-  render() {
-    return (
-      <div className="container sk-bg-white">
-        <section id="contact">
-          <div className="sk-placeholder-tiny" />
-          <h3>Contact</h3>
-          <p>
-            If you would like to come in contact with me, feel free to write me
-            a message here.
-          </p>
-          <ContactForm
-            nameField={this.nameField}
-            mailField={this.mailField}
-            subjField={this.subjField}
-            messField={this.messField}
-            deleteAll={this.deleteAll}
-          />
-          <div className="sk-placeholder-tiny" />
-        </section>
-      </div>
-    );
-  }
-}
+  return (
+    <div className="container sk-bg-white">
+      <section id="contact">
+        <div className="sk-placeholder-tiny" />
+        <h3>Contact</h3>
+        <p>
+          If you would like to come in contact with me, feel free to write me a
+          message here.
+        </p>
+        <ContactForm
+          nameField={nameField}
+          mailField={mailField}
+          messField={messField}
+          deleteAll={deleteAll}
+        />
+        <div className="sk-placeholder-tiny" />
+      </section>
+    </div>
+  );
+};
+
+export default Contact;

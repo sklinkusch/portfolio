@@ -13,32 +13,30 @@ import Examples from "./Examples";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
-function App() {
-  return (
-    <div className="App">
-      <MyNavbar />
-      <TitleImage />
-      <Welcome />
-      <div className="sk-placeholder" />
-      <Blockquote />
-      <div className="sk-placeholder" />
-      <Compskills />
-      <div className="sk-placeholder" />
-      <Langskills />
-      <div className="sk-placeholder" />
-      <CV />
-      <div className="sk-placeholder" />
-      <Publications />
-      <div className="sk-placeholder" />
-      <References />
-      <div className="sk-placeholder" />
-      <Examples />
-      <div className="sk-placeholder" />
-      <Contact />
-      <div className="sk-placeholder" />
-      <Footer />
-    </div>
-  );
-}
+const App = () => (
+  <div className="App">
+    <MyNavbar />
+    <TitleImage />
+    <Welcome />
+    <div className="sk-placeholder" />
+    <Blockquote />
+    <div className="sk-placeholder" />
+    <Compskills />
+    <div className="sk-placeholder" />
+    <Langskills />
+    <div className="sk-placeholder" />
+    <CV />
+    <div className="sk-placeholder" />
+    <Publications />
+    <div className="sk-placeholder" />
+    <References />
+    <div className="sk-placeholder" />
+    <Examples />
+    <div className="sk-placeholder" />
+    <Contact />
+    <div className="sk-placeholder" />
+    <Footer />
+  </div>
+);
 
 export default App;

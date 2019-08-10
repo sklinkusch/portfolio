@@ -1,7 +1,7 @@
 import React from "react";
 import Example from "./Example";
 
-export default function ExampleSec(props) {
+const ExampleSec = props => {
   const { title, data } = props;
   const printdata = data.filter(
     item => "src" in item && "href" in item && "title" in item
@@ -16,4 +16,6 @@ export default function ExampleSec(props) {
       </div>
     </section>
   );
-}
+};
+
+export default ExampleSec;
