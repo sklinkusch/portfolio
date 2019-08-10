@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function RefItem(props) {
+const RefItem = props => {
   const { data } = props;
   const subs = "subitems" in data && data.subitems.length > 0 ? true : false;
   return (
@@ -24,4 +24,6 @@ export default function RefItem(props) {
       )}
     </React.Fragment>
   );
-}
+};
+
+export default RefItem;

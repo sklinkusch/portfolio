@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import { TabContent } from "reactstrap";
 import PubTitles from "./PubTitles";
 import Theses from "./Theses";
@@ -6,33 +6,28 @@ import Journals from "./Journals";
 import Posters from "./Posters";
 import Talks from "./Talks";
 
-export default class Publications extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      activeTab: 0
-    };
-  }
-  toggle = tab => {
-    if (this.state.activeTab !== tab) {
-      this.setState({ activeTab: tab });
+const Publications = () => {
+  const [activeTab, setTab] = useState(0);
+  const toggle = tab => {
+    if (activeTab !== tab) {
+      setTab(tab);
     }
   };
-  render() {
-    return (
-      <div className="container sk-bg-white">
-        <div className="sk-placeholder-tiny" />
-        <section id="pubs">
-          <h3>Publications</h3>
-          <PubTitles toggle={this.toggle} activeTab={this.state.activeTab} />
-          <TabContent activeTab={this.state.activeTab}>
-            <Theses />
-            <Journals />
-            <Posters />
-            <Talks />
-          </TabContent>
-        </section>
-      </div>
-    );
-  }
-}
+  return (
+    <div className="container sk-bg-white">
+      <div className="sk-placeholder-tiny" />
+      <section id="pubs">
+        <h3>Publications</h3>
+        <PubTitles toggle={toggle} activeTab={activeTab} />
+        <TabContent activeTab={activeTab}>
+          <Theses />
+          <Journals />
+          <Posters />
+          <Talks />
+        </TabContent>
+      </section>
+    </div>
+  );
+};
+
+export default Publications;
