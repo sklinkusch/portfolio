@@ -1,28 +1,28 @@
-import React, { useState } from "react";
-import AppContext from "./AppContext";
-import html from "../images/HTML5_logo_and_wordmark.svg";
-import css from "../images/CSS.3.svg.png";
-import sass from "../images/Sass_Logo_Color.svg";
-import git from "../images/Git-logo.svg";
-import bootstrap from "../images/Boostrap_logo.svg";
-import javascript from "../images/ES6LOGO.svg";
-import react from "../images/React.svg";
-import redux from "../images/redux-logo.png";
-import graphql from "../images/480px-GraphQL_Logo.svg.png";
-import nodejs from "../images/Node.js_logo.svg";
-import express from "../images/Expressjs.png";
-import mongodb from "../images/MongoDB.png";
-import cplusplus from "../images/ISO_C++_Logo.svg";
-import fortran from "../images/f90-300x212.png";
-import perl from "../images/Perl.png";
-import bash from "../images/Bash.svg";
-import latex from "../images/220px-LaTeX_logo.svg.png";
-import vscode from "../images/Visual_Studio_Code_1.35_icon.svg";
-import brackets from "../images/Brackets.png";
-import linux from "../images/Linux.svg";
-import ubuntu from "../images/Ubuntu.svg";
-import opensuse from "../images/OpenSUSE.svg";
-import slack from "../images/Slack.svg";
+import React, { useState } from "react"
+import AppContext from "./AppContext"
+import html from "../images/HTML5_logo_and_wordmark.svg"
+import css from "../images/CSS.3.svg.png"
+import sass from "../images/Sass_Logo_Color.svg"
+import git from "../images/Git-logo.svg"
+import bootstrap from "../images/Boostrap_logo.svg"
+import javascript from "../images/ES6LOGO.svg"
+import react from "../images/React.svg"
+import redux from "../images/redux-logo.png"
+import graphql from "../images/480px-GraphQL_Logo.svg.png"
+import nodejs from "../images/Node.js_logo.svg"
+import express from "../images/Expressjs.png"
+import mongodb from "../images/MongoDB.png"
+import cplusplus from "../images/ISO_C++_Logo.svg"
+import fortran from "../images/f90-300x212.png"
+import perl from "../images/Perl.png"
+import bash from "../images/Bash.svg"
+import latex from "../images/220px-LaTeX_logo.svg.png"
+import vscode from "../images/Visual_Studio_Code_1.35_icon.svg"
+import brackets from "../images/Brackets.png"
+import linux from "../images/Linux.svg"
+import ubuntu from "../images/Ubuntu.svg"
+import opensuse from "../images/OpenSUSE.svg"
+import slack from "../images/Slack.svg"
 
 const AppProvider = props => {
   const [state] = useState({
@@ -30,140 +30,140 @@ const AppProvider = props => {
       {
         name: "HTML5",
         imageSrc: html,
-        imageId: "html"
+        imageId: "html",
       },
       {
         name: "CSS3",
         imageSrc: css,
-        imageId: "css"
+        imageId: "css",
       },
       {
         name: "Sass/SCSS",
         imageSrc: sass,
-        imageId: "sass"
+        imageId: "sass",
       },
       {
         name: "git",
         imageSrc: git,
-        imageId: "git"
+        imageId: "git",
       },
       {
         name: "Bootstrap 4",
         imageSrc: bootstrap,
-        imageId: "bootstrap"
+        imageId: "bootstrap",
       },
       {
         name: "ECMAScript 6",
         imageSrc: javascript,
-        imageId: "ecmascript"
+        imageId: "ecmascript",
       },
       {
         name: "React",
         imageSrc: react,
-        imageId: "react"
+        imageId: "react",
       },
       {
         name: "Redux",
         imageSrc: redux,
-        imageId: "redux"
+        imageId: "redux",
       },
       {
         name: "GraphQL",
         imageSrc: graphql,
-        imageId: "graphql"
+        imageId: "graphql",
       },
       {
         name: "Node.js",
         imageSrc: nodejs,
-        imageId: "nodejs"
+        imageId: "nodejs",
       },
       {
         name: "Express.js",
         imageSrc: express,
-        imageId: "express"
+        imageId: "express",
       },
       {
         name: "MongoDB",
         imageSrc: mongodb,
-        imageId: "mongodb"
+        imageId: "mongodb",
       },
       {
         name: "C++",
         imageSrc: cplusplus,
-        imageId: "cplusplus"
+        imageId: "cplusplus",
       },
       {
         name: "Fortran 90",
         imageSrc: fortran,
-        imageId: "fortran"
+        imageId: "fortran",
       },
       {
         name: "Perl",
         imageSrc: perl,
-        imageId: "perl"
+        imageId: "perl",
       },
       {
         name: "Bourne-Again Shell",
         imageSrc: bash,
-        imageId: "bash"
+        imageId: "bash",
       },
       {
         name: "LaTeX",
         imageSrc: latex,
-        imageId: "latex"
+        imageId: "latex",
       },
       {
         name: "VS Code",
         imageSrc: vscode,
-        imageId: "vscode"
+        imageId: "vscode",
       },
       {
         name: "Brackets",
         imageSrc: brackets,
-        imageId: "brackets"
+        imageId: "brackets",
       },
       {
         name: "Linux",
         imageSrc: linux,
-        imageId: "linux"
+        imageId: "linux",
       },
       {
         name: "Ubuntu",
         imageSrc: ubuntu,
-        imageId: "ubuntu"
+        imageId: "ubuntu",
       },
       {
         name: "openSUSE",
         imageSrc: opensuse,
-        imageId: "opensuse"
+        imageId: "opensuse",
       },
       {
         name: "Slack",
         imageSrc: slack,
-        imageId: "slack"
-      }
+        imageId: "slack",
+      },
     ],
     CVTabTitles: [
       {
-        title: "Education"
+        title: "Education",
       },
       {
-        title: "Certificates"
+        title: "Certificates",
       },
       {
-        title: "Work Experience"
-      }
+        title: "Work Experience",
+      },
     ],
     CVContent: [
       {
         list: [
           {
             time: <span>1989-1995</span>,
-            desc: <span>Primary school in Berlin, Germany</span>
+            desc: <span>Primary school in Berlin, Germany</span>,
           },
           {
             time: <span>1995-2002</span>,
-            desc: <span>Grammar school in Berlin, Germany</span>
+            desc: <span>Grammar school in Berlin, Germany</span>,
           },
           {
             time: <span>2002-2008</span>,
@@ -171,7 +171,7 @@ const AppProvider = props => {
               <span>
                 Studies of chemistry at University of Potsdam, Germany
               </span>
-            )
+            ),
           },
           {
             time: <span>2007-2008</span>,
@@ -180,7 +180,7 @@ const AppProvider = props => {
                 Diploma thesis in the group of Prof. P. Saalfrank at University
                 of Potsdam, Germany
               </span>
-            )
+            ),
           },
           {
             time: <span>2008-2011</span>,
@@ -189,22 +189,24 @@ const AppProvider = props => {
                 Ph.D thesis in the group of Prof. P. Saalfrank at University of
                 Potsdam, Germany
               </span>
-            )
+            ),
           },
           {
             time: <span>2016</span>,
-            desc: <span>Educating class at Works gGmbH in Berlin, Germany</span>
+            desc: (
+              <span>Educating class at Works gGmbH in Berlin, Germany</span>
+            ),
           },
           {
-            time: <span>since 2018</span>,
+            time: <span>2018-2019</span>,
             desc: (
               <span>
                 Web development class at Digital Career Institute in Berlin,
                 Germany
               </span>
-            )
-          }
-        ]
+            ),
+          },
+        ],
       },
       {
         list: [
@@ -215,7 +217,7 @@ const AppProvider = props => {
                 University entry exam (<span className="italic">Abitur</span>
                 ), mark 1.5 (1.0 best, 4,0 just passed, 6.0 worst)
               </span>
-            )
+            ),
           },
           {
             time: <span>2008</span>,
@@ -224,7 +226,7 @@ const AppProvider = props => {
                 Diploma in chemistry, mark 1.8 (1.0 best, 4.0 just passed, 5.0
                 worst)
               </span>
-            )
+            ),
           },
           {
             time: <span>2011</span>,
@@ -233,7 +235,7 @@ const AppProvider = props => {
                 Ph.D in science (<span className="italic">Dr. rer. nat.</span>)
                 mark <span className="italic">magna cum laude</span>
               </span>
-            )
+            ),
           },
           {
             time: <span>2016</span>,
@@ -243,9 +245,13 @@ const AppProvider = props => {
                 Order for the educator's qualification (
                 <abbr title="Ausbilder-Eignungsverordnung">AEVO</abbr>)
               </span>
-            )
-          }
-        ]
+            ),
+          },
+          {
+            time: <span>2019</span>,
+            desc: <span>Web development certificate</span>,
+          },
+        ],
       },
       {
         list: [
@@ -256,7 +262,7 @@ const AppProvider = props => {
                 Scientific coworker in the group of Prof. P. Saalfrank at
                 University of Potsdam, Germany
               </span>
-            )
+            ),
           },
           {
             time: <span>2014-2016</span>,
@@ -265,24 +271,41 @@ const AppProvider = props => {
                 Scientific coworker in the group of Dr. J. C. Tremblay at Free
                 University of Berlin, Germany
               </span>
-            )
-          }
-        ]
-      }
+            ),
+          },
+          {
+            time: <span>2019</span>,
+            desc: (
+              <span>
+                Internship in web development at Daizu GmbH/sleep.ink in Berlin,
+                Germany
+              </span>
+            ),
+          },
+          {
+            time: <span>since 2020</span>,
+            desc: (
+              <span>
+                Web developer at Daizu GmbH/sleep.ink in Berlin, Germany
+              </span>
+            ),
+          },
+        ],
+      },
     ],
     PubTabTitles: [
       {
-        title: "Theses"
+        title: "Theses",
       },
       {
-        title: "Journals"
+        title: "Journals",
       },
       {
-        title: "Posters"
+        title: "Posters",
       },
       {
-        title: "Talks"
-      }
+        title: "Talks",
+      },
     ],
     theses: [
       {
@@ -292,7 +315,7 @@ const AppProvider = props => {
         translated: null,
         type: "Dissertation",
         school: "University of Potsdam, Germany",
-        year: 2011
+        year: 2011,
       },
       {
         authors: "Stefan Klinkusch",
@@ -302,8 +325,8 @@ const AppProvider = props => {
           "Theory of femtosecond laser-induced intermolecular electron transfer by means of time-dependent configuration interaction methods",
         type: "Diploma thesis",
         school: "University of Potsdam, Germany",
-        year: 2008
-      }
+        year: 2008,
+      },
     ],
     journals: [
       {
@@ -314,7 +337,7 @@ const AppProvider = props => {
         journal: "The Journal of Chemical Physics",
         edition: "144",
         pages: "184108",
-        year: "2016"
+        year: "2016",
       },
       {
         authors: "Stefan Klinkusch and Tillmann Klamroth",
@@ -324,7 +347,7 @@ const AppProvider = props => {
         journal: "Journal of Theoretical and Computational Chemistry",
         edition: "12",
         pages: "1350005",
-        year: "2013"
+        year: "2013",
       },
       {
         authors:
@@ -334,7 +357,7 @@ const AppProvider = props => {
         journal: "The Journal of Chemical Physics",
         edition: "134",
         pages: "044311",
-        year: "2011"
+        year: "2011",
       },
       {
         authors: "Stefan Klinkusch, Peter Saalfrank, and Tillmann Klamroth",
@@ -344,7 +367,7 @@ const AppProvider = props => {
         journal: "The Journal of Chemical Physics",
         edition: "131",
         pages: "114304",
-        year: "2009"
+        year: "2009",
       },
       {
         authors: "Stefan Klinkusch, Tillmann Klamroth, and Peter Saalfrank",
@@ -354,7 +377,7 @@ const AppProvider = props => {
         journal: "Physical Chemistry Chemical Physics",
         edition: "11",
         pages: "3875-3884",
-        year: "2009"
+        year: "2009",
       },
       {
         authors: "Dominik Kröner, Stefan Klinkusch, and Tillmann Klamroth",
@@ -364,8 +387,8 @@ const AppProvider = props => {
         journal: "Surface Science",
         edition: "602",
         pages: "3148-3152",
-        year: "2008"
-      }
+        year: "2008",
+      },
     ],
     posters: [
       {
@@ -378,7 +401,7 @@ const AppProvider = props => {
         ),
         event: <span>Symposium for Theoretical Chemistry</span>,
         place: <span>Potsdam, Germany</span>,
-        year: <span>2015</span>
+        year: <span>2015</span>,
       },
       {
         authors: "Stefan Klinkusch, Tillmann Klamroth, and Peter Saalfrank",
@@ -403,7 +426,7 @@ const AppProvider = props => {
           </span>
         ),
         place: <span>Bad Herrenalb, Germany</span>,
-        year: <span>2010</span>
+        year: <span>2010</span>,
       },
       {
         authors: "Stefan Klinkusch, Tillmann Klamroth, and Peter Saalfrank",
@@ -417,8 +440,8 @@ const AppProvider = props => {
         ),
         event: <span>Symposium for Theoretical Chemistry</span>,
         place: <span>Ramsau am Dachstein, Austria</span>,
-        year: <span>2008</span>
-      }
+        year: <span>2008</span>,
+      },
     ],
     talks: [
       {
@@ -434,7 +457,7 @@ const AppProvider = props => {
           <span>
             April 22<sup>nd</sup>, 2018
           </span>
-        )
+        ),
       },
       {
         title: (
@@ -451,7 +474,7 @@ const AppProvider = props => {
           <span>
             January 16<sup>th</sup>, 2016
           </span>
-        )
+        ),
       },
       {
         title: (
@@ -471,7 +494,7 @@ const AppProvider = props => {
           <span>
             October 11<sup>th</sup>, 2012
           </span>
-        )
+        ),
       },
       {
         title: (
@@ -485,7 +508,7 @@ const AppProvider = props => {
           <span>
             October 20<sup>th</sup>, 2011
           </span>
-        )
+        ),
       },
       {
         title: (
@@ -503,7 +526,7 @@ const AppProvider = props => {
           <span>
             June 30<sup>th</sup>, 2010
           </span>
-        )
+        ),
       },
       {
         title: (
@@ -518,7 +541,7 @@ const AppProvider = props => {
           <span>
             June 16<sup>th</sup>, 2010
           </span>
-        )
+        ),
       },
       {
         title: (
@@ -540,7 +563,7 @@ const AppProvider = props => {
           <span>
             May 6<sup>th</sup>, 2009
           </span>
-        )
+        ),
       },
       {
         title: (
@@ -568,7 +591,7 @@ const AppProvider = props => {
           <span>
             November 5<sup>th</sup>, 2008
           </span>
-        )
+        ),
       },
       {
         title: (
@@ -595,7 +618,7 @@ const AppProvider = props => {
           <span>
             May 28<sup>th</sup>, 2008
           </span>
-        )
+        ),
       },
       {
         title: (
@@ -616,7 +639,7 @@ const AppProvider = props => {
           <span>
             May 7<sup>th</sup>, 2008
           </span>
-        )
+        ),
       },
       {
         title: (
@@ -637,7 +660,7 @@ const AppProvider = props => {
           <span>
             January 28<sup>th</sup>, 2008
           </span>
-        )
+        ),
       },
       {
         title: (
@@ -655,8 +678,8 @@ const AppProvider = props => {
           <span>
             March 8<sup>th</sup>, 2007
           </span>
-        )
-      }
+        ),
+      },
     ],
     references: [
       {
@@ -667,21 +690,22 @@ const AppProvider = props => {
         subitems: [
           {
             title: <span>Prof. Dr. Peter Saalfrank</span>,
-            href: "https://tcb16.chem.uni-potsdam.de/saalfrank/curric_saal.html"
+            href:
+              "https://tcb16.chem.uni-potsdam.de/saalfrank/curric_saal.html",
           },
           {
             title: <span>Priv.-Doz. Dr. habil. Tillmann Klamroth</span>,
-            href: "https://tcb16.chem.uni-potsdam.de/klamroth/"
+            href: "https://tcb16.chem.uni-potsdam.de/klamroth/",
           },
           {
             title: <span>Priv.-Doz. Dr. habil. Dominik Kröner</span>,
-            href: "https://tcb16.chem.uni-potsdam.de/kroener/"
+            href: "https://tcb16.chem.uni-potsdam.de/kroener/",
           },
           {
             title: <span>Priv.-Doz. Jean Christophe Tremblay, Ph.D</span>,
-            href: "https://jctremblay.userpage.fu-berlin.de/webpage/home.html"
-          }
-        ]
+            href: "https://jctremblay.userpage.fu-berlin.de/webpage/home.html",
+          },
+        ],
       },
       {
         title: (
@@ -694,9 +718,9 @@ const AppProvider = props => {
         subitems: [
           {
             title: <span>Priv.-Doz. Jean Christophe Tremblay, Ph.D</span>,
-            href: "https://jctremblay.userpage.fu-berlin.de/webpage/home.html"
-          }
-        ]
+            href: "https://jctremblay.userpage.fu-berlin.de/webpage/home.html",
+          },
+        ],
       },
       {
         title: (
@@ -707,215 +731,215 @@ const AppProvider = props => {
           </span>
         ),
         href: "http://users.physik.fu-berlin.de/~abt/sfb450/english.html",
-        subitems: []
-      }
+        subitems: [],
+      },
     ],
     html: [
       {
         title: "Fake birdwatching site with structural HTML elements",
         href: "https://sklinkusch.github.io/01-Structuring-the-Web/",
         src:
-          "https://github.com/sklinkusch/01-Structuring-the-Web/raw/master/structuring-the-web.png"
+          "https://github.com/sklinkusch/01-Structuring-the-Web/raw/master/structuring-the-web.png",
       },
       {
         title: "Basic information about myself",
         href: "https://sklinkusch.github.io/02-css-basics/index.html",
         src:
-          "https://github.com/sklinkusch/02-css-basics/raw/master/css-basics.png"
+          "https://github.com/sklinkusch/02-css-basics/raw/master/css-basics.png",
       },
       {
         title: "Fake letter layout",
         href: "https://sklinkusch.github.io/03-letter-layout/letter.html",
         src:
-          "https://github.com/sklinkusch/03-letter-layout/raw/master/letter-layout.png"
+          "https://github.com/sklinkusch/03-letter-layout/raw/master/letter-layout.png",
       },
       {
         title: "Page layout such as in a book or pdf file",
         href: "https://sklinkusch.github.io/04-page-layout/",
         src:
-          "https://github.com/sklinkusch/04-page-layout/raw/master/page-layout.png"
+          "https://github.com/sklinkusch/04-page-layout/raw/master/page-layout.png",
       },
       {
         title: "Fake blog page with blogposts",
         href: "https://sklinkusch.github.io/06-blog-headlines/blog.html",
         src:
-          "https://github.com/sklinkusch/06-blog-headlines/raw/master/Screenshot.png"
+          "https://github.com/sklinkusch/06-blog-headlines/raw/master/Screenshot.png",
       },
       {
         title: "Fake instagram profile page",
         href: "https://sklinkusch.github.io/07-instagram-flexbox/",
         src:
-          "https://github.com/sklinkusch/07-instagram-flexbox/raw/master/Screenshot.png"
+          "https://github.com/sklinkusch/07-instagram-flexbox/raw/master/Screenshot.png",
       },
       {
         title: "Webpage with a mega menu",
         href: "https://sklinkusch.github.io/08-mega-menu/",
         src:
-          "https://github.com/sklinkusch/08-mega-menu/raw/master/Screenshot.png"
+          "https://github.com/sklinkusch/08-mega-menu/raw/master/Screenshot.png",
       },
       {
         title: "Website with a responsive layout",
         href: "https://sklinkusch.github.io/09-responsive-design/",
         src:
-          "https://github.com/sklinkusch/09-responsive-design/raw/master/Screenshot.png"
+          "https://github.com/sklinkusch/09-responsive-design/raw/master/Screenshot.png",
       },
       {
         title: "Post-it notes on a dark background",
         href: "https://sklinkusch.github.io/post-it/",
-        src: "https://github.com/sklinkusch/post-it/raw/master/Screenshot.png"
+        src: "https://github.com/sklinkusch/post-it/raw/master/Screenshot.png",
       },
       {
         title: "Layout of an article from https://medium.com",
-        href: "https://sklinkusch.github.io/article-layout"
-      }
+        href: "https://sklinkusch.github.io/article-layout",
+      },
     ],
     javascript: [
       {
         title: "Fortune Teller Game Website",
         href: "https://sklinkusch.github.io/fortune-js/",
         src:
-          "https://github.com/sklinkusch/fortune-js/raw/master/Screenshot_en.png"
+          "https://github.com/sklinkusch/fortune-js/raw/master/Screenshot_en.png",
       },
       {
         title: "Animal Age Calculator",
         href: "https://sklinkusch.github.io/JS-animal-age/",
         src:
-          "https://github.com/sklinkusch/JS-animal-age/raw/master/Screenshot.png"
+          "https://github.com/sklinkusch/JS-animal-age/raw/master/Screenshot.png",
       },
       {
         title: "Quote of the Day",
-        href: "https://fbw-12.github.io/13-quote-of-the-day-sklinkusch/"
+        href: "https://fbw-12.github.io/13-quote-of-the-day-sklinkusch/",
       },
       {
         title: "Tip Calculator",
-        href: "https://fbw-12.github.io/14-tip-calculator-sklinkusch/"
+        href: "https://fbw-12.github.io/14-tip-calculator-sklinkusch/",
       },
       {
         title: "iTunes Search",
-        href: "https://fbw-12.github.io/16-the-sounds-of-classes/"
+        href: "https://fbw-12.github.io/16-the-sounds-of-classes/",
       },
       {
         title: "GithubSearch",
         href: "https://sklinkusch.github.io/Github-search/",
         src:
-          "https://github.com/sklinkusch/Github-search/raw/master/Screenshot.png"
+          "https://github.com/sklinkusch/Github-search/raw/master/Screenshot.png",
       },
       {
         title: "Coming Soon Countdown",
-        href: "https://fbw-12.github.io/18-coming-soon-landingpage-sklinkusch/"
+        href: "https://fbw-12.github.io/18-coming-soon-landingpage-sklinkusch/",
       },
       {
         title: "New Tab page with Github content",
-        href: "https://fbw-12.github.io/19-new-tab-github-sklinkusch/"
+        href: "https://fbw-12.github.io/19-new-tab-github-sklinkusch/",
       },
       {
         title: "Country information based on a search for the calling code",
         href: "https://sklinkusch.github.io/country-codes/",
         src:
-          "https://github.com/sklinkusch/country-codes/raw/master/Screenshot.png"
+          "https://github.com/sklinkusch/country-codes/raw/master/Screenshot.png",
       },
       {
         title: "World weather page consuming data from DarkSky API",
         href: "https://sklinkusch.github.io/JS-weather/",
         src:
-          "https://github.com/sklinkusch/JS-weather/raw/master/Screenshot.png"
+          "https://github.com/sklinkusch/JS-weather/raw/master/Screenshot.png",
       },
       {
         title: "ToDo list page using event handlers",
         href: "https://sklinkusch.github.io/architecture-eventlisteners/",
         src:
-          "https://github.com/sklinkusch/architecture-eventlisteners/raw/master/Screenshot.png"
+          "https://github.com/sklinkusch/architecture-eventlisteners/raw/master/Screenshot.png",
       },
       {
         title:
           "overview of bus and train departures at defined station in Berlin",
         href: "https://sklinkusch.github.io/bvg-test/",
         src:
-          "https://raw.githubusercontent.com/sklinkusch/bvg-test/master/Screenshot.png"
-      }
+          "https://raw.githubusercontent.com/sklinkusch/bvg-test/master/Screenshot.png",
+      },
     ],
     react: [
       {
         title: "information about many countries and dependent territories",
         href: "https://countrydb.sklinkusch.now.sh/",
         src:
-          "https://raw.githubusercontent.com/sklinkusch/country-db/master/Screenshot.png"
+          "https://raw.githubusercontent.com/sklinkusch/country-db/master/Screenshot.png",
       },
       {
         title: "chat mockup using React components",
         href: "https://sklinkusch.github.io/nice-chat",
         src:
-          "https://raw.githubusercontent.com/sklinkusch/nice-chat/master/Screenshot.png"
+          "https://raw.githubusercontent.com/sklinkusch/nice-chat/master/Screenshot.png",
       },
       {
         title: "small clock tutorial with React",
         href: "https://sklinkusch.github.io/react-clock",
         src:
-          "https://raw.githubusercontent.com/sklinkusch/react-clock/master/Screenshot.png"
+          "https://raw.githubusercontent.com/sklinkusch/react-clock/master/Screenshot.png",
       },
       {
         title:
           "dashboard with a clock, a to-do-list, and a random background image",
         href: "https://sklinkusch.github.io/react-dashboard",
         src:
-          "https://raw.githubusercontent.com/sklinkusch/react-dashboard/master/Screenshot.png"
+          "https://raw.githubusercontent.com/sklinkusch/react-dashboard/master/Screenshot.png",
       },
       {
         title: "markdown editor page using React",
         href: "https://sklinkusch.github.io/react-markdown-editor",
         src:
-          "https://raw.githubusercontent.com/sklinkusch/react-markdown-editor/master/Screenshot.png"
+          "https://raw.githubusercontent.com/sklinkusch/react-markdown-editor/master/Screenshot.png",
       },
       {
         title: "a simple memo-list using React",
         href: "https://sklinkusch.github.io/react-memolist",
         src:
-          "https://raw.githubusercontent.com/sklinkusch/react-memolist/master/Screenshot.png"
+          "https://raw.githubusercontent.com/sklinkusch/react-memolist/master/Screenshot.png",
       },
       {
         title: "a world weather page using React and Context",
         href: "https://react-weather.sklinkusch.now.sh/",
         src:
-          "https://raw.githubusercontent.com/sklinkusch/react-weather/master/Screenshot.png"
+          "https://raw.githubusercontent.com/sklinkusch/react-weather/master/Screenshot.png",
       },
       {
         title: "iTunes search using React",
         href: "https://sound-of-react.sklinkusch.now.sh/",
         src:
-          "https://raw.githubusercontent.com/sklinkusch/sound-of-react/master/Screenshot.png"
+          "https://raw.githubusercontent.com/sklinkusch/sound-of-react/master/Screenshot.png",
       },
       {
         title: "VBB timetable page using React",
         href: "https://sklinkusch.github.io/VBB",
-        src: "https://github.com/sklinkusch/VBB/raw/master/Screenshot.png"
-      }
+        src: "https://github.com/sklinkusch/VBB/raw/master/Screenshot.png",
+      },
     ],
     footerLinks: [
       {
         href: "https://github.com/sklinkusch",
         class: "github",
-        icon: "fab fa-github-square"
+        icon: "fab fa-github-square",
       },
       {
         href: "https://www.linkedin.com/in/stefan-klinkusch",
         class: "linkedin",
-        icon: "fab fa-linkedin"
+        icon: "fab fa-linkedin",
       },
       {
         href: "https://xing.to/StefanKlinkusch",
         class: "xing",
-        icon: "fab fa-xing-square"
+        icon: "fab fa-xing-square",
       },
       {
         href: "mailto:stefan.klinkusch@googlemail.com",
         class: "mail",
-        icon: "fas fa-envelope"
-      }
-    ]
-  });
+        icon: "fas fa-envelope",
+      },
+    ],
+  })
   return (
     <AppContext.Provider value={state}>{props.children}</AppContext.Provider>
-  );
-};
+  )
+}
 
-export default AppProvider;
+export default AppProvider
