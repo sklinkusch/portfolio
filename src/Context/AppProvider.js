@@ -14,6 +14,7 @@ import express from "../images/Expressjs.png";
 import mongodb from "../images/MongoDB.png";
 import gatsby from "../images/Gatsby.png";
 import sanity from "../images/Sanity.png";
+import handlebars from "../images/handlebars.png";
 import cplusplus from "../images/ISO_C++_Logo.svg";
 import fortran from "../images/f90-300x212.png";
 import perl from "../images/Perl.png";
@@ -98,6 +99,11 @@ const AppProvider = (props) => {
         name: "Sanity",
         imageSrc: sanity,
         imageId: "sanity",
+      },
+      {
+        name: "Handlebars",
+        imageSrc: handlebars,
+        imageId: "handlebars",
       },
       {
         name: "PHP",
