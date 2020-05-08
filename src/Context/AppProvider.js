@@ -12,6 +12,7 @@ import graphql from "../images/480px-GraphQL_Logo.svg.png";
 import nodejs from "../images/Node.js_logo.svg";
 import express from "../images/Expressjs.png";
 import mongodb from "../images/MongoDB.png";
+import sanity from "../images/Sanity.png";
 import cplusplus from "../images/ISO_C++_Logo.svg";
 import fortran from "../images/f90-300x212.png";
 import perl from "../images/Perl.png";
@@ -86,6 +87,11 @@ const AppProvider = (props) => {
         name: "MongoDB",
         imageSrc: mongodb,
         imageId: "mongodb",
+      },
+      {
+        name: "Sanity",
+        imageSrc: sanity,
+        imageId: "sanity",
       },
       {
         name: "PHP",
