@@ -1,176 +1,302 @@
 import React, { useState } from "react";
 import AppContext from "./AppContext";
 import html from "../images/HTML5_logo_and_wordmark.svg";
+import markdown from "../images/markdown.png";
+import latex from "../images/220px-LaTeX_logo.svg.png";
 import css from "../images/CSS.3.svg.png";
 import sass from "../images/Sass_Logo_Color.svg";
-import git from "../images/Git-logo.svg";
 import bootstrap from "../images/Boostrap_logo.svg";
+import git from "../images/Git-logo.svg";
+import github from "../images/Github.png";
 import javascript from "../images/ES6LOGO.svg";
-import react from "../images/React.svg";
-import redux from "../images/redux-logo.png";
-import graphql from "../images/480px-GraphQL_Logo.svg.png";
-import nodejs from "../images/Node.js_logo.svg";
-import express from "../images/Expressjs.png";
-import mongodb from "../images/MongoDB.png";
-import gatsby from "../images/Gatsby.png";
-import sanity from "../images/Sanity.png";
-import handlebars from "../images/handlebars.png";
-import liquid from "../images/Shopify-liquid.jpg";
-import cplusplus from "../images/ISO_C++_Logo.svg";
-import fortran from "../images/f90-300x212.png";
 import perl from "../images/Perl.png";
 import bash from "../images/Bash.svg";
-import latex from "../images/220px-LaTeX_logo.svg.png";
+import cplusplus from "../images/ISO_C++_Logo.svg";
+import fortran from "../images/f90-300x212.png";
+import react from "../images/React.svg";
+import gatsby from "../images/Gatsby.png";
+import redux from "../images/redux-logo.png";
+import nodejs from "../images/Node.js_logo.svg";
+import express from "../images/Expressjs.png";
+import graphql from "../images/480px-GraphQL_Logo.svg.png";
+import sanity from "../images/Sanity.png";
+import mongodb from "../images/MongoDB.png";
+import handlebars from "../images/handlebars.png";
+import liquid from "../images/Shopify-liquid.jpg";
+import slack from "../images/Slack.svg";
+import asana from "../images/Asana.png";
+import gcalendar from "../images/Google-Calendar.png";
+import gdrive from "../images/google-drive.png";
+import dropbox from "../images/Dropbox.png";
 import vscode from "../images/Visual_Studio_Code_1.35_icon.svg";
 import brackets from "../images/Brackets.png";
 import linux from "../images/Linux.svg";
 import ubuntu from "../images/Ubuntu.svg";
 import opensuse from "../images/OpenSUSE.svg";
-import slack from "../images/Slack.svg";
 
 const AppProvider = (props) => {
   const [state] = useState({
     skills: [
       {
-        name: "HTML5",
-        imageSrc: html,
-        imageId: "html",
+        title: "Markup Languages",
+        content: [
+          {
+            name: "HTML5",
+            imageSrc: html,
+            imageId: "html",
+          },
+          {
+            name: "Markdown",
+            imageSrc: markdown,
+            imageId: "markdown",
+          },
+          {
+            name: "LaTeX",
+            imageSrc: latex,
+            imageId: "latex",
+          },
+        ],
       },
       {
-        name: "CSS3",
-        imageSrc: css,
-        imageId: "css",
+        title: "Styling",
+        content: [
+          {
+            name: "CSS3",
+            imageSrc: css,
+            imageId: "css",
+          },
+          {
+            name: "Sass/SCSS",
+            imageSrc: sass,
+            imageId: "sass",
+          },
+          {
+            name: "Bootstrap 4",
+            imageSrc: bootstrap,
+            imageId: "bootstrap",
+          },
+        ],
       },
       {
-        name: "Sass/SCSS",
-        imageSrc: sass,
-        imageId: "sass",
+        title: "Versioning",
+        content: [
+          {
+            name: "git",
+            imageSrc: git,
+            imageId: "git",
+          },
+          {
+            name: "GitHub",
+            imageSrc: github,
+            imageId: "github",
+          },
+        ],
       },
       {
-        name: "git",
-        imageSrc: git,
-        imageId: "git",
+        title: "Scripting Languages",
+        content: [
+          {
+            name: "ECMAScript 6",
+            imageSrc: javascript,
+            imageId: "ecmascript",
+          },
+          {
+            name: "Perl",
+            imageSrc: perl,
+            imageId: "perl",
+          },
+          {
+            name: "Bourne-Again Shell",
+            imageSrc: bash,
+            imageId: "bash",
+          },
+        ],
       },
       {
-        name: "Bootstrap 4",
-        imageSrc: bootstrap,
-        imageId: "bootstrap",
+        title: "Further Programming Languages",
+        content: [
+          {
+            name: "C++",
+            imageSrc: cplusplus,
+            imageId: "cplusplus",
+          },
+          {
+            name: "Fortran 90",
+            imageSrc: fortran,
+            imageId: "fortran",
+          },
+        ],
       },
       {
-        name: "ECMAScript 6",
-        imageSrc: javascript,
-        imageId: "ecmascript",
+        title: "Frontend Frameworks",
+        content: [
+          {
+            name: "React",
+            imageSrc: react,
+            imageId: "react",
+          },
+          {
+            name: "Gatsby",
+            imageSrc: gatsby,
+            imageId: "gatsby",
+          },
+        ],
       },
       {
-        name: "React",
-        imageSrc: react,
-        imageId: "react",
+        title: "Mobile Frameworks",
+        content: [
+          {
+            name: "React Native",
+            imageSrc: react,
+            imageId: "react",
+          },
+        ],
       },
       {
-        name: "Redux",
-        imageSrc: redux,
-        imageId: "redux",
+        title: "State Management",
+        content: [
+          {
+            name: "Redux",
+            imageSrc: redux,
+            imageId: "redux",
+          },
+          {
+            name: "Context API",
+            imageSrc: react,
+            imageId: "react",
+          },
+        ],
       },
       {
-        name: "GraphQL",
-        imageSrc: graphql,
-        imageId: "graphql",
+        title: "Backend",
+        content: [
+          {
+            name: "Node.js",
+            imageSrc: nodejs,
+            imageId: "nodejs",
+          },
+          {
+            name: "Express.js",
+            imageSrc: express,
+            imageId: "express",
+          },
+          {
+            name: "GraphQL",
+            imageSrc: graphql,
+            imageId: "graphql",
+          },
+        ],
       },
       {
-        name: "Node.js",
-        imageSrc: nodejs,
-        imageId: "nodejs",
+        title: "Content Management Systems",
+        content: [
+          {
+            name: "Sanity",
+            imageSrc: sanity,
+            imageId: "sanity",
+          },
+        ],
       },
       {
-        name: "Express.js",
-        imageSrc: express,
-        imageId: "express",
+        title: "Databases",
+        content: [
+          {
+            name: "MongoDB",
+            imageSrc: mongodb,
+            imageId: "mongodb",
+          },
+        ],
       },
       {
-        name: "MongoDB",
-        imageSrc: mongodb,
-        imageId: "mongodb",
+        title: "Template Languages",
+        content: [
+          {
+            name: "Handlebars",
+            imageSrc: handlebars,
+            imageId: "handlebars",
+          },
+          {
+            name: "Shopify Liquid",
+            imageSrc: liquid,
+            imageId: "liquid",
+          },
+          {
+            name: "PHP",
+            imageSrc:
+              "https://cdn-1.wp.nginx.com/wp-content/uploads/2016/03/PHP-logo.svg_.png",
+            imageId: "php",
+          },
+        ],
       },
       {
-        name: "Gatsby",
-        imageSrc: gatsby,
-        imageId: "gatsby",
+        title: "Team Communication and Organization",
+        content: [
+          {
+            name: "Slack",
+            imageSrc: slack,
+            imageId: "slack",
+          },
+          {
+            name: "Asana",
+            imageSrc: asana,
+            imageId: "asana",
+          },
+          {
+            name: "Google Calendar",
+            imageSrc: gcalendar,
+            imageId: "gcalendar",
+          },
+        ],
       },
       {
-        name: "Sanity",
-        imageSrc: sanity,
-        imageId: "sanity",
+        title: "File Sharing",
+        content: [
+          {
+            name: "Google Drive",
+            imageSrc: gdrive,
+            imageId: "gdrive",
+          },
+          {
+            name: "Dropbox",
+            imageSrc: dropbox,
+            imageId: "dropbox",
+          },
+        ],
       },
       {
-        name: "Handlebars",
-        imageSrc: handlebars,
-        imageId: "handlebars",
+        title: "Editors",
+        content: [
+          {
+            name: "VS Code",
+            imageSrc: vscode,
+            imageId: "vscode",
+          },
+          {
+            name: "Brackets",
+            imageSrc: brackets,
+            imageId: "brackets",
+          },
+        ],
       },
       {
-        name: "Shopify Liquid",
-        imageSrc: liquid,
-        imageId: "liquid",
-      },
-      {
-        name: "PHP",
-        imageSrc:
-          "https://cdn-1.wp.nginx.com/wp-content/uploads/2016/03/PHP-logo.svg_.png",
-        imageId: "php",
-      },
-      {
-        name: "C++",
-        imageSrc: cplusplus,
-        imageId: "cplusplus",
-      },
-      {
-        name: "Fortran 90",
-        imageSrc: fortran,
-        imageId: "fortran",
-      },
-      {
-        name: "Perl",
-        imageSrc: perl,
-        imageId: "perl",
-      },
-      {
-        name: "Bourne-Again Shell",
-        imageSrc: bash,
-        imageId: "bash",
-      },
-      {
-        name: "LaTeX",
-        imageSrc: latex,
-        imageId: "latex",
-      },
-      {
-        name: "VS Code",
-        imageSrc: vscode,
-        imageId: "vscode",
-      },
-      {
-        name: "Brackets",
-        imageSrc: brackets,
-        imageId: "brackets",
-      },
-      {
-        name: "Linux",
-        imageSrc: linux,
-        imageId: "linux",
-      },
-      {
-        name: "Ubuntu",
-        imageSrc: ubuntu,
-        imageId: "ubuntu",
-      },
-      {
-        name: "openSUSE",
-        imageSrc: opensuse,
-        imageId: "opensuse",
-      },
-      {
-        name: "Slack",
-        imageSrc: slack,
-        imageId: "slack",
+        title: "Operating Systems",
+        content: [
+          {
+            name: "Linux",
+            imageSrc: linux,
+            imageId: "linux",
+          },
+          {
+            name: "Ubuntu",
+            imageSrc: ubuntu,
+            imageId: "ubuntu",
+          },
+          {
+            name: "openSUSE",
+            imageSrc: opensuse,
+            imageId: "opensuse",
+          },
+        ],
       },
     ],
     CVTabTitles: [

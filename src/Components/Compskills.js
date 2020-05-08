@@ -8,15 +8,20 @@ const Compskills = () => (
     <div className="sk-placeholder-tiny" />
     <section id="compskills">
       <h3> Computer-related Skills</h3>
-      <div className="row album">
-        <AppContext.Consumer>
-          {context =>
-            context.skills.map((skill, index) => (
-              <CompskillCard skill={skill} key={index} />
-            ))
-          }
-        </AppContext.Consumer>
-      </div>
+      <AppContext.Consumer>
+        {(context) =>
+          context.skills.map((skill, index) => (
+            <article key={index}>
+              <h4>{skill.title}</h4>
+              <div className="row album">
+                {skill.content.map((singleSkill, index) => (
+                  <CompskillCard skill={singleSkill} key={index} />
+                ))}
+              </div>
+            </article>
+          ))
+        }
+      </AppContext.Consumer>
     </section>
     <div className="sk-placeholder-tiny" />
   </div>
