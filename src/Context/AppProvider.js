@@ -1,30 +1,30 @@
-import React, { useState } from "react"
-import AppContext from "./AppContext"
-import html from "../images/HTML5_logo_and_wordmark.svg"
-import css from "../images/CSS.3.svg.png"
-import sass from "../images/Sass_Logo_Color.svg"
-import git from "../images/Git-logo.svg"
-import bootstrap from "../images/Boostrap_logo.svg"
-import javascript from "../images/ES6LOGO.svg"
-import react from "../images/React.svg"
-import redux from "../images/redux-logo.png"
-import graphql from "../images/480px-GraphQL_Logo.svg.png"
-import nodejs from "../images/Node.js_logo.svg"
-import express from "../images/Expressjs.png"
-import mongodb from "../images/MongoDB.png"
-import cplusplus from "../images/ISO_C++_Logo.svg"
-import fortran from "../images/f90-300x212.png"
-import perl from "../images/Perl.png"
-import bash from "../images/Bash.svg"
-import latex from "../images/220px-LaTeX_logo.svg.png"
-import vscode from "../images/Visual_Studio_Code_1.35_icon.svg"
-import brackets from "../images/Brackets.png"
-import linux from "../images/Linux.svg"
-import ubuntu from "../images/Ubuntu.svg"
-import opensuse from "../images/OpenSUSE.svg"
-import slack from "../images/Slack.svg"
+import React, { useState } from "react";
+import AppContext from "./AppContext";
+import html from "../images/HTML5_logo_and_wordmark.svg";
+import css from "../images/CSS.3.svg.png";
+import sass from "../images/Sass_Logo_Color.svg";
+import git from "../images/Git-logo.svg";
+import bootstrap from "../images/Boostrap_logo.svg";
+import javascript from "../images/ES6LOGO.svg";
+import react from "../images/React.svg";
+import redux from "../images/redux-logo.png";
+import graphql from "../images/480px-GraphQL_Logo.svg.png";
+import nodejs from "../images/Node.js_logo.svg";
+import express from "../images/Expressjs.png";
+import mongodb from "../images/MongoDB.png";
+import cplusplus from "../images/ISO_C++_Logo.svg";
+import fortran from "../images/f90-300x212.png";
+import perl from "../images/Perl.png";
+import bash from "../images/Bash.svg";
+import latex from "../images/220px-LaTeX_logo.svg.png";
+import vscode from "../images/Visual_Studio_Code_1.35_icon.svg";
+import brackets from "../images/Brackets.png";
+import linux from "../images/Linux.svg";
+import ubuntu from "../images/Ubuntu.svg";
+import opensuse from "../images/OpenSUSE.svg";
+import slack from "../images/Slack.svg";
 
-const AppProvider = props => {
+const AppProvider = (props) => {
   const [state] = useState({
     skills: [
       {
@@ -86,6 +86,12 @@ const AppProvider = props => {
         name: "MongoDB",
         imageSrc: mongodb,
         imageId: "mongodb",
+      },
+      {
+        name: "PHP",
+        imageSrc:
+          "https://cdn-1.wp.nginx.com/wp-content/uploads/2016/03/PHP-logo.svg_.png",
+        imageId: "php",
       },
       {
         name: "C++",
@@ -936,10 +942,10 @@ const AppProvider = props => {
         icon: "fas fa-envelope",
       },
     ],
-  })
+  });
   return (
     <AppContext.Provider value={state}>{props.children}</AppContext.Provider>
-  )
-}
+  );
+};
 
-export default AppProvider
+export default AppProvider;
