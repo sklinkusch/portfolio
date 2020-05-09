@@ -1,7 +1,7 @@
 import React from "react";
 import { TabPane } from "reactstrap";
 
-const CVTab = props => {
+const CVTab = (props) => {
   const { list } = props.data;
   return (
     <TabPane tabId={props.number}>

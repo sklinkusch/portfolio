@@ -1,4 +1,4 @@
-import react from "../images/React.svg";
+import react from "../../images/React.svg";
 
 const mobile = {
   title: "Mobile Frameworks",

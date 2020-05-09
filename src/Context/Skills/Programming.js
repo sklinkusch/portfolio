@@ -1,5 +1,5 @@
-import cplusplus from "../images/ISO_C++_Logo.svg";
-import fortran from "../images/f90-300x212.png";
+import cplusplus from "../../images/ISO_C++_Logo.svg";
+import fortran from "../../images/f90-300x212.png";
 
 const programming = {
   title: "Further Programming Languages",

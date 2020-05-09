@@ -1,6 +1,6 @@
-import javascript from "../images/ES6LOGO.svg";
-import perl from "../images/Perl.png";
-import bash from "../images/Bash.svg";
+import javascript from "../../images/ES6LOGO.svg";
+import perl from "../../images/Perl.png";
+import bash from "../../images/Bash.svg";
 
 const scripting = {
   title: "Scripting Languages",

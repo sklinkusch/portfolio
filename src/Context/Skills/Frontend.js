@@ -1,5 +1,5 @@
-import react from "../images/React.svg";
-import gatsby from "../images/Gatsby.png";
+import react from "../../images/React.svg";
+import gatsby from "../../images/Gatsby.png";
 
 const frontend = {
   title: "Frontend Frameworks",
