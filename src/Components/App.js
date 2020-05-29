@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import "../styles/App.scss";
 import MyNavbar from "./MyNavbar";
 import TitleImage from "./TitleImage";
@@ -28,6 +28,9 @@ const App = () => {
       /*console.log(myHeight);*/
     }
   };
+  useEffect(() => {
+    postDimensions();
+  },[]);
   window.onload = () => postDimensions();
   window.onresize = () => postDimensions();
   return (
