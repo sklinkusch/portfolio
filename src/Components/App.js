@@ -24,8 +24,8 @@ const App = () => {
         AppRef.current.scrollHeight
       );
       setHeight(myHeight);
-      window.parent.postMessage({ frameHeight: myHeight });
-      console.log(myHeight);
+      window.parent.postMessage({ frameHeight: myHeight },"*");
+      /*console.log(myHeight);*/
     }
   };
   window.onload = () => postDimensions();
