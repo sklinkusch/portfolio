@@ -4,6 +4,17 @@ const journals = {
   },
   content: [
     {
+      authors:
+        "Peter Saalfank, Florian Bedurke, Chiara Heide, Tillmann Klamroth, Stefan Klinkusch, Pascal Krause, Mathias Nest, and Jean Christophe Tremblay",
+      title:
+        "Molecular attochemistry: Correlated electron dynamics driven by light",
+      href: "https://doi.org/10.1016/bs.aiq.2020.03.001",
+      journal: "Advances in Quantum Chemistry",
+      edition: "81",
+      pages: "16-50",
+      year: "2020",
+    },
+    {
       authors: "Stefan Klinkusch and Jean Christophe Tremblay",
       title:
         "Resolution-of-identity stochastic time-dependent configuration interaction for dissipative electron dynamics in strong fields",
@@ -64,6 +75,6 @@ const journals = {
       year: "2008",
     },
   ],
-};
+}
 
-export default journals;
+export default journals
