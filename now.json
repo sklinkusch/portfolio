@@ -47,7 +47,9 @@
         "cache-control": "s-maxage=0"
       },
       "dest": "/index.html"
-    },
+    }
+  ],
+  "headers": [
     {
       "src": "/(.*)",
       "headers": [
@@ -64,6 +66,6 @@
           "value": "1; mode=block"
         }
       ]
-    }
+    } 
   ]
 }
