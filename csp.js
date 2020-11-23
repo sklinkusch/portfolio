@@ -11,6 +11,7 @@ module.exports = {
     "style-src": ["'unsafe-inline'", "'self'"],
     "frame-ancestors": ["'none'"],
     "form-action": ["https://script.google.com/macros/s/AKfycbym7tLzfVpSgrTC8D88lGqh163RMXwfP9m3FGqYZGyY99UrY5M/exec"],
+    "base-uri": ["'self'"],
   },
   prod: {
     "child-src": ["'self'"],
@@ -24,5 +25,6 @@ module.exports = {
     "style-src": ["'unsafe-inline'", "'self'"],
     "frame-ancestors": ["'none'"],
     "form-action": ["https://script.google.com/macros/s/AKfycbym7tLzfVpSgrTC8D88lGqh163RMXwfP9m3FGqYZGyY99UrY5M/exec"],
+    "base-uri": ["'self'"],
   },
 }
