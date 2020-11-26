@@ -5,7 +5,7 @@ module.exports = {
     "font-src": ["'self'"],
     "img-src": ["data:", "https://cdn-1.wp.nginx.com/wp-content/uploads/2016/03/PHP-logo.svg_.png", "https://github.com/sklinkusch/", "https://raw.githubusercontent.com/sklinkusch/", "'self'"],
     "manifest-src": ["'self'"],
-    "media-src": ["'self'"],
+    "media-src": ["data:", "'self'"],
     "object-src": ["'none'"],
     "script-src": ["'unsafe-inline'", "'self'"],
     "style-src": ["'unsafe-inline'", "'self'"],
