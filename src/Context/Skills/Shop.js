@@ -1,6 +1,7 @@
 import shopify from "../../images/Shopify.png"
 import woocommerce from "../../images/woocommerce.png"
 import drip from "../../images/drip.png"
+import billbee from "../../images/billbee.png";
 
 const shop = {
   title: "eCommerce Platforms",
@@ -19,6 +20,11 @@ const shop = {
       name: "Drip",
       imageSrc: drip,
       imageId: "Drip",
+    },
+    {
+      name: "BillBee",
+      imageSrc: billbee,
+      imageId: "billbee"
     },
   ],
 }
