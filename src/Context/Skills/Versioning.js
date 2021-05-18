@@ -1,5 +1,6 @@
 import git from "../../images/Git-logo.svg";
 import github from "../../images/Github.png";
+import bitbucket from "../../images/bitbucket.png";
 
 const versioning = {
   title: "Versioning",
@@ -14,6 +15,12 @@ const versioning = {
       imageSrc: github,
       imageId: "github",
     },
+    {
+      name: "Atlassian Bitbucket",
+      imageSrc: bitbucket,
+      imageId: "bitbucket",
+
+    }
   ],
 };
 
