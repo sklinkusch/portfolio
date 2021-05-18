@@ -7,6 +7,7 @@ import frontend from "./Frontend"
 import mobile from "./Mobile"
 import state from "./State"
 import backend from "./Backend"
+import automation from "./Automation"
 import contentmanagement from "./ContentManagement"
 import databases from "./Databases"
 import template from "./Template"
@@ -26,6 +27,7 @@ const skills = [
   mobile,
   state,
   backend,
+  automation,
   contentmanagement,
   databases,
   template,
