@@ -11,6 +11,7 @@ const theses = {
       type: "Dissertation",
       school: "University of Potsdam, Germany",
       year: 2011,
+      href: "https://github.com/sklinkusch/TC/raw/master/Thesis/Klinkusch%20-%202011%20-%20Simulations%20of%20laser-driven%20correlated%20many-electron%20dynamics%20in%20molecular%20systems.pdf",
     },
     {
       authors: "Stefan Klinkusch",
@@ -21,8 +22,9 @@ const theses = {
       type: "Diploma thesis",
       school: "University of Potsdam, Germany",
       year: 2008,
+      href: "https://github.com/sklinkusch/TC/raw/master/Thesis/Klinkusch%20-%202008%20-%20Theorie%20des%20femtosekundenlaserinduzierten%20intermolekularen%20Elektronentransfers%20mittels%20zeitabh%C3%A4ngiger%20Konfigurationswechselwirkungs-Methoden.pdf",
     },
   ],
-};
+}
 
-export default theses;
+export default theses
