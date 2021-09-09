@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const references = [
   {
@@ -9,15 +9,15 @@ const references = [
     subitems: [
       {
         title: <span>Prof. Dr. Peter Saalfrank</span>,
-        href: "https://tcb16.chem.uni-potsdam.de/saalfrank/curric_saal.html",
+        href: "http://tcb16.chem.uni-potsdam.de/saalfrank/curric_saal.html",
       },
       {
         title: <span>Priv.-Doz. Dr. habil. Tillmann Klamroth</span>,
-        href: "https://tcb16.chem.uni-potsdam.de/klamroth/",
+        href: "http://tcb16.chem.uni-potsdam.de/klamroth/",
       },
       {
         title: <span>Priv.-Doz. Dr. habil. Dominik Kröner</span>,
-        href: "https://tcb16.chem.uni-potsdam.de/kroener/",
+        href: "http://tcb16.chem.uni-potsdam.de/kroener/",
       },
       {
         title: <span>Prof. Jean Christophe Tremblay, Ph.D</span>,
@@ -42,7 +42,7 @@ const references = [
         University of Berlin
       </span>
     ),
-    href: "https://jctremblay.userpage.fu-berlin.de/webpage/home.html",
+    href: "https://lpct.univ-lorraine.fr/personnel/personne.php?nom=Tremblay&prenom=Jean-Christophe",
     subitems: [
       {
         title: <span>Prof. Jean Christophe Tremblay, Ph.D</span>,
@@ -67,7 +67,7 @@ const references = [
       },
       {
         title: <span>Marta Kolodziejczak</span>,
-        href: "https://my-portfolio.m4r28.now.sh",
+        href: "https://my-portfolio.m4r28.vercel.app",
       },
     ],
   },
@@ -75,6 +75,6 @@ const references = [
     title: <span>Daizu GmbH/sleep.ink</span>,
     href: "https://sleep.ink",
   },
-];
+]
 
-export default references;
+export default references
