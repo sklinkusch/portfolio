@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import { TabContent } from "reactstrap";
-import PubTitles from "./PubTitles";
-import Theses from "./Theses";
-import Journals from "./Journals";
-import Posters from "./Posters";
-import Talks from "./Talks";
+import React, { useState } from "react"
+import { TabContent } from "reactstrap"
+import PubTitles from "./PubTitles"
+import Theses from "./Theses"
+import Journals from "./Journals"
+import Posters from "./Posters"
+import Talks from "./Talks"
 
 const Publications = () => {
-  const [activeTab, setTab] = useState(0);
-  const toggle = tab => {
+  const [activeTab, setTab] = useState(0)
+  const toggle = (tab) => {
     if (activeTab !== tab) {
-      setTab(tab);
+      setTab(tab)
     }
-  };
+  }
   return (
-    <div className="container sk-bg-white">
+    <div className="container sk-bg-white sk-pb-16px">
       <div className="sk-placeholder-tiny" />
       <section id="pubs">
         <h3>Publications</h3>
@@ -27,7 +27,7 @@ const Publications = () => {
         </TabContent>
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default Publications;
+export default Publications
