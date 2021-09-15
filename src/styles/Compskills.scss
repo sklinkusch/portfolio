@@ -11,6 +11,8 @@
   margin: auto;
   height: auto;
   display: block;
+  max-height: 200px;
+  max-width: calc(100% - 20px);
 }
 #html {
   width: 220px;
