@@ -1,19 +1,23 @@
-import React from "react";
+import React from "react"
 
-const RefItem = props => {
-  const { data } = props;
-  const subs = "subitems" in data && data.subitems.length > 0 ? true : false;
+const RefItem = (props) => {
+  const { data } = props
+  const subs = "subitems" in data && data.subitems.length > 0 ? true : false
   return (
     <React.Fragment>
       <li>
-        <a
-          href={data.href}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="exlink"
-        >
-          {data.title}
-        </a>
+        {data.hasOwnProperty("href") && data.href.length > 0 ? (
+          <a
+            href={data.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="exlink"
+          >
+            {data.title}
+          </a>
+        ) : (
+          <span>{data.title}</span>
+        )}
       </li>
       {subs && (
         <ul>
@@ -23,7 +27,7 @@ const RefItem = props => {
         </ul>
       )}
     </React.Fragment>
-  );
-};
+  )
+}
 
-export default RefItem;
+export default RefItem
