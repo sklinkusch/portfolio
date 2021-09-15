@@ -12,7 +12,7 @@ const references = [
         href: "http://tcb16.chem.uni-potsdam.de/saalfrank/curric_saal.html",
       },
       {
-        title: <span>Priv.-Doz. Dr. habil. Tillmann Klamroth</span>,
+        title: <span>apl. Prof. Dr. Tillmann Klamroth</span>,
         href: "http://tcb16.chem.uni-potsdam.de/klamroth/",
       },
       {
