@@ -1,5 +1,11 @@
 const react = [
   {
+    title: "information about many countries and dependent territories",
+    href: "https://countrydb.vercel.app/",
+    src:
+      "https://raw.githubusercontent.com/sklinkusch/country-db/master/Screenshot.png",
+  },
+  {
     title: "chat mockup using React components",
     href: "https://sklinkusch.github.io/nice-chat",
     src:
