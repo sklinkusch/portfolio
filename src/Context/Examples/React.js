@@ -12,7 +12,7 @@ const react = [
       "https://raw.githubusercontent.com/sklinkusch/nice-chat/master/Screenshot.png",
   },
   {
-    title: "world time clock using React.js, Bootstrap, React-Router, and Moment.js",
+    title: "world time clock using React.js, Bootstrap, and React-Router",
     href: "https://sklinkusch.github.io/react-clock",
     src:
       "https://raw.githubusercontent.com/sklinkusch/react-clock/master/Screenshot.png",
