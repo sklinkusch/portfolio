@@ -1,7 +1,7 @@
 const react = [
   {
     title: "information about many countries and dependent territories",
-    href: "https://countrydb.vercel.app/",
+    href: "https://country-db.vercel.app/",
     src:
       "https://raw.githubusercontent.com/sklinkusch/country-db/master/Screenshot.png",
   },
