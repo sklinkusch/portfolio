@@ -1,11 +1,11 @@
 import React from "react";
-import { Jumbotron, Button } from "reactstrap";
+import { Button } from "reactstrap";
 
 const Welcome = () => (
   <div className="container sk-bg-white">
     <div className="sk-placeholder-tiny" />
     <section id="jumbotron">
-      <Jumbotron>
+      <div class="jumbotron">
         <h1>Welcome to my page!</h1>
         <p>
           I am a computational chemist and frontend web developer based in
@@ -21,7 +21,7 @@ const Welcome = () => (
         >
           Contact me
         </Button>
-      </Jumbotron>
+      </div>
     </section>
     <div className="sk-placeholder-verytiny" />
   </div>
