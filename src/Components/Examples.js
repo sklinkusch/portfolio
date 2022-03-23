@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Examples.scss";
+import "../styles/Examples.css";
 import ExampleSec from "./ExampleSec";
 import AppContext from "../Context/AppContext";
 

@@ -4,7 +4,7 @@
 .progress-bar {
   height: 1.5rem;
 }
-// Background colors for progress bars
+/* Background colors for progress bars */
 .sk-bg-black {
   background-color: black !important;
 }
@@ -23,7 +23,7 @@
 .sk-bg-yellow {
   background-color: yellow !important;
 }
-// Some widths for progress bars
+/* Some widths for progress bars */
 .sk-w25 {
   width: 25%;
 }
@@ -36,15 +36,15 @@
 .sk-w33 {
   width: 33.33%;
 }
-// Alignment
+/* Alignment */
 .sk-al {
   text-align: left !important;
 }
-// Padding
+/* Padding */
 .sk-pl15 {
   padding-left: 15px;
 }
-// Some black borders to surround white and yellow bars
+/* Some black borders to surround white and yellow bars */
 .sk-bb-black {
   border-bottom: 1px solid black;
 }
@@ -57,22 +57,22 @@
 .sk-bt-black {
   border-top: 1px solid black;
 }
-// Switching between text all on the black and text split on the black/red bar
+/* Switching between text all on the black and text split on the black/red bar */
 .gboth {
   display: inline;
-  @media screen and (max-width: 450px) {
-    display: none;
-  }
 }
 .german {
   display: none;
-  @media screen and (max-width: 450px) {
-    display: inline;
-  }
 }
 .rnative {
   display: none;
-  @media screen and (max-width: 450px) {
+}
+@media screen and (max-width: 450px) {
+  .gboth {
+    display: none;
+  }
+  .german,
+  .rnative {
     display: inline;
   }
 }

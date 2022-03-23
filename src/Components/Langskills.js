@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Langskills.scss";
+import "../styles/Langskills.css";
 
 const Langskills = () => (
   <div className="container sk-bg-white" id="langskills">
