@@ -1,5 +1,19 @@
 # Portfolio of Stefan Klinkusch
 
+![Github
+License](https://img.shields.io/github/license/sklinkusch/portfolio.svg)
+![Github repo
+size](https://img.shields.io/github/repo-size/sklinkusch/portfolio)
+![Github language
+count](https://img.shields.io/github/languages/count/sklinkusch/portfolio)
+![Github top
+language](https://img.shields.io/github/languages/top/sklinkusch/portfolio)
+![commit activity](https://img.shields.io/github/commit-activity/y/sklinkusch/portfolio)
+![last commit](https://img.shields.io/github/last-commit/sklinkusch/portfolio)
+![website
+status](https://img.shields.io/website-up-down-green-red/https/sklinkusch.vercel.app.svg)
+![deps](https://img.shields.io/depfu/sklinkusch/portfolio)
+
 This webpage was created by Stefan Klinkusch using SCSS, React.js, and Bootstrap.
 
 ## Features
