@@ -1,11 +1,11 @@
-// size of album image containers (computer-related skills)
+/* size of album image containers (computer-related skills) */
 .album-item {
   height: 250px;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   overflow: hidden;
 }
-// Remove borders and autosizing from images
+/* Remove borders and autosizing from images */
 .img-thumbnail {
   border: none !important;
   margin: auto;
