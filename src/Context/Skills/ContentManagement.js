@@ -7,6 +7,9 @@ const contentManagement = {
       name: "Sanity",
       imageSrc: sanity,
       imageId: "sanity",
+      imgStyles: {
+        width: "200px",
+      },
     },
   ],
 };

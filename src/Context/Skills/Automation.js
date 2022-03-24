@@ -6,7 +6,10 @@ const automation = {
     {
       name: "Integromat",
       imageSrc: integromat,
-      imageId: "integromat"
+      imageId: "integromat",
+      imgStyles: {
+        width: "200px",
+      },
     }
   ]
 }

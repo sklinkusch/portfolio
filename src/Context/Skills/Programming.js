@@ -8,11 +8,17 @@ const programming = {
       name: "C++",
       imageSrc: cplusplus,
       imageId: "cplusplus",
+      imgStyles: {
+        width: "190px",
+      },
     },
     {
       name: "Fortran 90",
       imageSrc: fortran,
       imageId: "fortran",
+      imgStyles: {
+        width: "200px",
+      },
     },
   ],
 };
