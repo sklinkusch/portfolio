@@ -1,7 +1,6 @@
 import React from "react"
 import AppContext from "../Context/AppContext"
 import CompskillCard from "./CompskillCard"
-import "../styles/Compskills.css"
 
 const CompskillsMediumLarge = () => (
   <section id="compskills" className="d-none d-md-block">
