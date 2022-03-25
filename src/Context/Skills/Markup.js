@@ -9,6 +9,9 @@ const markup = {
       name: "HTML5",
       imageSrc: html,
       imageId: "html",
+      imgStyles: {
+        width: "220px",
+      },
     },
     {
       name: "Markdown",
@@ -19,6 +22,9 @@ const markup = {
       name: "LaTeX",
       imageSrc: latex,
       imageId: "latex",
+      imgStyles: {
+        width: "200px",
+      },
     },
   ],
 };

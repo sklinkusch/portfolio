@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React from "react";
 import Example from "./Example";
 
@@ -7,9 +8,9 @@ const ExampleSec = props => {
     item => "src" in item && "href" in item && "title" in item
   );
   return (
-    <section>
+    <section sx={{ margin: "30px 0" }}>
       <h4>{title}</h4>
-      <div className="sk-flex-row sk-flex-wrap sk-jc-spa sk-w-mc">
+      <div className="sk-w-mc" sx={{ justifyContent: "space-around", flexWrap: "wrap", display: "flex", flexDirection: "row" }}>
         {printdata.map((item, index) => (
           <Example key={index} data={item} />
         ))}

@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React from "react"
 import { TabPane } from "reactstrap"
 import AppContext from "../Context/AppContext"
@@ -19,14 +20,14 @@ const Theses = () => {
                     href={href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="exlink"
+                    sx={{ color: "ggrey", backgroundColor: "#eee", textDecoration: "none" }}
                   >
                     <span className="authors">{authors}</span>,{space}
-                    <q className="arttitle">{title}</q>
+                    <q sx={{ fontStyle: "italic" }}>{title}</q>
                     {space}
                     {translated && (
-                      <span className="italic">
-                        (<q className="arttitle">{translated}</q>)
+                      <span sx={{ fontStyle: "italic" }}>
+                        (<q sx={{ fontStyle: "italic" }}>{translated}</q>)
                       </span>
                     )}
                     , {type}, {school}, {year}

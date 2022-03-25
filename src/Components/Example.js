@@ -1,15 +1,17 @@
+/** @jsxImportSource theme-ui */
 import React from "react";
 
 const Example = props => {
   const { data } = props;
   return (
-    <div className="webdev-item col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+    <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" sx={{ margin: "5px", display: "block", maxHeight: "20vw", overflow: "hidden" }}>
       <a href={data.href} target="_blank" rel="noopener noreferrer">
         <img
           src={data.src}
           alt={data.title}
           title={data.title}
           className="ref-thumbnail"
+          sx={{ width: "100%", height: "auto" }}
         />
       </a>
     </div>

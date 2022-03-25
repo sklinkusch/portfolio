@@ -8,11 +8,17 @@ const filesharing = {
       name: "Google Drive",
       imageSrc: gdrive,
       imageId: "gdrive",
+      imgStyles: {
+        width: "200px",
+      },
     },
     {
       name: "Dropbox",
       imageSrc: dropbox,
       imageId: "dropbox",
+      imgStyles: {
+        width: "200px",
+      },
     },
   ],
 };

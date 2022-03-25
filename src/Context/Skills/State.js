@@ -8,11 +8,17 @@ const state = {
       name: "Redux",
       imageSrc: redux,
       imageId: "redux",
+      imgStyles: {
+        width: "150px",
+      },
     },
     {
       name: "Context API",
       imageSrc: react,
       imageId: "react",
+      imgStyles: {
+        width: "250px",
+      },
     },
   ],
 };

@@ -8,11 +8,17 @@ const frontend = {
       name: "React",
       imageSrc: react,
       imageId: "react",
+      imgStyles: {
+        width: "250px",
+      },
     },
     {
       name: "Gatsby",
       imageSrc: gatsby,
       imageId: "gatsby",
+      imgStyles: {
+        width: "200px",
+      },
     },
   ],
 };

@@ -9,6 +9,9 @@ const teamcommunication = {
       name: "Slack",
       imageSrc: slack,
       imageId: "slack",
+      imgStyles: {
+        width: "190px",
+      },
     },
     {
       name: "Asana",
@@ -19,6 +22,9 @@ const teamcommunication = {
       name: "Google Calendar",
       imageSrc: gcalendar,
       imageId: "gcalendar",
+      imgStyles: {
+        width: "200px",
+      },
     },
   ],
 };

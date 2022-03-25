@@ -9,16 +9,25 @@ const backend = {
       name: "Node.js",
       imageSrc: nodejs,
       imageId: "nodejs",
+      imgStyles: {
+        width: "190px",
+      },
     },
     {
       name: "Express.js",
       imageSrc: express,
       imageId: "express",
+      imgStyles: {
+        width: "190px",
+      },
     },
     {
       name: "GraphQL",
       imageSrc: graphql,
       imageId: "graphql",
+      imgStyles: {
+        width: "150px",
+      },
     },
   ],
 };

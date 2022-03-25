@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React from "react";
 
 const talks = {
@@ -7,7 +8,7 @@ const talks = {
   content: [
     {
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           Laser-driven electron dynamics in molecules using time-dependent
           configuration interaction methods
         </q>
@@ -22,7 +23,7 @@ const talks = {
     },
     {
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           Time-resolved photoelectron spectra using explicitly time-dependent{" "}
           <abbr title="configuration interaction">CI</abbr> varitaions
         </q>
@@ -39,7 +40,7 @@ const talks = {
     },
     {
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           Laser-driven electron dynamics in molecules using time-dependent
           configuration interaction methods
         </q>
@@ -59,7 +60,7 @@ const talks = {
     },
     {
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           Lasergetriebene Vielelektronendynamik in molekularen Systemen
         </q>
       ),
@@ -73,7 +74,7 @@ const talks = {
     },
     {
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           Electron Dynamics: photoionization, dissipation, and nuclear modes
         </q>
       ),
@@ -91,7 +92,7 @@ const talks = {
     },
     {
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           A heuristic model describing effects of photoionization as an
           extension to time-dependent configuration interaction methods
         </q>
@@ -106,7 +107,7 @@ const talks = {
     },
     {
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           A rough model describing effects of photoionization as an extension to{" "}
           <abbr title="time-dependent configuration interaction singles">
             TD-CIS
@@ -127,7 +128,7 @@ const talks = {
     },
     {
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           First-order simultaneous optimization of molecular geometry and
           electronic wave function
         </q>
@@ -135,10 +136,10 @@ const talks = {
       article: (
         <span>
           (<span className="authors">Moss and Li</span>,{" "}
-          <span className="jtitle">The Journal of Chemical Physics</span>{" "}
-          <span className="jedition">129</span>,{" "}
+          <span sx={{ fontStyle: "italic" }}>The Journal of Chemical Physics</span>{" "}
+          <span sx={{ fontWeight: "bold" }}>129</span>,{" "}
           <span className="jpages">114102</span>{" "}
-          <span className="pubyear">2008</span>)
+          <span>(2008)</span>)
         </span>
       ),
       place: (
@@ -155,17 +156,17 @@ const talks = {
     },
     {
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           Pseudospectral time-dependent density functional theory
         </q>
       ),
       article: (
         <span>
           (<span className="authors">Ko et al.</span>,{" "}
-          <span className="jtitle">The Journal of Chemical Physics</span>{" "}
-          <span className="jedition">128</span>,{" "}
+          <span sx={{ fontStyle: "italic" }}>The Journal of Chemical Physics</span>{" "}
+          <span sx={{ fontWeight: "bold" }}>128</span>,{" "}
           <span className="jpages">104103</span>{" "}
-          <span className="pubyear">2008</span>)
+          <span>(2008)</span>)
         </span>
       ),
       place: (
@@ -182,7 +183,7 @@ const talks = {
     },
     {
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           Theorie des femtosekundenlaserinduzierten intermolekularen
           Elektronentransfers mittels zeitabhängiger
           Konfigurationswechselwirkungs-Methoden
@@ -203,7 +204,7 @@ const talks = {
     },
     {
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           Laser-induced Intermolecular Electron Transfer by using{" "}
           <abbr title="time-dependent configuration interaction singles">
             TD-CIS
@@ -224,7 +225,7 @@ const talks = {
     },
     {
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           Preparation and Excitation of Wave Packets for Cs@Cu (111)
         </q>
       ),

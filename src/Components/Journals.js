@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React from "react";
 import { TabPane } from "reactstrap";
 import AppContext from "../Context/AppContext";
@@ -23,19 +24,19 @@ const Journals = () => {
               return (
                 <li key={index}>
                   <span className="authors">{authors}</span>,{space}
-                  <q className="arttitle">{title}</q>,{space}
+                  <q sx={{ fontStyle: "italic"}}>{title}</q>,{space}
                   <a
                     href={href}
-                    className="journal"
                     target="_blank"
                     rel="noopener noreferrer"
+                    sx={{ color: "ggrey", backgroundColor: "#ddd", textDecoration: "none" }}
                   >
-                    <span className="jtitle">{publ}</span>
+                    <span sx={{ fontStyle: "italic" }}>{publ}</span>
                     {space}
-                    <span className="jedition">{edition}</span>,{space}
+                    <span sx={{ fontWeight: "bold" }}>{edition}</span>,{space}
                     <span className="jpages">{pages}</span>
                     {space}
-                    <span className="pubyear">{year}</span>
+                    <span>({year})</span>
                   </a>
                 </li>
               );

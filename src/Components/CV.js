@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React, { useState } from "react";
 import CVTitles from "./CVTitles";
 import CVContent from "./CVContent";
@@ -10,14 +11,14 @@ const CV = () => {
     }
   };
   return (
-    <div className="container sk-bg-white">
-      <div className="sk-placeholder-tiny" />
-      <section id="cv">
-        <h3>My Curriculum Vitae</h3>
+    <div className="container" sx={{ backgroundColor: "wwhite", opacity: 0.95, borderRadius: "10px" }}>
+      <div sx={{ height: "1vh" }} />
+      <section id="cv" sx={{ margin: "30px 0" }}>
+        <h3 sx={{ mb: "1rem" }}>My Curriculum Vitae</h3>
         <CVTitles toggle={toggle} activeTab={activeTab} />
         <CVContent activeTab={activeTab} />
       </section>
-      <div className="sk-placeholder-tiny" />
+      <div sx={{ height: "1vh" }} />
     </div>
   );
 };

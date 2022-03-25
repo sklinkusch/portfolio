@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React from "react";
 
 const certificates = {
@@ -10,7 +11,7 @@ const certificates = {
         time: <span>2002</span>,
         desc: (
           <span>
-            University entry exam (<span className="italic">Abitur</span>
+            University entry exam (<span sx={{ fontStyle: "italic" }}>Abitur</span>
             ), mark 1.5 (1.0 best, 4,0 just passed, 6.0 worst)
           </span>
         ),
@@ -28,8 +29,8 @@ const certificates = {
         time: <span>2011</span>,
         desc: (
           <span>
-            Ph.D in science (<span className="italic">Dr. rer. nat.</span>) mark{" "}
-            <span className="italic">magna cum laude</span>
+            Ph.D in science (<span sx={{ fontStyle: "italic" }}>Dr. rer. nat.</span>) mark{" "}
+            <span sx={{ fontStyle: "italic" }}>magna cum laude</span>
           </span>
         ),
       },

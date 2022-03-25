@@ -11,26 +11,41 @@ const styling = {
       name: "CSS3",
       imageSrc: css,
       imageId: "css",
+      imgStyles: {
+        width: "150px",
+      },
     },
     {
       name: "Sass/SCSS",
       imageSrc: sass,
       imageId: "sass",
+      imgStyles: {
+        width: "200px",
+      },
     },
     {
       name: "Bootstrap 4",
       imageSrc: bootstrap,
       imageId: "bootstrap",
+      imgStyles: {
+        width: "200px",
+      },
     },
     {
       name: "Theme UI",
       imageSrc: themeUi,
-      imageId: "themeUi"
+      imageId: "themeUi",
+      imgStyles: {
+        width: "200px",
+      },
     },
     {
       name: "Styled Components",
       imageSrc: styled,
-      imageId: "styledComponents"
+      imageId: "styledComponents",
+      imgStyles: {
+        width: "200px",
+      },
     },
   ],
 };
