@@ -7,6 +7,7 @@ const contentManagement = {
       name: "Sanity",
       imageSrc: sanity,
       imageId: "sanity",
+      link: "https://www.sanity.io",
       imgStyles: {
         width: "200px",
       },

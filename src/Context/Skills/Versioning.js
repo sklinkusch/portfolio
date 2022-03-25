@@ -9,6 +9,7 @@ const versioning = {
       name: "git",
       imageSrc: git,
       imageId: "git",
+      link: "https://git-scm.com/",
       imgStyles: {
         width: "200px",
       },
@@ -17,6 +18,7 @@ const versioning = {
       name: "GitHub",
       imageSrc: github,
       imageId: "github",
+      link: "https://github.com",
       imgStyles: {
         width: "200px",
       },
@@ -25,6 +27,7 @@ const versioning = {
       name: "Atlassian Bitbucket",
       imageSrc: bitbucket,
       imageId: "bitbucket",
+      link: "https://www.atlassian.com/",
       imgStyles: {
         width: "200px",
       },

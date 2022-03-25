@@ -11,6 +11,7 @@ const styling = {
       name: "CSS3",
       imageSrc: css,
       imageId: "css",
+      link: "https://www.w3.org/Style/CSS/",
       imgStyles: {
         width: "150px",
       },
@@ -19,14 +20,16 @@ const styling = {
       name: "Sass/SCSS",
       imageSrc: sass,
       imageId: "sass",
+      link: "https://sass-lang.com/",
       imgStyles: {
         width: "200px",
       },
     },
     {
-      name: "Bootstrap 4",
+      name: "Bootstrap",
       imageSrc: bootstrap,
       imageId: "bootstrap",
+      link: "https://getbootstrap.com/",
       imgStyles: {
         width: "200px",
       },
@@ -35,6 +38,7 @@ const styling = {
       name: "Theme UI",
       imageSrc: themeUi,
       imageId: "themeUi",
+      link: "https://theme-ui.com/",
       imgStyles: {
         width: "200px",
       },
@@ -43,6 +47,7 @@ const styling = {
       name: "Styled Components",
       imageSrc: styled,
       imageId: "styledComponents",
+      link: "https://styled-components.com/",
       imgStyles: {
         width: "200px",
       },

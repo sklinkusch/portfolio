@@ -8,6 +8,7 @@ const programming = {
       name: "C++",
       imageSrc: cplusplus,
       imageId: "cplusplus",
+      link: "https://cplusplus.com/",
       imgStyles: {
         width: "190px",
       },
@@ -16,6 +17,7 @@ const programming = {
       name: "Fortran 90",
       imageSrc: fortran,
       imageId: "fortran",
+      link: "https://fortran-lang.org/",
       imgStyles: {
         width: "200px",
       },

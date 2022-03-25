@@ -33,7 +33,7 @@ The webpage features
     - [CSS3](https://www.w3.org/Style/CSS/)
     - [Sass/SCSS](https://sass-lang.com/)
     - [Bootstrap](https://getbootstrap.com/)
-    - [Theme-UI](https://getbootstrap.com/)
+    - [Theme-UI](https://theme-ui.com/)
     - [Styled-Components](https://styled-components.com/)
   - Versioning
     - [git](https://git-scm.com/)

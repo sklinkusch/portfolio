@@ -7,6 +7,7 @@ const databases = {
       name: "MongoDB",
       imageSrc: mongodb,
       imageId: "mongodb",
+      link: "https://www.mongodb.com/",
       imgStyles: {
         width: "190px",
       },

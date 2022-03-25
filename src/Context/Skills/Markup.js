@@ -9,6 +9,7 @@ const markup = {
       name: "HTML5",
       imageSrc: html,
       imageId: "html",
+      link: "https://www.w3.org/html/",
       imgStyles: {
         width: "220px",
       },
@@ -17,11 +18,13 @@ const markup = {
       name: "Markdown",
       imageSrc: markdown,
       imageId: "markdown",
+      link: "https://daringfireball.net/projects/markdown/"
     },
     {
       name: "LaTeX",
       imageSrc: latex,
       imageId: "latex",
+      link: "https://www.latex-project.org/",
       imgStyles: {
         width: "200px",
       },

@@ -7,6 +7,7 @@ const mobile = {
       name: "React Native",
       imageSrc: react,
       imageId: "react",
+      link: "http://reactnative.dev/",
       imgStyles: {
         width: "250px",
       },

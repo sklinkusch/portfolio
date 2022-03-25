@@ -9,6 +9,7 @@ const scripting = {
       name: "ECMAScript 6",
       imageSrc: javascript,
       imageId: "ecmascript",
+      link: "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/",
       imgStyles: {
         width: "150px",
       },
@@ -17,6 +18,7 @@ const scripting = {
       name: "Perl",
       imageSrc: perl,
       imageId: "perl",
+      link: "https://www.perl.org/",
       imgStyles: {
         minHeight: "210px",
         maxWidth: "250px",
@@ -28,6 +30,7 @@ const scripting = {
       name: "Bourne-Again Shell",
       imageSrc: bash,
       imageId: "bash",
+      link: "https://www.gnu.org/software/bash/",
       imgStyles: {
         maxHeight: "200px",
       },

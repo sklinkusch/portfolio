@@ -9,6 +9,7 @@ const operating = {
       name: "Linux",
       imageSrc: linux,
       imageId: "linux",
+      link: "https://www.kernel.org/",
       imgStyles: {
         width: "170px",
       },
@@ -17,6 +18,7 @@ const operating = {
       name: "Ubuntu",
       imageSrc: ubuntu,
       imageId: "ubuntu",
+      link: "https://ubuntu.com/",
       imgStyles: {
         width: "190px",
       },
@@ -25,6 +27,7 @@ const operating = {
       name: "openSUSE",
       imageSrc: opensuse,
       imageId: "opensuse",
+      link: "https://www.opensuse.org/",
       imgStyles: {
         width: "190px",
       },

@@ -10,6 +10,7 @@ const shop = {
       name: "Shopify",
       imageSrc: shopify,
       imageId: "shopify",
+      link: "https://www.shopify.com/",
       imgStyles: {
         width: "200px",
       },
@@ -18,11 +19,13 @@ const shop = {
       name: "WooCommerce",
       imageSrc: woocommerce,
       imageId: "WooCommerce",
+      link: "https://woocommerce.com/",
     },
     {
       name: "Drip",
       imageSrc: drip,
       imageId: "Drip",
+      link: "https://www.drip.com/",
       imgStyles: {
         width: "200px",
       },
@@ -31,6 +34,7 @@ const shop = {
       name: "BillBee",
       imageSrc: billbee,
       imageId: "billbee",
+      link: "https://www.billbee.io/",
       imgStyles: {
         width: "200px",
       },

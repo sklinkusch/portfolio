@@ -8,6 +8,7 @@ const state = {
       name: "Redux",
       imageSrc: redux,
       imageId: "redux",
+      link: "https://redux.js.org/",
       imgStyles: {
         width: "150px",
       },
@@ -16,6 +17,7 @@ const state = {
       name: "Context API",
       imageSrc: react,
       imageId: "react",
+      link: "https://reactjs.org/docs/context.html",
       imgStyles: {
         width: "250px",
       },

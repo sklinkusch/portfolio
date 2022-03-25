@@ -8,6 +8,7 @@ const editors = {
       name: "VS Code",
       imageSrc: vscode,
       imageId: "vscode",
+      link: "https://code.visualstudio.com/",
       imgStyles: {
         width: "190px",
       },
@@ -16,6 +17,7 @@ const editors = {
       name: "Brackets",
       imageSrc: brackets,
       imageId: "brackets",
+      link: "https://brackets.io/",
     },
   ],
 };
