@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React from "react"
 
 const RefItem = (props) => {
@@ -11,7 +12,7 @@ const RefItem = (props) => {
             href={data.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="exlink"
+            sx={{ color: "ggrey", textDecoration: "none", backgroundColor: "#eee" }}
           >
             {data.title}
           </a>

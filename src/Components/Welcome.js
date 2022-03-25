@@ -1,11 +1,12 @@
+/** @jsxImportSource theme-ui */
 import React from "react";
 import { Button } from "reactstrap";
 
 const Welcome = () => (
-  <div className="container sk-bg-white">
-    <div className="sk-placeholder-tiny" />
-    <section id="jumbotron">
-      <div class="jumbotron">
+  <div className="container" sx={{ backgroundColor: "wwhite", opacity: 0.95, borderRadius: "10px" }}>
+    <div sx={{ height: "1vh" }} />
+    <section id="jumbotron" sx={{ margin: "30px 0" }}>
+      <div class="jumbotron" sx={{ padding: "2rem", borderRadius: "6px" }}>
         <h1>Welcome to my page!</h1>
         <p>
           I am a computational chemist and frontend web developer based in
@@ -23,7 +24,7 @@ const Welcome = () => (
         </Button>
       </div>
     </section>
-    <div className="sk-placeholder-verytiny" />
+    <div sx={{ height: "0.01px" }} />
   </div>
 );
 

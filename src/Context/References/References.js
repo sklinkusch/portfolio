@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React from "react"
 
 const references = [
@@ -27,7 +28,7 @@ const references = [
         title: (
           <span>
             Special Research Area{" "}
-            <span className="italic">(Sonderforschungsbereich)</span> Sfb450 for
+            <span sx={{ fontStyle: "italic" }}>(Sonderforschungsbereich)</span> Sfb450 for
             funding
           </span>
         ),

@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React from "react";
 
 const posters = {
@@ -8,7 +9,7 @@ const posters = {
     {
       authors: "Stefan Klinkusch and Jean Christophe Tremblay",
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           Simulations of time-resolved photoelectron spectra using extended
           time-dependent configuration interaction methods
         </q>
@@ -20,7 +21,7 @@ const posters = {
     {
       authors: "Stefan Klinkusch, Tillmann Klamroth, and Peter Saalfrank",
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           Laser-induced electron dynamics including photoionization: A heuristic
           model within time-dependent configuration interaction theory
         </q>
@@ -32,7 +33,7 @@ const posters = {
             DFG
           </abbr>
           :{" "}
-          <span className="jtitle">
+          <span sx={{ fontStyle: "italic" }}>
             Modern and Universal First-Principles Methods for Many-Electron
             Systems in Chemistry and Physics
           </span>
@@ -44,7 +45,7 @@ const posters = {
     {
       authors: "Stefan Klinkusch, Tillmann Klamroth, and Peter Saalfrank",
       title: (
-        <q className="arttitle">
+        <q sx={{ fontStyle: "italic" }}>
           Laser-induced intermolecular electron transfer by means of{" "}
           <abbr title="time-dependent configuration interaction singles">
             TD-CIS

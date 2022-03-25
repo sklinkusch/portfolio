@@ -1,12 +1,13 @@
+/** @jsxImportSource theme-ui */
 import React from "react";
 import RefItem from "./RefItem";
 import AppContext from "../Context/AppContext";
 
 const References = () => (
-  <div className="container sk-bg-white">
-    <div className="sk-placeholder-tiny" />
-    <section id="refs">
-      <h3>References</h3>
+  <div className="container" sx={{ backgroundColor: "wwhite", opacity: 0.95, borderRadius: "10px" }}>
+    <div sx={{ height: "1vh" }} />
+    <section id="refs" sx={{ margin: "30px 0" }}>
+      <h3 sx={{ mb: "1rem" }}>References</h3>
       <ul>
         <AppContext.Consumer>
           {context =>
@@ -17,7 +18,7 @@ const References = () => (
         </AppContext.Consumer>
       </ul>
     </section>
-    <div className="sk-placeholder-tiny" />
+    <div sx={{ height: "1vh" }} />
   </div>
 );
 

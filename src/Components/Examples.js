@@ -1,14 +1,15 @@
+/** @jsxImportSource theme-ui */
 import React from "react";
 import ExampleSec from "./ExampleSec";
 import AppContext from "../Context/AppContext";
 
 const Examples = () => (
-  <div className="container sk-bg-white">
-    <div className="sk-placeholder-tiny" />
+  <div className="container" sx={{ backgroundColor: "wwhite", opacity: 0.95, borderRadius: "10px" }}>
+    <div sx={{ height: "1vh" }} />
     <AppContext.Consumer>
       {context => (
-        <section id="examples">
-          <h3>Examples of my work</h3>
+        <section id="examples" sx={{ margin: "30px 0" }}>
+          <h3 sx={{ mb: "1rem" }}>Examples of my work</h3>
           <ExampleSec
             title="Examples using HTML, CSS/SCSS, and Bootstrap"
             data={context.html}
@@ -21,7 +22,7 @@ const Examples = () => (
         </section>
       )}
     </AppContext.Consumer>
-    <div className="sk-placeholder-tiny" />
+    <div sx={{ height: "1vh" }} />
   </div>
 );
 

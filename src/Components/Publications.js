@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React, { useState } from "react"
 import { TabContent } from "reactstrap"
 import PubTitles from "./PubTitles"
@@ -14,10 +15,10 @@ const Publications = () => {
     }
   }
   return (
-    <div className="container sk-bg-white sk-pb-16px">
-      <div className="sk-placeholder-tiny" />
-      <section id="pubs">
-        <h3>Publications</h3>
+    <div className="container" sx={{ pb: "16px", backgroundColor: "wwhite", opacity: 0.95, borderRadius: "10px" }}>
+      <div sx={{ height: "1vh" }} />
+      <section id="pubs" sx={{ margin: "30px 0" }}>
+        <h3 sx={{ mb: "1rem" }}>Publications</h3>
         <PubTitles toggle={toggle} activeTab={activeTab} />
         <TabContent activeTab={activeTab}>
           <Theses />

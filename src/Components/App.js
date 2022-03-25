@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React, { useRef, useState, useEffect } from "react"
 import MyNavbar from "./MyNavbar"
 import TitleImage from "./TitleImage"
@@ -11,6 +12,7 @@ import References from "./References"
 import Examples from "./Examples"
 import Contact from "./Contact"
 import Footer from "./Footer"
+import background from "../images/photo-1515524738708-327f6b0037a7.jpeg"
 /* eslint-disable react-hooks/exhaustive-deps */
 
 const App = () => {
@@ -34,27 +36,27 @@ const App = () => {
   window.onload = () => postDimensions()
   window.onresize = () => postDimensions()
   return (
-    <div className="App" ref={AppRef}>
+    <div className="App" ref={AppRef} sx={{ fontFamily: "body", backgroundImage: `url(${background})`, margin: 0, WebkitFontSmoothing: "antialiased", MozOsxFontSmoothing: "grayscale" }}>
       <MyNavbar />
       <TitleImage />
       <Welcome />
-      <div className="sk-placeholder" />
+      <div sx={{ height: "3vh" }} />
       <Blockquote />
-      <div className="sk-placeholder" />
+      <div sx={{ height: "3vh" }} />
       <Compskills />
-      <div className="sk-placeholder" />
+      <div sx={{ height: "3vh" }} />
       <Langskills />
-      <div className="sk-placeholder" />
+      <div sx={{ height: "3vh" }} />
       <CV />
-      <div className="sk-placeholder" />
+      <div sx={{ height: "3vh" }} />
       <Publications />
-      <div className="sk-placeholder" />
+      <div sx={{ height: "3vh" }} />
       <References />
-      <div className="sk-placeholder" />
+      <div sx={{ height: "3vh" }} />
       <Examples />
-      <div className="sk-placeholder" />
+      <div sx={{ height: "3vh" }} />
       <Contact />
-      <div className="sk-placeholder" />
+      <div sx={{ height: "3vh" }} />
       <Footer />
     </div>
   )

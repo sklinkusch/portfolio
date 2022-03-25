@@ -1,10 +1,11 @@
+/** @jsxImportSource theme-ui */
 import React from "react"
 import AppContext from "../Context/AppContext"
 import CompskillCard from "./CompskillCard"
 
 const CompskillsMediumLarge = () => (
-  <section id="compskills" className="d-none d-md-block">
-    <h3> Computer-related Skills</h3>
+  <section id="compskills" className="d-none d-md-block" sx={{ margin: "30px 0" }}>
+    <h3 sx={{ mb: "1rem" }}> Computer-related Skills</h3>
     <AppContext.Consumer>
       {(context) =>
         context.skills.map((skill, index) => (
@@ -27,8 +28,9 @@ const CompskillsSmall = () => {
     <section
       id="compskills"
       className="d-block d-md-none"
+      sx={{ margin: "30px 0" }}
     >
-      <h3> Computer-related Skills</h3>
+      <h3 sx={{ mb: "1rem" }}> Computer-related Skills</h3>
       <AppContext.Consumer>
         {(context) =>
           context.skills.map((skill, oindex) => (
@@ -51,11 +53,11 @@ const CompskillsSmall = () => {
 }
 
 const Compskills = () => (
-  <div className="container sk-bg-white">
-    <div className="sk-placeholder-tiny" />
+  <div className="container" sx={{ backgroundColor: "wwhite", opacity: 0.95, borderRadius: "10px" }}>
+    <div sx={{ height: "1vh" }} />
     <CompskillsMediumLarge />
     <CompskillsSmall />
-    <div className="sk-placeholder-tiny" />
+    <div sx={{ height: "1vh" }} />
   </div>
 )
 

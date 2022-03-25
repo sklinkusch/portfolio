@@ -1,3 +1,4 @@
+/** @jsxImportSource theme-ui */
 import React, { useRef } from "react";
 import ContactForm from "./ContactForm";
 
@@ -12,10 +13,10 @@ const Contact = () => {
     messField.current.value = "";
   };
   return (
-    <div className="container sk-bg-white">
-      <section id="contact">
-        <div className="sk-placeholder-tiny" />
-        <h3>Contact</h3>
+    <div className="container" sx={{ backgroundColor: "white", borderRadius: "10px" }}>
+      <section id="contact" sx={{ margin: "30px 0" }}>
+        <div sx={{ height: "1vh" }} />
+        <h3 sx={{ mb: "1rem" }}>Contact</h3>
         <p>
           If you would like to come in contact with me, feel free to write me a
           message here.
@@ -26,7 +27,7 @@ const Contact = () => {
           messField={messField}
           deleteAll={deleteAll}
         />
-        <div className="sk-placeholder-tiny" />
+        <div sx={{ height: "1vh" }} />
       </section>
     </div>
   );

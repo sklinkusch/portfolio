@@ -42,7 +42,7 @@ const MyNavbar = () => {
               <DropdownToggle nav caret>
                 Skills
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu end>
                 <DropdownItem href="#compskills">
                   Computer-related skills
                 </DropdownItem>

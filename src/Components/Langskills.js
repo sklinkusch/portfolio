@@ -2,25 +2,25 @@
 import React from "react";
 
 const Langskills = () => (
-  <div className="container" id="langskills" sx={{ backgroundColor: "white" }}>
-    <div className="sk-placeholder-tiny" />
-    <section>
-      <h3>Language Skills</h3>
+  <div className="container" id="langskills" sx={{ backgroundColor: "white", borderRadius: "10px" }}>
+    <div sx={{ height: "1vh" }} />
+    <section sx={{ margin: "30px 0" }}>
+      <h3 sx={{ mb: "1rem" }}>Language Skills</h3>
       <div className="progress" sx={{ height: "2.5rem" }}>
         <div
-          className="progress-bar sk-col-white bold"
-          sx={{ paddingLeft: "15px", textAlign: "left !important", width: "33.33%", backgroundColor: "black", height: "1.5rem" }}
+          className="progress-bar"
+          sx={{ paddingLeft: "15px", textAlign: "left !important", width: "33.33%", backgroundColor: "black", height: "1.5rem", fontWeight: "bold", color: "wwhite" }}
           role="progressbar"
           aria-valuenow="25"
           aria-valuemin="0"
           aria-valuemax="100"
         >
-          <span className="sk-col-white bold" sx={{ display: "none", '@media screen and (min-width: 451px)': { display: "inline" }}}>German (native)</span>
-          <span className="sk-col-white bold" sx={{ display: "inline", '@media screen and (min-width: 451px)': { display: "none" }}}>German</span>
+          <span sx={{ display: "none", fontWeight: "bold", color: "wwhite", '@media screen and (min-width: 451px)': { display: "inline" }}}>German (native)</span>
+          <span sx={{ display: "inline", fontWeight: "bold", color: "wwhite", '@media screen and (min-width: 451px)': { display: "none" }}}>German</span>
         </div>
         <div
-          className="progress-bar sk-col-white bold"
-          sx={{ width: "33.33%", backgroundColor: "red", height: "1.5rem" }}
+          className="progress-bar"
+          sx={{ width: "33.33%", backgroundColor: "red", height: "1.5rem", fontWeight: "bold", color: "wwhite" }}
           role="progressbar"
           aria-valuenow="25"
           aria-valuemin="0"
@@ -39,8 +39,8 @@ const Langskills = () => (
       </div>
       <div className="progress" sx={{ height: "2.5rem"}}>
         <div
-          className="progress-bar sk-col-white bold"
-          sx={{ paddingLeft: "15px", textAlign: "left !important", width: "28%", backgroundColor: "blue", height: "1.5rem" }}
+          className="progress-bar"
+          sx={{ paddingLeft: "15px", textAlign: "left !important", width: "28%", backgroundColor: "blue", height: "1.5rem", fontWeight: "bold", color: "wwhite" }}
           role="progressbar"
           aria-valuenow="50"
           aria-valuemin="0"
@@ -67,8 +67,8 @@ const Langskills = () => (
       </div>
       <div className="progress" sx={{ height: "2.5rem" }}>
         <div
-          className="progress-bar sk-col-white bold"
-          sx={{ paddingLeft: "15px", textAlign: "left !important", widh: "25%", backgroundColor: "blue", height: "1.5rem" }}
+          className="progress-bar"
+          sx={{ paddingLeft: "15px", textAlign: "left !important", widh: "25%", backgroundColor: "blue", height: "1.5rem", fontWeight: "bold", color: "wwhite" }}
           role="progressbar"
           aria-valuenow="75"
           aria-valuemin="0"
@@ -95,8 +95,8 @@ const Langskills = () => (
       </div>
       <div className="progress" sx={{ height: "2.5rem" }}>
         <div
-          className="progress-bar sk-col-black bold"
-          sx={{ borderTop: "1px solid black", borderLeft: "1px solid black", borderBottom: "1px solid black", paddingLeft: "15px", textAlign: "left !important", width: "30%", backgroundColor: "yellow", height: "1.5rem" }}
+          className="progress-bar"
+          sx={{ borderTop: "1px solid black", borderLeft: "1px solid black", borderBottom: "1px solid black", paddingLeft: "15px", textAlign: "left !important", width: "30%", backgroundColor: "yellow", height: "1.5rem", fontWeight: "bold", color: "black" }}
           role="progressbar"
           aria-valuenow="100"
           aria-valuemin="0"
@@ -114,7 +114,7 @@ const Langskills = () => (
         />
       </div>
     </section>
-    <div className="sk-placeholder-tiny" />
+    <div sx={{ height: "1vh" }} />
   </div>
 );
 

@@ -7,7 +7,7 @@ const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <div className="container sk-bg-white">
+    <div className="container" sx={{ backgroundColor: "wwhite", opacity: 0.95, borderRadius: "10px" }}>
       <footer>
         <div sx={{ textAlign: "center", fontSize: "1.5rem" }}>
           <AppContext.Consumer>

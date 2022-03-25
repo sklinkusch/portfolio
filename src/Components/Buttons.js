@@ -1,7 +1,8 @@
+/** @jsxImportSource theme-ui */
 import React from "react";
 
 const Buttons = props => (
-  <div className="sk-buttons-group">
+  <div sx={{ textAlign: "center" }}>
     <button type="submit" className="btn btn-success">
       Send message
     </button>
