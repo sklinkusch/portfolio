@@ -1,4 +1,4 @@
-import vscode from "../../images/Visual_Studio_Code_1.35_icon.svg";
+import vscode from "../../images/Visual_Studio_Code_1.35_icon.png";
 import brackets from "../../images/Brackets.png";
 
 const editors = {
