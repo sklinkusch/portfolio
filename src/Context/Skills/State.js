@@ -1,5 +1,5 @@
 import redux from "../../images/redux-logo.png";
-import react from "../../images/React.svg";
+import react from "../../images/React.png";
 
 const state = {
   title: "State Management",
