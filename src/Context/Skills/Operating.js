@@ -1,6 +1,6 @@
-import linux from "../../images/Linux.svg";
-import ubuntu from "../../images/Ubuntu.svg";
-import opensuse from "../../images/OpenSUSE.svg";
+import linux from "../../images/Linux.png";
+import ubuntu from "../../images/Ubuntu.png";
+import opensuse from "../../images/OpenSUSE.png";
 
 const operating = {
   title: "Operating Systems",
