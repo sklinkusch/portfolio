@@ -1,4 +1,4 @@
-import slack from "../../images/Slack.svg";
+import slack from "../../images/Slack.png";
 import asana from "../../images/Asana.png";
 import gcalendar from "../../images/Google-Calendar.png";
 
