@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import React, { useRef, useState, useEffect } from "react"
+import React from "react"
 import MyNavbar from "./MyNavbar"
 import TitleImage from "./TitleImage"
 import Welcome from "./Welcome"
@@ -16,27 +16,8 @@ import background from "../images/photo-1515524738708-327f6b0037a7.jpeg"
 /* eslint-disable react-hooks/exhaustive-deps */
 
 const App = () => {
-  const AppRef = useRef()
-  const [height, setHeight] = useState(null)
-  const postDimensions = () => {
-    if (height !== AppRef.current.offsetHeight) {
-      const myHeight = Math.max(
-        height,
-        AppRef.current.offsetHeight,
-        AppRef.current.scrollHeight
-      )
-      setHeight(myHeight)
-      window.parent.postMessage({ frameHeight: myHeight }, "*")
-      /*console.log(myHeight);*/
-    }
-  }
-  useEffect(() => {
-    postDimensions()
-  }, [])
-  window.onload = () => postDimensions()
-  window.onresize = () => postDimensions()
   return (
-    <div className="App" ref={AppRef} sx={{ fontFamily: "body", backgroundImage: `url(${background})`, margin: 0, WebkitFontSmoothing: "antialiased", MozOsxFontSmoothing: "grayscale" }}>
+    <div className="App" sx={{ fontFamily: "body", backgroundImage: `url(${background})`, margin: 0, WebkitFontSmoothing: "antialiased", MozOsxFontSmoothing: "grayscale" }}>
       <MyNavbar />
       <TitleImage />
       <Welcome />
