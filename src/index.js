@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./Components/App";
 import AppProvider from "./Context/AppProvider";
@@ -7,13 +7,14 @@ import { ThemeProvider } from "@theme-ui/core";
 import theme from "./styles/theme";
 import reportWebVitals from "./reportWebVitals";
 
-ReactDOM.render(
+const container = document.getElementById("root")
+const root = createRoot(container)
+root.render(
   <ThemeProvider theme={theme}>
     <AppProvider>
       <App />
     </AppProvider>
-  </ThemeProvider>,
-  document.getElementById("root")
+  </ThemeProvider>
 );
 
 // If you want your app to work offline and load faster, you can change
