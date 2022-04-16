@@ -1,6 +1,6 @@
-import javascript from "../../images/ES6LOGO.svg";
+import javascript from "../../images/ES6LOGO.png";
 import perl from "../../images/Perl.png";
-import bash from "../../images/Bash.svg";
+import bash from "../../images/Bash.png";
 
 const scripting = {
   title: "Scripting Languages",
@@ -33,6 +33,7 @@ const scripting = {
       link: "https://www.gnu.org/software/bash/",
       imgStyles: {
         maxHeight: "200px",
+        width: "100%"
       },
     },
   ],

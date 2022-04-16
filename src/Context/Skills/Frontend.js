@@ -1,4 +1,4 @@
-import react from "../../images/React.svg";
+import react from "../../images/React.png";
 import gatsby from "../../images/Gatsby.png";
 
 const frontend = {

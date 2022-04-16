@@ -1,4 +1,4 @@
-import git from "../../images/Git-logo.svg";
+import git from "../../images/Git-logo.png";
 import github from "../../images/Github.png";
 import bitbucket from "../../images/bitbucket.png";
 

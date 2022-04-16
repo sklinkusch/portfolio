@@ -1,4 +1,4 @@
-import html from "../../images/HTML5_logo_and_wordmark.svg";
+import html from "../../images/HTML5_logo_and_wordmark.png";
 import markdown from "../../images/markdown.png";
 import latex from "../../images/220px-LaTeX_logo.svg.png";
 

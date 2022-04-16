@@ -1,4 +1,4 @@
-import nodejs from "../../images/Node.js_logo.svg";
+import nodejs from "../../images/Node.js_logo.png";
 import express from "../../images/Expressjs.png";
 import graphql from "../../images/480px-GraphQL_Logo.svg.png";
 
