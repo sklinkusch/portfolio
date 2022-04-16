@@ -68,7 +68,7 @@ const Langskills = () => (
       <div className="progress" sx={{ height: "2.5rem" }}>
         <div
           className="progress-bar"
-          sx={{ paddingLeft: "15px", textAlign: "left !important", widh: "25%", backgroundColor: "blue", height: "1.5rem", fontWeight: "bold", color: "wwhite" }}
+          sx={{ paddingLeft: "15px", textAlign: "left !important", width: "25%", backgroundColor: "blue", height: "1.5rem", fontWeight: "bold", color: "wwhite" }}
           role="progressbar"
           aria-valuenow="75"
           aria-valuemin="0"
