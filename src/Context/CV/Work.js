@@ -34,11 +34,17 @@ const work = {
         ),
       },
       {
-        time: <span>since 2020</span>,
+        time: <span>2020-2022</span>,
         desc: (
           <span>Web developer at Daizu GmbH/sleep.ink in Berlin, Germany</span>
         ),
       },
+      {
+        time: <span>since 2022</span>,
+        desc: (
+          <span>Web developer at ~sedna GmbH in Berlin, Germany</span>
+        ),
+      }
     ],
   },
 };
