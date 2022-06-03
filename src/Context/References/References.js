@@ -76,6 +76,10 @@ const references = [
     title: <span>Daizu GmbH/sleep.ink</span>,
     href: "https://sleep.ink",
   },
+  {
+    title: <span>~sedna GmbH</span>,
+    href: "https://sedna.de"
+  },
 ]
 
 export default references
