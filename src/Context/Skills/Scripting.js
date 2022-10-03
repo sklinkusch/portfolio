@@ -1,4 +1,5 @@
 import javascript from "../../images/ES6LOGO.png";
+import typescript from "../../images/TypeScript.svg"
 import perl from "../../images/Perl.png";
 import bash from "../../images/Bash.png";
 
@@ -10,6 +11,15 @@ const scripting = {
       imageSrc: javascript,
       imageId: "ecmascript",
       link: "https://www.ecma-international.org/publications-and-standards/standards/ecma-262/",
+      imgStyles: {
+        width: "150px",
+      },
+    },
+    {
+      name: "TypeScript",
+      imageSrc: typescript,
+      imageId: "typescript",
+      link: "https://www.typescriptlang.org/",
       imgStyles: {
         width: "150px",
       },
