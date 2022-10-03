@@ -3,6 +3,16 @@ import React from "react";
 import { TabPane } from "reactstrap";
 import AppContext from "../Context/AppContext";
 
+type Journal = {
+  authors: string,
+  title: string,
+  href: string,
+  journal: string,
+  edition: string,
+  pages: string,
+  year: string
+}
+
 const Journals = () => {
   const number = 1;
   const space = " ";
@@ -11,7 +21,7 @@ const Journals = () => {
       <ol reversed>
         <AppContext.Consumer>
           {context =>
-            context.journals.map((journal, index) => {
+            context.journals.map((journal: Journal, index: number) => {
               const {
                 authors,
                 title,
