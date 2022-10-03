@@ -1,5 +1,6 @@
 import react from "../../images/React.png";
 import gatsby from "../../images/Gatsby.png";
+import angularjs from "../../images/AngularJS.svg";
 
 const frontend = {
   title: "Frontend Frameworks",
@@ -21,6 +22,15 @@ const frontend = {
       imgStyles: {
         width: "200px",
       },
+    },
+    {
+      name: "AngularJS",
+      imageSrc: angularjs,
+      imageId: "angularjs",
+      link: "http://www.angularjs.org/",
+      imgStyle: {
+        width: "150px",
+      }
     },
   ],
 };
