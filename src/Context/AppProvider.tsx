@@ -15,7 +15,7 @@ import javascript from "./Examples/Javascript";
 import react from "./Examples/React";
 import footerLinks from "./Footer/FooterLinks";
 
-const AppProvider = (props) => {
+const AppProvider = (props: any) => {
   const [state] = useState({
     skills: compskills,
     CVTabTitles,
