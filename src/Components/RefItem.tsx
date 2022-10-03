@@ -1,7 +1,15 @@
 /** @jsxImportSource theme-ui */
 import React from "react"
 
-const RefItem = (props) => {
+type Props = {
+  data: {
+    subitems: any[],
+    href: string,
+    title: string
+  }
+}
+
+const RefItem = (props: Props) => {
   const { data } = props
   const subs = "subitems" in data && data.subitems.length > 0 ? true : false
   return (
