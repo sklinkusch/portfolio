@@ -63,12 +63,12 @@ const references = [
         href: "https://kaigrossehartlage.com",
       },
       {
-        title: <span>Peter R. Stuhlmann</span>,
-        href: "https://peter-stuhlmann-webentwicklung.de",
-      },
-      {
         title: <span>Marta Kolodziejczak</span>,
         href: "https://my-portfolio.m4r28.vercel.app",
+      },
+      {
+        title: <span>Peter R. Stuhlmann</span>,
+        href: "https://peter-stuhlmann-webentwicklung.de",
       },
     ],
   },

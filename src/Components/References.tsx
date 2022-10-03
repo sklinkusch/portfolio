@@ -11,7 +11,7 @@ const References = () => (
       <ul>
         <AppContext.Consumer>
           {context =>
-            context.references.map((reference, index) => (
+            context.references.map((reference: any, index: number) => (
               <RefItem key={index} data={reference} />
             ))
           }
