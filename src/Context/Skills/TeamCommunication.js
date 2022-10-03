@@ -1,4 +1,5 @@
 import slack from "../../images/Slack.png";
+import rocketchat from "../../images/RocketChat.png";
 import asana from "../../images/Asana.png";
 import gcalendar from "../../images/Google-Calendar.png";
 
@@ -12,6 +13,15 @@ const teamcommunication = {
       link: "https://slack.com/",
       imgStyles: {
         width: "190px",
+      },
+    },
+    {
+      name: "RocketChat",
+      imageSrc: rocketchat,
+      imageId: "rocketchat",
+      link: "https://www.rocket.chat",
+      imgStyles: {
+        width: "180px",
       },
     },
     {
