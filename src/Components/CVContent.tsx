@@ -3,11 +3,22 @@ import { TabContent } from "reactstrap";
 import CVTab from "./CVTab";
 import AppContext from "../Context/AppContext";
 
-const CVContent = props => (
+type Props = {
+  activeTab: number
+}
+
+type Tab = {
+  list: {
+    time: string,
+    desc: string
+  }[]
+}
+
+const CVContent = (props: Props) => (
   <TabContent activeTab={props.activeTab}>
     <AppContext.Consumer>
       {context =>
-        context.CVContent.map((tab, index) => (
+        context.CVContent.map((tab: Tab, index: number) => (
           <CVTab key={index} data={tab} number={index} />
         ))
       }
