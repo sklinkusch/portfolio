@@ -1,6 +1,7 @@
 import git from "../../images/Git-logo.png";
 import github from "../../images/Github.png";
 import bitbucket from "../../images/bitbucket.png";
+import gitlab from "../../images/GitLab.svg";
 
 const versioning = {
   title: "Versioning",
@@ -31,7 +32,16 @@ const versioning = {
       imgStyles: {
         width: "200px",
       },
-    }
+    },
+    {
+      name: "GitLab",
+      imageSrc: gitlab,
+      imageId: "gitlab",
+      link: "https://gitlab.com/",
+      imgStyles: {
+        width: "250px",
+      },
+    },
   ],
 };
 
