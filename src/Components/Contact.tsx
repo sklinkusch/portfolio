@@ -3,14 +3,17 @@ import React, { useRef } from "react";
 import ContactForm from "./ContactForm";
 
 const Contact = () => {
-  const nameField = useRef(null);
-  const mailField = useRef(null);
-  const messField = useRef(null);
-  const deleteAll = event => {
+  const nameField = useRef<HTMLInputElement>(null);
+  const mailField = useRef<HTMLInputElement>(null);
+  const messField = useRef<HTMLTextAreaElement>(null);
+  const deleteAll = (event: { preventDefault: Function }) => {
     event.preventDefault();
-    nameField.current.value = "";
-    mailField.current.value = "";
-    messField.current.value = "";
+    const nameCurrent = nameField.current as HTMLInputElement
+    nameCurrent.value = "";
+    const mailCurrent = mailField.current as HTMLInputElement
+    mailCurrent.value = "";
+    const messCurrent = messField.current as HTMLTextAreaElement
+    messCurrent.value = "";
   };
   return (
     <div className="container" sx={{ backgroundColor: "white", borderRadius: "10px" }}>
