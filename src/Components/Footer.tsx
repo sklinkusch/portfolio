@@ -3,6 +3,13 @@ import React from "react";
 import "@fortawesome/fontawesome-free/css/all.css";
 import AppContext from "../Context/AppContext";
 
+type Link = {
+  href: string,
+  icon: string,
+  color: string,
+  hoverColor: string
+}
+
 const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
@@ -13,7 +20,7 @@ const Footer = () => {
           <AppContext.Consumer>
             {(context) =>
               context.footerLinks
-                .map((link, index) => (
+                .map((link: Link, index: number) => (
                   <a
                     href={link.href}
                     target="_blank"
@@ -24,7 +31,7 @@ const Footer = () => {
                     <i className={link.icon} sx={{ color: link.color, '&:hover': { color: link.hoverColor }}} />
                   </a>
                 ))
-                .reduce((prev, curr) => [prev, "  ", curr])
+                .reduce((prev: any, curr: any) => [prev, "  ", curr])
             }
           </AppContext.Consumer>
         </div>
