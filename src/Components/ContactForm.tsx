@@ -1,9 +1,16 @@
-import React from "react";
+import React, { MouseEventHandler } from "react";
 import FormElement from "./FormElement";
 import TextArea from "./TextArea";
 import Buttons from "./Buttons";
 
-const ContactForm = props => (
+type Props = {
+  nameField: React.Ref<HTMLInputElement>,
+  mailField: React.Ref<HTMLInputElement>,
+  messField: React.Ref<HTMLTextAreaElement>,
+  deleteAll: MouseEventHandler
+}
+
+const ContactForm = (props: Props) => (
   <form
     className="gform"
     name="contactform"
