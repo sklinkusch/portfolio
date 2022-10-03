@@ -1,7 +1,11 @@
 /** @jsxImportSource theme-ui */
-import React from "react";
+import React, { MouseEventHandler } from "react";
 
-const Buttons = props => (
+type Props = {
+  deleteAll: MouseEventHandler
+}
+
+const Buttons = (props: Props) => (
   <div sx={{ textAlign: "center" }}>
     <button type="submit" className="btn btn-success">
       Send message
