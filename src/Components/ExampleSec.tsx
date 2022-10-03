@@ -2,7 +2,16 @@
 import React from "react";
 import Example from "./Example";
 
-const ExampleSec = props => {
+type Props = {
+  title: string,
+  data: {
+    src: string,
+    href: string,
+    title: string
+  }[]
+}
+
+const ExampleSec = (props: Props) => {
   const { title, data } = props;
   const printdata = data.filter(
     item => "src" in item && "href" in item && "title" in item
