@@ -7,14 +7,15 @@ import { ThemeProvider } from "@theme-ui/core";
 import theme from "./styles/theme";
 import reportWebVitals from "./reportWebVitals";
 
-const container = document.getElementById("root")
-const root = createRoot(container)
+const root = createRoot(document.getElementById('root') as HTMLElement)
 root.render(
-  <ThemeProvider theme={theme}>
-    <AppProvider>
-      <App />
-    </AppProvider>
-  </ThemeProvider>
+  <React.StrictMode>
+    <ThemeProvider theme={theme}>
+      <AppProvider>
+        <App />
+      </AppProvider>
+    </ThemeProvider>
+  </React.StrictMode>
 );
 
 // If you want your app to work offline and load faster, you can change
