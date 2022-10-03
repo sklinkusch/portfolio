@@ -1,5 +1,6 @@
 import slack from "../../images/Slack.png";
 import rocketchat from "../../images/RocketChat.png";
+import teams from "../../images/Teams.svg"
 import asana from "../../images/Asana.png";
 import gcalendar from "../../images/Google-Calendar.png";
 
@@ -20,6 +21,15 @@ const teamcommunication = {
       imageSrc: rocketchat,
       imageId: "rocketchat",
       link: "https://www.rocket.chat",
+      imgStyles: {
+        width: "180px",
+      },
+    },
+    {
+      name: "Microsoft Teams",
+      imageSrc: teams,
+      imageId: "teams",
+      link: "https://www.microsoft.com/de-de/microsoft-teams/log-in",
       imgStyles: {
         width: "180px",
       },
