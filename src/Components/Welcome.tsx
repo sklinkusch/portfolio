@@ -6,7 +6,7 @@ const Welcome = () => (
   <div className="container" sx={{ backgroundColor: "wwhite", opacity: 0.95, borderRadius: "10px" }}>
     <div sx={{ height: "1vh" }} />
     <section id="jumbotron" sx={{ margin: "30px 0" }}>
-      <div class="jumbotron" sx={{ padding: "2rem", borderRadius: "6px" }}>
+      <div className="jumbotron" sx={{ padding: "2rem", borderRadius: "6px" }}>
         <h1>Welcome to my page!</h1>
         <p>
           I am a computational chemist and frontend web developer based in
