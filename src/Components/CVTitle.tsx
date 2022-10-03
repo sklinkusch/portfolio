@@ -2,7 +2,14 @@ import React from "react";
 import { NavItem, NavLink } from "reactstrap";
 import classnames from "classnames";
 
-const CVTitle = props => (
+type Props = {
+  activeTab: number,
+  number: number
+  toggle: Function,
+  title: string
+}
+
+const CVTitle = (props: Props) => (
   <NavItem>
     <NavLink
       className={classnames({ active: props.activeTab === props.number })}
