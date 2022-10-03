@@ -1,7 +1,15 @@
 /** @jsxImportSource theme-ui */
 import React from "react";
 
-const Example = props => {
+type Props = {
+  data: {
+    href: string,
+    src: any,
+    title: string
+  }
+}
+
+const Example = (props: Props) => {
   const { data } = props;
   return (
     <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" sx={{ margin: "5px", display: "block", maxHeight: "20vw", overflow: "hidden" }}>
