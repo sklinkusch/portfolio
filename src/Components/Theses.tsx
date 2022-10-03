@@ -3,6 +3,16 @@ import React from "react"
 import { TabPane } from "reactstrap"
 import AppContext from "../Context/AppContext"
 
+type Thesis = {
+  authors: string,
+  title: string,
+  translated?: string
+  type: string,
+  school: string,
+  year: string,
+  href: string
+}
+
 const Theses = () => {
   const number = 0
   const space = " "
@@ -11,7 +21,7 @@ const Theses = () => {
       <ol reversed>
         <AppContext.Consumer>
           {(context) =>
-            context.theses.map((thesis, index) => {
+            context.theses.map((thesis: Thesis, index: number) => {
               const { authors, title, translated, type, school, year, href } =
                 thesis
               return (
