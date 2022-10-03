@@ -1,6 +1,7 @@
 import linux from "../../images/Linux.png";
 import ubuntu from "../../images/Ubuntu.png";
 import opensuse from "../../images/OpenSUSE.png";
+import macos from "../../images/MacOS.svg"
 
 const operating = {
   title: "Operating Systems",
@@ -30,6 +31,15 @@ const operating = {
       link: "https://www.opensuse.org/",
       imgStyles: {
         width: "190px",
+      },
+    },
+    {
+      name: "macOS",
+      imageSrc: macos,
+      imageId: "macos",
+      link: "https://www.apple.com/de/macos/",
+      imgStyles: {
+        width: "180px",
       },
     },
   ],
