@@ -1,7 +1,17 @@
 /** @jsxImportSource theme-ui */
 import React from "react"
 
-const CompskillCard = (props) => {
+type Props = {
+  skill: {
+    imageSrc: any,
+    name: string,
+    imageId: string,
+    link: string,
+    imgStyles: any
+  }
+}
+
+const CompskillCard = (props: Props) => {
   const { imageSrc, name, imageId, link, imgStyles = {} } = props.skill
   return (
     <div className="col-xs-6 col-md-4 col-lg-3" sx={{ mb: "8px" }}>
