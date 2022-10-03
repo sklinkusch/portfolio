@@ -8,8 +8,8 @@ import Posters from "./Posters"
 import Talks from "./Talks"
 
 const Publications = () => {
-  const [activeTab, setTab] = useState(0)
-  const toggle = (tab) => {
+  const [activeTab, setTab] = useState<number>(0)
+  const toggle = (tab: number) => {
     if (activeTab !== tab) {
       setTab(tab)
     }
