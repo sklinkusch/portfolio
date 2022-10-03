@@ -5,7 +5,7 @@ import CVContent from "./CVContent";
 
 const CV = () => {
   const [activeTab, setTab] = useState(0);
-  const toggle = tab => {
+  const toggle = (tab: number) => {
     if (activeTab !== tab) {
       setTab(tab);
     }
