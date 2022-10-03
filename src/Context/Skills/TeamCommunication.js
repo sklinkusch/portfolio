@@ -1,6 +1,7 @@
 import slack from "../../images/Slack.png";
 import rocketchat from "../../images/RocketChat.png";
 import teams from "../../images/Teams.svg"
+import jira from "../../images/Jira.svg"
 import asana from "../../images/Asana.png";
 import gcalendar from "../../images/Google-Calendar.png";
 
@@ -39,6 +40,15 @@ const teamcommunication = {
       imageSrc: asana,
       imageId: "asana",
       link: "https://asana.com/",
+    },
+    {
+      name: "Jira",
+      imageSrc: jira,
+      imageId: "jira",
+      link: "https://www.atlassian.com/software/jira",
+      imgStyles: {
+        width: "180px",
+      },
     },
     {
       name: "Google Calendar",
