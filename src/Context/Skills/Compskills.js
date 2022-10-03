@@ -13,6 +13,7 @@ import databases from "./Databases"
 import template from "./Template"
 import shop from "./Shop"
 import teamcommunication from "./TeamCommunication"
+import organization from "./Organization"
 import documentation from "./Documentation"
 import filesharing from "./FileSharing"
 import editors from "./Editors"
@@ -34,6 +35,7 @@ const skills = [
   template,
   shop,
   teamcommunication,
+  organization,
   documentation,
   filesharing,
   editors,
