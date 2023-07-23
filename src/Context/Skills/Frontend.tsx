@@ -1,6 +1,7 @@
 import react from "../../images/React.png";
 import gatsby from "../../images/Gatsby.png";
 import angularjs from "../../images/AngularJS.svg";
+import nextjs from "../../images/nextjs.png";
 
 const frontend = {
   title: "Frontend Frameworks",
@@ -32,6 +33,15 @@ const frontend = {
         width: "150px",
       }
     },
+    {
+      name: "NextJS",
+      imageSrc: nextjs,
+      imageId: "nextjs",
+      link: "https://nextjs.org",
+      imgStyle: {
+        width: "150px"
+      }
+    }
   ],
 };
 
