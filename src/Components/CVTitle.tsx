@@ -1,13 +1,13 @@
-import React from "react";
-import { NavItem, NavLink } from "reactstrap";
-import classnames from "classnames";
+import React from 'react';
+import { NavItem, NavLink } from 'reactstrap';
+import classnames from 'classnames';
 
 type Props = {
-  activeTab: number,
-  number: number
-  toggle: Function,
-  title: string
-}
+  activeTab: number;
+  number: number;
+  toggle: Function;
+  title: string;
+};
 
 const CVTitle = (props: Props) => (
   <NavItem>

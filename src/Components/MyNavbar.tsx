@@ -1,5 +1,5 @@
-import React, { useState } from "react"
-import Headroom from "react-headroom"
+import React, { useState } from 'react';
+import Headroom from 'react-headroom';
 import {
   Collapse,
   Navbar,
@@ -12,20 +12,20 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-} from "reactstrap"
+} from 'reactstrap';
 
 const MyNavbar = () => {
-  const [isOpen, setOpen] = useState<boolean>(false)
+  const [isOpen, setOpen] = useState<boolean>(false);
   const toggle = () => {
-    setOpen(!isOpen)
-  }
+    setOpen(!isOpen);
+  };
   return (
     <Headroom
       style={{
-        transition: "all 0.5s ease-in-out",
-        WebkitTransition: "all 0.5s ease-in-out",
-        MozTransition: "all 0.5s ease-in-out",
-        OTransition: "all 0.5s ease-in-out",
+        transition: 'all 0.5s ease-in-out',
+        WebkitTransition: 'all 0.5s ease-in-out',
+        MozTransition: 'all 0.5s ease-in-out',
+        OTransition: 'all 0.5s ease-in-out',
       }}
     >
       <Navbar color="light" light expand="lg">
@@ -43,9 +43,7 @@ const MyNavbar = () => {
                 Skills
               </DropdownToggle>
               <DropdownMenu end>
-                <DropdownItem href="#compskills">
-                  Computer-related skills
-                </DropdownItem>
+                <DropdownItem href="#compskills">Computer-related skills</DropdownItem>
                 <DropdownItem href="#langskills">Language skills</DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
@@ -68,7 +66,7 @@ const MyNavbar = () => {
         </Collapse>
       </Navbar>
     </Headroom>
-  )
-}
+  );
+};
 
-export default MyNavbar
+export default MyNavbar;

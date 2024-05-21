@@ -1,26 +1,26 @@
 /** @jsxImportSource theme-ui */
-import React from "react"
+import React from 'react';
 
 type Props = {
   data: {
-    subitems: any[],
-    href: string,
-    title: string
-  }
-}
+    subitems: any[];
+    href: string;
+    title: string;
+  };
+};
 
 const RefItem = (props: Props) => {
-  const { data } = props
-  const subs = "subitems" in data && data.subitems.length > 0 ? true : false
+  const { data } = props;
+  const subs = 'subitems' in data && data.subitems.length > 0 ? true : false;
   return (
     <React.Fragment>
       <li>
-        {data.hasOwnProperty("href") && data.href.length > 0 ? (
+        {data.hasOwnProperty('href') && data.href.length > 0 ? (
           <a
             href={data.href}
             target="_blank"
             rel="noopener noreferrer"
-            sx={{ color: "ggrey", textDecoration: "none", backgroundColor: "#eee" }}
+            sx={{ color: 'ggrey', textDecoration: 'none', backgroundColor: '#eee' }}
           >
             {data.title}
           </a>
@@ -36,7 +36,7 @@ const RefItem = (props: Props) => {
         </ul>
       )}
     </React.Fragment>
-  )
-}
+  );
+};
 
-export default RefItem
+export default RefItem;

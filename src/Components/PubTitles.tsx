@@ -1,21 +1,21 @@
-import React from "react";
-import { Nav } from "reactstrap";
-import CVTitle from "./CVTitle";
-import AppContext from "../Context/AppContext";
+import React from 'react';
+import { Nav } from 'reactstrap';
+import CVTitle from './CVTitle';
+import AppContext from '../Context/AppContext';
 
 type Props = {
-  activeTab: number,
-  toggle: Function
-}
+  activeTab: number;
+  toggle: Function;
+};
 
 type Tab = {
-  title: string
-}
+  title: string;
+};
 
 const PubTitles = (props: Props) => (
   <Nav tabs>
     <AppContext.Consumer>
-      {context =>
+      {(context) =>
         context.PubTabTitles.map((tab: Tab, index: number) => (
           <CVTitle
             activeTab={props.activeTab}

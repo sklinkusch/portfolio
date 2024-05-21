@@ -1,25 +1,25 @@
-import redux from "../../images/redux-logo.png";
-import react from "../../images/React.png";
+import redux from '../../images/redux-logo.png';
+import react from '../../images/React.png';
 
 const state = {
-  title: "State Management",
+  title: 'State Management',
   content: [
     {
-      name: "Redux",
+      name: 'Redux',
       imageSrc: redux,
-      imageId: "redux",
-      link: "https://redux.js.org/",
+      imageId: 'redux',
+      link: 'https://redux.js.org/',
       imgStyles: {
-        width: "150px",
+        width: '150px',
       },
     },
     {
-      name: "Context API",
+      name: 'Context API',
       imageSrc: react,
-      imageId: "react",
-      link: "https://reactjs.org/docs/context.html",
+      imageId: 'react',
+      link: 'https://reactjs.org/docs/context.html',
       imgStyles: {
-        width: "250px",
+        width: '250px',
       },
     },
   ],

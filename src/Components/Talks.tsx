@@ -1,22 +1,22 @@
-import React from "react";
-import { TabPane } from "reactstrap";
-import AppContext from "../Context/AppContext";
+import React from 'react';
+import { TabPane } from 'reactstrap';
+import AppContext from '../Context/AppContext';
 
 type Talk = {
-  title: HTMLQuoteElement,
-  article: HTMLSpanElement | null,
-  place: HTMLSpanElement,
-  date: HTMLSpanElement
-}
+  title: HTMLQuoteElement;
+  article: HTMLSpanElement | null;
+  place: HTMLSpanElement;
+  date: HTMLSpanElement;
+};
 
 const Talks = () => {
   const number = 3;
-  const space = " ";
+  const space = ' ';
   return (
     <TabPane tabId={number}>
       <ol reversed>
         <AppContext.Consumer>
-          {context =>
+          {(context) =>
             context.talks.map((talk: Talk, index: number) => {
               const { title, article, place, date } = talk;
               return (

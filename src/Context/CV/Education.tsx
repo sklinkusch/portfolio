@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 const education = {
   title: {
-    title: "Education",
+    title: 'Education',
   },
   content: {
     list: [
@@ -16,27 +16,15 @@ const education = {
       },
       {
         time: <span>2002-2008</span>,
-        desc: (
-          <span>Studies of chemistry at University of Potsdam, Germany</span>
-        ),
+        desc: <span>Studies of chemistry at University of Potsdam, Germany</span>,
       },
       {
         time: <span>2007-2008</span>,
-        desc: (
-          <span>
-            Diploma thesis in the group of Prof. P. Saalfrank at University of
-            Potsdam, Germany
-          </span>
-        ),
+        desc: <span>Diploma thesis in the group of Prof. P. Saalfrank at University of Potsdam, Germany</span>,
       },
       {
         time: <span>2008-2011</span>,
-        desc: (
-          <span>
-            Ph.D thesis in the group of Prof. P. Saalfrank at University of
-            Potsdam, Germany
-          </span>
-        ),
+        desc: <span>Ph.D thesis in the group of Prof. P. Saalfrank at University of Potsdam, Germany</span>,
       },
       {
         time: <span>2016</span>,
@@ -44,11 +32,7 @@ const education = {
       },
       {
         time: <span>2018-2019</span>,
-        desc: (
-          <span>
-            Web development class at Digital Career Institute in Berlin, Germany
-          </span>
-        ),
+        desc: <span>Web development class at Digital Career Institute in Berlin, Germany</span>,
       },
     ],
   },

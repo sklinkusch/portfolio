@@ -1,28 +1,28 @@
-import storybook from "../../images/Storybook.png"
-import confluence from "../../images/Confluence.svg"
+import storybook from '../../images/Storybook.png';
+import confluence from '../../images/Confluence.svg';
 
 const documentation = {
-  title: "Documentation",
+  title: 'Documentation',
   content: [
     {
-      name: "Storybook",
+      name: 'Storybook',
       imageSrc: storybook,
-      imageId: "storybook",
-      link: "https://storybook.js.org",
+      imageId: 'storybook',
+      link: 'https://storybook.js.org',
       imgStyles: {
-        width: "180px",
+        width: '180px',
       },
     },
     {
-      name: "Confluence",
+      name: 'Confluence',
       imageSrc: confluence,
-      imageId: "confluence",
-      link: "http://www.atlassian.com/software/confluence/",
+      imageId: 'confluence',
+      link: 'http://www.atlassian.com/software/confluence/',
       imgStyles: {
-        width: "180px",
+        width: '180px',
       },
     },
   ],
-}
+};
 
-export default documentation
+export default documentation;

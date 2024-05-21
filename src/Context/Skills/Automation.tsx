@@ -1,18 +1,18 @@
-import integromat from "../../images/integromat.png"
+import integromat from '../../images/integromat.png';
 
 const automation = {
-  title: "Automation",
+  title: 'Automation',
   content: [
     {
-      name: "Integromat",
+      name: 'Integromat',
       imageSrc: integromat,
-      imageId: "integromat",
-      link: "https://integromat.com",
+      imageId: 'integromat',
+      link: 'https://integromat.com',
       imgStyles: {
-        width: "200px",
+        width: '200px',
       },
-    }
-  ]
-}
+    },
+  ],
+};
 
-export default automation
+export default automation;

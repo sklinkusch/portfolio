@@ -1,23 +1,23 @@
-import React from "react";
-import { TabPane } from "reactstrap";
-import AppContext from "../Context/AppContext";
+import React from 'react';
+import { TabPane } from 'reactstrap';
+import AppContext from '../Context/AppContext';
 
 type Poster = {
-  authors: string,
-  title: HTMLQuoteElement,
-  event: HTMLSpanElement,
-  place: HTMLSpanElement,
-  year: HTMLSpanElement
-}
+  authors: string;
+  title: HTMLQuoteElement;
+  event: HTMLSpanElement;
+  place: HTMLSpanElement;
+  year: HTMLSpanElement;
+};
 
 const Posters = () => {
   const number = 2;
-  const space = " ";
+  const space = ' ';
   return (
     <TabPane tabId={number}>
       <ol reversed>
         <AppContext.Consumer>
-          {context =>
+          {(context) =>
             context.posters.map((poster: Poster, index: number) => {
               const { authors, title, event, place, year } = poster;
               return (

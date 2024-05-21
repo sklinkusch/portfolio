@@ -1,45 +1,45 @@
-import linux from "../../images/Linux.png";
-import ubuntu from "../../images/Ubuntu.png";
-import opensuse from "../../images/OpenSUSE.png";
-import macos from "../../images/MacOS.svg"
+import linux from '../../images/Linux.png';
+import ubuntu from '../../images/Ubuntu.png';
+import opensuse from '../../images/OpenSUSE.png';
+import macos from '../../images/MacOS.svg';
 
 const operating = {
-  title: "Operating Systems",
+  title: 'Operating Systems',
   content: [
     {
-      name: "Linux",
+      name: 'Linux',
       imageSrc: linux,
-      imageId: "linux",
-      link: "https://www.kernel.org/",
+      imageId: 'linux',
+      link: 'https://www.kernel.org/',
       imgStyles: {
-        width: "170px",
+        width: '170px',
       },
     },
     {
-      name: "Ubuntu",
+      name: 'Ubuntu',
       imageSrc: ubuntu,
-      imageId: "ubuntu",
-      link: "https://ubuntu.com/",
+      imageId: 'ubuntu',
+      link: 'https://ubuntu.com/',
       imgStyles: {
-        width: "190px",
+        width: '190px',
       },
     },
     {
-      name: "openSUSE",
+      name: 'openSUSE',
       imageSrc: opensuse,
-      imageId: "opensuse",
-      link: "https://www.opensuse.org/",
+      imageId: 'opensuse',
+      link: 'https://www.opensuse.org/',
       imgStyles: {
-        width: "190px",
+        width: '190px',
       },
     },
     {
-      name: "macOS",
+      name: 'macOS',
       imageSrc: macos,
-      imageId: "macos",
-      link: "https://www.apple.com/de/macos/",
+      imageId: 'macos',
+      link: 'https://www.apple.com/de/macos/',
       imgStyles: {
-        width: "180px",
+        width: '180px',
       },
     },
   ],

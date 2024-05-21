@@ -1,23 +1,23 @@
-import markup from "./Markup"
-import styling from "./Styling"
-import versioning from "./Versioning"
-import scripting from "./Scripting"
-import programming from "./Programming"
-import frontend from "./Frontend"
-import mobile from "./Mobile"
-import state from "./State"
-import backend from "./Backend"
-import automation from "./Automation"
-import contentmanagement from "./ContentManagement"
-import databases from "./Databases"
-import template from "./Template"
-import shop from "./Shop"
-import teamcommunication from "./TeamCommunication"
-import organization from "./Organization"
-import documentation from "./Documentation"
-import filesharing from "./FileSharing"
-import editors from "./Editors"
-import operating from "./Operating"
+import markup from './Markup';
+import styling from './Styling';
+import versioning from './Versioning';
+import scripting from './Scripting';
+import programming from './Programming';
+import frontend from './Frontend';
+import mobile from './Mobile';
+import state from './State';
+import backend from './Backend';
+import automation from './Automation';
+import contentmanagement from './ContentManagement';
+import databases from './Databases';
+import template from './Template';
+import shop from './Shop';
+import teamcommunication from './TeamCommunication';
+import organization from './Organization';
+import documentation from './Documentation';
+import filesharing from './FileSharing';
+import editors from './Editors';
+import operating from './Operating';
 
 const skills = [
   markup,
@@ -40,6 +40,6 @@ const skills = [
   filesharing,
   editors,
   operating,
-]
+];
 
-export default skills
+export default skills;

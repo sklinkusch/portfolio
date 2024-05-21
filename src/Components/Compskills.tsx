@@ -1,24 +1,24 @@
 /** @jsxImportSource theme-ui */
-import React from "react"
-import AppContext from "../Context/AppContext"
-import CompskillCard from "./CompskillCard"
+import React from 'react';
+import AppContext from '../Context/AppContext';
+import CompskillCard from './CompskillCard';
 
 type SingleSkill = {
-  imageSrc: any,
-  name: string,
-  imageId: string,
-  link: string,
-  imgStyles: any
-}
+  imageSrc: any;
+  name: string;
+  imageId: string;
+  link: string;
+  imgStyles: any;
+};
 
 type Skill = {
-  title: string,
-  content: SingleSkill[]
-}
+  title: string;
+  content: SingleSkill[];
+};
 
 const CompskillsMediumLarge = () => (
-  <section id="compskills" className="d-none d-md-block" sx={{ margin: "30px 0" }}>
-    <h3 sx={{ mb: "1rem" }}> Computer-related Skills</h3>
+  <section id="compskills" className="d-none d-md-block" sx={{ margin: '30px 0' }}>
+    <h3 sx={{ mb: '1rem' }}> Computer-related Skills</h3>
     <AppContext.Consumer>
       {(context) =>
         context.skills.map((skill: Skill, index: number) => (
@@ -34,16 +34,12 @@ const CompskillsMediumLarge = () => (
       }
     </AppContext.Consumer>
   </section>
-)
+);
 
 const CompskillsSmall = () => {
   return (
-    <section
-      id="compskills"
-      className="d-block d-md-none"
-      sx={{ margin: "30px 0" }}
-    >
-      <h3 sx={{ mb: "1rem" }}> Computer-related Skills</h3>
+    <section id="compskills" className="d-block d-md-none" sx={{ margin: '30px 0' }}>
+      <h3 sx={{ mb: '1rem' }}> Computer-related Skills</h3>
       <AppContext.Consumer>
         {(context) =>
           context.skills.map((skill: Skill, oindex: number) => (
@@ -62,16 +58,16 @@ const CompskillsSmall = () => {
         }
       </AppContext.Consumer>
     </section>
-  )
-}
+  );
+};
 
 const Compskills = () => (
-  <div className="container" sx={{ backgroundColor: "wwhite", opacity: 0.95, borderRadius: "10px" }}>
-    <div sx={{ height: "1vh" }} />
+  <div className="container" sx={{ backgroundColor: 'wwhite', opacity: 0.95, borderRadius: '10px' }}>
+    <div sx={{ height: '1vh' }} />
     <CompskillsMediumLarge />
     <CompskillsSmall />
-    <div sx={{ height: "1vh" }} />
+    <div sx={{ height: '1vh' }} />
   </div>
-)
+);
 
-export default Compskills
+export default Compskills;

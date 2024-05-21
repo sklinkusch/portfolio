@@ -1,15 +1,15 @@
-import react from "../../images/React.png";
+import react from '../../images/React.png';
 
 const mobile = {
-  title: "Mobile Frameworks",
+  title: 'Mobile Frameworks',
   content: [
     {
-      name: "React Native",
+      name: 'React Native',
       imageSrc: react,
-      imageId: "react",
-      link: "http://reactnative.dev/",
+      imageId: 'react',
+      link: 'http://reactnative.dev/',
       imgStyles: {
-        width: "250px",
+        width: '250px',
       },
     },
   ],

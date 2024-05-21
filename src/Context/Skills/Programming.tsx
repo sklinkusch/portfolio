@@ -1,25 +1,25 @@
-import cplusplus from "../../images/ISO_C++_Logo.png";
-import fortran from "../../images/f90-300x212.png";
+import cplusplus from '../../images/ISO_C++_Logo.png';
+import fortran from '../../images/f90-300x212.png';
 
 const programming = {
-  title: "Further Programming Languages",
+  title: 'Further Programming Languages',
   content: [
     {
-      name: "C++",
+      name: 'C++',
       imageSrc: cplusplus,
-      imageId: "cplusplus",
-      link: "https://cplusplus.com/",
+      imageId: 'cplusplus',
+      link: 'https://cplusplus.com/',
       imgStyles: {
-        width: "190px",
+        width: '190px',
       },
     },
     {
-      name: "Fortran 90",
+      name: 'Fortran 90',
       imageSrc: fortran,
-      imageId: "fortran",
-      link: "https://fortran-lang.org/",
+      imageId: 'fortran',
+      link: 'https://fortran-lang.org/',
       imgStyles: {
-        width: "200px",
+        width: '200px',
       },
     },
   ],

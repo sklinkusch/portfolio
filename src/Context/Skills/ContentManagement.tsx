@@ -1,15 +1,15 @@
-import sanity from "../../images/Sanity.png";
+import sanity from '../../images/Sanity.png';
 
 const contentManagement = {
-  title: "Content Management Systems",
+  title: 'Content Management Systems',
   content: [
     {
-      name: "Sanity",
+      name: 'Sanity',
       imageSrc: sanity,
-      imageId: "sanity",
-      link: "https://www.sanity.io",
+      imageId: 'sanity',
+      link: 'https://www.sanity.io',
       imgStyles: {
-        width: "200px",
+        width: '200px',
       },
     },
   ],

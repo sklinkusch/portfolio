@@ -1,15 +1,15 @@
-import mongodb from "../../images/MongoDB.png";
+import mongodb from '../../images/MongoDB.png';
 
 const databases = {
-  title: "Databases",
+  title: 'Databases',
   content: [
     {
-      name: "MongoDB",
+      name: 'MongoDB',
       imageSrc: mongodb,
-      imageId: "mongodb",
-      link: "https://www.mongodb.com/",
+      imageId: 'mongodb',
+      link: 'https://www.mongodb.com/',
       imgStyles: {
-        width: "190px",
+        width: '190px',
       },
     },
   ],

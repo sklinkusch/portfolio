@@ -1,14 +1,14 @@
-import React, { MouseEventHandler } from "react";
-import FormElement from "./FormElement";
-import TextArea from "./TextArea";
-import Buttons from "./Buttons";
+import React, { MouseEventHandler } from 'react';
+import FormElement from './FormElement';
+import TextArea from './TextArea';
+import Buttons from './Buttons';
 
 type Props = {
-  nameField: React.Ref<HTMLInputElement>,
-  mailField: React.Ref<HTMLInputElement>,
-  messField: React.Ref<HTMLTextAreaElement>,
-  deleteAll: MouseEventHandler
-}
+  nameField: React.Ref<HTMLInputElement>;
+  mailField: React.Ref<HTMLInputElement>;
+  messField: React.Ref<HTMLTextAreaElement>;
+  deleteAll: MouseEventHandler;
+};
 
 const ContactForm = (props: Props) => (
   <form
@@ -34,15 +34,9 @@ const ContactForm = (props: Props) => (
       placeholder="Your email address, e.g. john.doe@example.com"
       fieldRef={props.mailField}
     />
-    <TextArea
-      id="message"
-      label="Message"
-      name="message"
-      placeholder="Your message"
-      fieldRef={props.messField}
-    />
+    <TextArea id="message" label="Message" name="message" placeholder="Your message" fieldRef={props.messField} />
     <Buttons deleteAll={props.deleteAll} />
-    <div style={{ display: "none" }} className="thankyou_message">
+    <div style={{ display: 'none' }} className="thankyou_message">
       <h4>
         <em>Thank you for contacting me! I will reply to you soon!</em>
       </h4>

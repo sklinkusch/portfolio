@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
 type Props = {
-  id: string,
-  label: string,
-  type: string,
-  name: string,
-  placeholder: string,
-  fieldRef: React.Ref<HTMLInputElement>
-}
+  id: string;
+  label: string;
+  type: string;
+  name: string;
+  placeholder: string;
+  fieldRef: React.Ref<HTMLInputElement>;
+};
 
 const FormElement = (props: Props) => (
   <div className="form-group">

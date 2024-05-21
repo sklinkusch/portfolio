@@ -1,45 +1,45 @@
-import git from "../../images/Git-logo.png";
-import github from "../../images/Github.png";
-import bitbucket from "../../images/bitbucket.png";
-import gitlab from "../../images/GitLab.svg";
+import git from '../../images/Git-logo.png';
+import github from '../../images/Github.png';
+import bitbucket from '../../images/bitbucket.png';
+import gitlab from '../../images/GitLab.svg';
 
 const versioning = {
-  title: "Versioning",
+  title: 'Versioning',
   content: [
     {
-      name: "git",
+      name: 'git',
       imageSrc: git,
-      imageId: "git",
-      link: "https://git-scm.com/",
+      imageId: 'git',
+      link: 'https://git-scm.com/',
       imgStyles: {
-        width: "200px",
+        width: '200px',
       },
     },
     {
-      name: "GitHub",
+      name: 'GitHub',
       imageSrc: github,
-      imageId: "github",
-      link: "https://github.com",
+      imageId: 'github',
+      link: 'https://github.com',
       imgStyles: {
-        width: "200px",
+        width: '200px',
       },
     },
     {
-      name: "Atlassian Bitbucket",
+      name: 'Atlassian Bitbucket',
       imageSrc: bitbucket,
-      imageId: "bitbucket",
-      link: "https://www.atlassian.com/",
+      imageId: 'bitbucket',
+      link: 'https://www.atlassian.com/',
       imgStyles: {
-        width: "200px",
+        width: '200px',
       },
     },
     {
-      name: "GitLab",
+      name: 'GitLab',
       imageSrc: gitlab,
-      imageId: "gitlab",
-      link: "https://gitlab.com/",
+      imageId: 'gitlab',
+      link: 'https://gitlab.com/',
       imgStyles: {
-        width: "250px",
+        width: '250px',
       },
     },
   ],
