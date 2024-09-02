@@ -1,11 +1,10 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 import Example from './Example';
 
 type Props = {
   title: string;
   data: {
-    src: string;
+    src?: string;
     href: string;
     title: string;
   }[];

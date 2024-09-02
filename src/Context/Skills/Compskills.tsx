@@ -19,7 +19,20 @@ import filesharing from './FileSharing';
 import editors from './Editors';
 import operating from './Operating';
 
-const skills = [
+export type Compskill = {
+  title: string;
+  content: CompskillContent[];
+};
+
+type CompskillContent = {
+  name: string;
+  imageSrc: string | undefined;
+  imageId: string;
+  link: string | undefined;
+  imgStyles?: { [key: string]: string };
+};
+
+const skills: Compskill[] = [
   markup,
   styling,
   versioning,

@@ -46,4 +46,7 @@ const react = [
   },
 ];
 
+type ReactType = typeof react;
+export { ReactType };
+
 export default react;

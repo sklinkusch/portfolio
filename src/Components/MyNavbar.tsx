@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Headroom from 'react-headroom';
 import {
   Collapse,

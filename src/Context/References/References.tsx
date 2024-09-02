@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 
 const references = [
   {
@@ -72,5 +71,8 @@ const references = [
     href: 'https://sedna.de',
   },
 ];
+
+type ReferenceType = typeof references;
+export { ReferenceType };
 
 export default references;

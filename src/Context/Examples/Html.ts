@@ -50,4 +50,7 @@ const html = [
   },
 ];
 
+type HtmlType = typeof html;
+export { HtmlType };
+
 export default html;

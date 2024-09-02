@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { ReactNode, useState } from 'react';
 import AppContext from './AppContext';
 import compskills from './Skills/Compskills';
 import { titles as CVTabTitles, content as CVContent } from './CV/CV';
@@ -9,7 +9,7 @@ import javascript from './Examples/Javascript';
 import react from './Examples/React';
 import footerLinks from './Footer/FooterLinks';
 
-const AppProvider = (props: any) => {
+const AppProvider = (props: { children: ReactNode; [key: string]: unknown }) => {
   const [state] = useState({
     skills: compskills,
     CVTabTitles,

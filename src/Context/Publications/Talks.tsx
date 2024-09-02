@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 
 const talks = {
   title: {
@@ -143,7 +142,7 @@ const talks = {
         </q>
       ),
       article: null,
-      place: <span>Diploma Candidates' Talks, Institute of Chemistry Seminar, University of Potsdam</span>,
+      place: <span>Diploma Candidates&apos; Talks, Institute of Chemistry Seminar, University of Potsdam</span>,
       date: (
         <span>
           May 7<sup>th</sup>, 2008
@@ -177,5 +176,8 @@ const talks = {
     },
   ],
 };
+
+type TalksType = typeof talks;
+export { TalksType };
 
 export default talks;

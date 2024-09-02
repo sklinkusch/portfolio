@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 
 const Blockquote = () => (
   <div className="container" sx={{ backgroundColor: 'wwhite', opacity: 0.95, borderRadius: '10px' }}>

@@ -56,4 +56,7 @@ const javascript = [
   },
 ];
 
+type JavascriptType = typeof javascript;
+export { JavascriptType };
+
 export default javascript;

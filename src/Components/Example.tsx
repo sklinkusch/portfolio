@@ -1,10 +1,9 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 
 type Props = {
   data: {
     href: string;
-    src: any;
+    src?: string;
     title: string;
   };
 };

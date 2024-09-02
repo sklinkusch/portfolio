@@ -1,5 +1,3 @@
-import React from 'react';
-
 const work = {
   title: {
     title: 'Work Experience',

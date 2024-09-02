@@ -1,5 +1,5 @@
 /** @jsxImportSource theme-ui */
-import React, { MouseEventHandler } from 'react';
+import { MouseEventHandler } from 'react';
 
 type Props = {
   deleteAll: MouseEventHandler;

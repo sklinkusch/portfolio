@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 import { Progress } from 'reactstrap';
 
 const Langskills = () => (

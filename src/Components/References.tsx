@@ -3,6 +3,17 @@ import React from 'react';
 import RefItem from './RefItem';
 import AppContext from '../Context/AppContext';
 
+type SubItem = {
+  title: React.JSX.Element;
+  href?: string | undefined;
+};
+
+type RefType = {
+  title: React.JSX.Element;
+  href?: string | undefined;
+  subitems?: SubItem[] | undefined;
+};
+
 const References = () => (
   <div className="container" sx={{ backgroundColor: 'wwhite', opacity: 0.95, borderRadius: '10px' }}>
     <div sx={{ height: '1vh' }} />
@@ -11,7 +22,10 @@ const References = () => (
       <ul>
         <AppContext.Consumer>
           {(context) =>
-            context.references.map((reference: any, index: number) => <RefItem key={index} data={reference} />)
+            'references' in context &&
+            Array.isArray(context.references) &&
+            context.references.length > 0 &&
+            context.references.map((reference: RefType, index: number) => <RefItem key={index} data={reference} />)
           }
         </AppContext.Consumer>
       </ul>

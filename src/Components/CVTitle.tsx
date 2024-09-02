@@ -1,23 +1,25 @@
-import React from 'react';
 import { NavItem, NavLink } from 'reactstrap';
 import classnames from 'classnames';
+import { Dispatch, SetStateAction } from 'react';
 
 type Props = {
   activeTab: number;
   number: number;
-  toggle: Function;
+  setTab: Dispatch<SetStateAction<number>>;
   title: string;
 };
 
-const CVTitle = (props: Props) => (
-  <NavItem>
-    <NavLink
-      className={classnames({ active: props.activeTab === props.number })}
-      onClick={() => props.toggle(props.number)}
-    >
-      {props.title}
-    </NavLink>
-  </NavItem>
-);
+const CVTitle = (props: Props) => {
+  return (
+    <NavItem>
+      <NavLink
+        className={classnames({ active: props.activeTab === props.number })}
+        onClick={() => props.setTab(props.number)}
+      >
+        {props.title}
+      </NavLink>
+    </NavItem>
+  );
+};
 
 export default CVTitle;

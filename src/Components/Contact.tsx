@@ -1,12 +1,12 @@
 /** @jsxImportSource theme-ui */
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import ContactForm from './ContactForm';
 
 const Contact = () => {
   const nameField = useRef<HTMLInputElement>(null);
   const mailField = useRef<HTMLInputElement>(null);
   const messField = useRef<HTMLTextAreaElement>(null);
-  const deleteAll = (event: { preventDefault: Function }) => {
+  const deleteAll = (event: { preventDefault: () => void }) => {
     event.preventDefault();
     const nameCurrent = nameField.current as HTMLInputElement;
     nameCurrent.value = '';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { TabPane } from 'reactstrap';
 import AppContext from '../Context/AppContext';
 
@@ -17,6 +16,9 @@ const Talks = () => {
       <ol reversed>
         <AppContext.Consumer>
           {(context) =>
+            'talks' in context &&
+            Array.isArray(context.talks) &&
+            context.talks.length > 0 &&
             context.talks.map((talk: Talk, index: number) => {
               const { title, article, place, date } = talk;
               return (

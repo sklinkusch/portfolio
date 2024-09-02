@@ -1,4 +1,8 @@
-const theme = {
+import { Theme } from 'theme-ui';
+
+const makeTheme = <T extends Theme>(t: T) => t;
+
+const theme = makeTheme({
   breakpoints: ['576px', '768px', '992px', '1200px'],
   container: ['540px', '720px', '960px', '1140px'],
   fonts: {
@@ -13,6 +17,6 @@ const theme = {
     oorange: 'orange',
     wwhite: 'white',
   },
-};
+});
 
 export default theme;

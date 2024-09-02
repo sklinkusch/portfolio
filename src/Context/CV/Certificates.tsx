@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 
 const certificates = {
   title: {
@@ -33,8 +32,8 @@ const certificates = {
         time: <span>2016</span>,
         desc: (
           <span>
-            Educator's qualification certificate according to the German Order for the educator's qualification (
-            <abbr title="Ausbilder-Eignungsverordnung">AEVO</abbr>)
+            Educator&apos;s qualification certificate according to the German Order for the educator&apos;s
+            qualification (<abbr title="Ausbilder-Eignungsverordnung">AEVO</abbr>)
           </span>
         ),
       },

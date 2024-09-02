@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 
 const posters = {
   title: {
@@ -53,4 +52,6 @@ const posters = {
   ],
 };
 
+type PostersType = typeof posters;
+export { PostersType };
 export default posters;

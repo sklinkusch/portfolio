@@ -29,4 +29,7 @@ const footerLinks = [
   },
 ];
 
+type FooterLinkType = typeof footerLinks;
+export { FooterLinkType };
+
 export default footerLinks;

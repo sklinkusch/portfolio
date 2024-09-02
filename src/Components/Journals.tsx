@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 import { TabPane } from 'reactstrap';
 import AppContext from '../Context/AppContext';
 
@@ -21,6 +20,9 @@ const Journals = () => {
       <ol reversed>
         <AppContext.Consumer>
           {(context) =>
+            'journals' in context &&
+            Array.isArray(context.journals) &&
+            context.journals.length > 0 &&
             context.journals.map((journal: Journal, index: number) => {
               const { authors, title, href, journal: publ, edition, pages, year } = journal;
               return (

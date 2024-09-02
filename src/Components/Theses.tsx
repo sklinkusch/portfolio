@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 import { TabPane } from 'reactstrap';
 import AppContext from '../Context/AppContext';
 
@@ -21,6 +20,9 @@ const Theses = () => {
       <ol reversed>
         <AppContext.Consumer>
           {(context) =>
+            'theses' in context &&
+            Array.isArray(context.theses) &&
+            context.theses.length > 0 &&
             context.theses.map((thesis: Thesis, index: number) => {
               const { authors, title, translated, type, school, year, href } = thesis;
               return (

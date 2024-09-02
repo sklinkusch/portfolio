@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 import MyNavbar from './MyNavbar';
 import TitleImage from './TitleImage';
 import Welcome from './Welcome';

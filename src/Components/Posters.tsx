@@ -1,4 +1,3 @@
-import React from 'react';
 import { TabPane } from 'reactstrap';
 import AppContext from '../Context/AppContext';
 
@@ -18,6 +17,9 @@ const Posters = () => {
       <ol reversed>
         <AppContext.Consumer>
           {(context) =>
+            'posters' in context &&
+            Array.isArray(context.posters) &&
+            context.posters.length > 0 &&
             context.posters.map((poster: Poster, index: number) => {
               const { authors, title, event, place, year } = poster;
               return (

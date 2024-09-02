@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui  */
-import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
 import AppContext from '../Context/AppContext';
 
@@ -18,9 +17,12 @@ const Footer = () => {
       <footer>
         <div sx={{ textAlign: 'center', fontSize: '1.5rem' }}>
           <AppContext.Consumer>
-            {(context) =>
-              context.footerLinks
-                .map((link: Link, index: number) => (
+            {
+              (context) =>
+                'footerLinks' in context &&
+                Array.isArray(context.footerLinks) &&
+                context.footerLinks.length > 0 &&
+                context.footerLinks.map((link: Link, index: number) => (
                   <a
                     href={link.href}
                     target="_blank"
@@ -31,7 +33,7 @@ const Footer = () => {
                     <i className={link.icon} sx={{ color: link.color, '&:hover': { color: link.hoverColor } }} />
                   </a>
                 ))
-                .reduce((prev: any, curr: any) => [prev, '  ', curr])
+              // .reduce((prev, curr) => [prev, '  ', curr])
             }
           </AppContext.Consumer>
         </div>

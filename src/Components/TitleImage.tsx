@@ -1,5 +1,4 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 import stefan from '../images/Stefan.jpg';
 import background from '../images/photo-1505685296765-3a2736de412f.jpeg';
 

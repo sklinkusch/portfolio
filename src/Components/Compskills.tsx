@@ -1,27 +1,16 @@
 /** @jsxImportSource theme-ui */
-import React from 'react';
 import AppContext from '../Context/AppContext';
 import CompskillCard from './CompskillCard';
-
-type SingleSkill = {
-  imageSrc: any;
-  name: string;
-  imageId: string;
-  link: string;
-  imgStyles: any;
-};
-
-type Skill = {
-  title: string;
-  content: SingleSkill[];
-};
 
 const CompskillsMediumLarge = () => (
   <section id="compskills" className="d-none d-md-block" sx={{ margin: '30px 0' }}>
     <h3 sx={{ mb: '1rem' }}> Computer-related Skills</h3>
     <AppContext.Consumer>
       {(context) =>
-        context.skills.map((skill: Skill, index: number) => (
+        'skills' in context &&
+        Array.isArray(context.skills) &&
+        context.skills.length > 0 &&
+        context.skills.map((skill, index: number) => (
           <article key={index}>
             <h4>{skill.title}</h4>
             <div className="row album">
@@ -42,7 +31,10 @@ const CompskillsSmall = () => {
       <h3 sx={{ mb: '1rem' }}> Computer-related Skills</h3>
       <AppContext.Consumer>
         {(context) =>
-          context.skills.map((skill: Skill, oindex: number) => (
+          'skills' in context &&
+          Array.isArray(context.skills) &&
+          context.skills.length > 0 &&
+          context.skills.map((skill, oindex: number) => (
             <details key={oindex}>
               <summary>
                 {/* <h4> */}

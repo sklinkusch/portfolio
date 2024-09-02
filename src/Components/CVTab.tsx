@@ -4,8 +4,8 @@ import { TabPane } from 'reactstrap';
 type Props = {
   data: {
     list: {
-      time: string;
-      desc: string;
+      time: JSX.Element;
+      desc: JSX.Element;
     }[];
   };
   number: number;
