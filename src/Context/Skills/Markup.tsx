@@ -15,12 +15,6 @@ const markup = {
       },
     },
     {
-      name: 'Markdown',
-      imageSrc: markdown,
-      imageId: 'markdown',
-      link: 'https://daringfireball.net/projects/markdown/',
-    },
-    {
       name: 'LaTeX',
       imageSrc: latex,
       imageId: 'latex',
@@ -28,6 +22,12 @@ const markup = {
       imgStyles: {
         width: '200px',
       },
+    },
+    {
+      name: 'Markdown',
+      imageSrc: markdown,
+      imageId: 'markdown',
+      link: 'https://daringfireball.net/projects/markdown/',
     },
   ],
 };
