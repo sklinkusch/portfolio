@@ -12,21 +12,21 @@ const organization = {
       link: 'https://asana.com/',
     },
     {
-      name: 'Jira',
-      imageSrc: jira,
-      imageId: 'jira',
-      link: 'https://www.atlassian.com/software/jira',
-      imgStyles: {
-        width: '180px',
-      },
-    },
-    {
       name: 'Google Calendar',
       imageSrc: gcalendar,
       imageId: 'gcalendar',
       link: 'https://workspace.google.com/products/calendar/',
       imgStyles: {
         width: '200px',
+      },
+    },
+    {
+      name: 'Jira',
+      imageSrc: jira,
+      imageId: 'jira',
+      link: 'https://www.atlassian.com/software/jira',
+      imgStyles: {
+        width: '180px',
       },
     },
   ],
