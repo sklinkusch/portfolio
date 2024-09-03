@@ -6,15 +6,6 @@ const backend = {
   title: 'Backend',
   content: [
     {
-      name: 'Node.js',
-      imageSrc: nodejs,
-      imageId: 'nodejs',
-      link: 'https://nodejs.org/',
-      imgStyles: {
-        width: '190px',
-      },
-    },
-    {
       name: 'Express.js',
       imageSrc: express,
       imageId: 'express',
@@ -30,6 +21,15 @@ const backend = {
       link: 'https://graphql.org/',
       imgStyles: {
         width: '150px',
+      },
+    },
+    {
+      name: 'Node.js',
+      imageSrc: nodejs,
+      imageId: 'nodejs',
+      link: 'https://nodejs.org/',
+      imgStyles: {
+        width: '190px',
       },
     },
   ],
