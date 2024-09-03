@@ -3,10 +3,20 @@ import sass from '../../images/Sass_Logo_Color.png';
 import bootstrap from '../../images/Boostrap_logo.png';
 import themeUi from '../../images/theme-ui.png';
 import styled from '../../images/styled-components.png';
+import materialui from '../../images/materialUI.svg';
 
 const styling = {
   title: 'Styling',
   content: [
+    {
+      name: 'Bootstrap',
+      imageSrc: bootstrap,
+      imageId: 'bootstrap',
+      link: 'https://getbootstrap.com/',
+      imgStyles: {
+        width: '200px',
+      },
+    },
     {
       name: 'CSS3',
       imageSrc: css,
@@ -14,6 +24,15 @@ const styling = {
       link: 'https://www.w3.org/Style/CSS/',
       imgStyles: {
         width: '150px',
+      },
+    },
+    {
+      name: 'Material UI',
+      imageSrc: materialui,
+      imageId: 'material-ui',
+      link: 'https://mui.com/material-ui/',
+      imgStyles: {
+        width: '200px',
       },
     },
     {
@@ -26,10 +45,10 @@ const styling = {
       },
     },
     {
-      name: 'Bootstrap',
-      imageSrc: bootstrap,
-      imageId: 'bootstrap',
-      link: 'https://getbootstrap.com/',
+      name: 'Styled Components',
+      imageSrc: styled,
+      imageId: 'styledComponents',
+      link: 'https://styled-components.com/',
       imgStyles: {
         width: '200px',
       },
@@ -39,15 +58,6 @@ const styling = {
       imageSrc: themeUi,
       imageId: 'themeUi',
       link: 'https://theme-ui.com/',
-      imgStyles: {
-        width: '200px',
-      },
-    },
-    {
-      name: 'Styled Components',
-      imageSrc: styled,
-      imageId: 'styledComponents',
-      link: 'https://styled-components.com/',
       imgStyles: {
         width: '200px',
       },
