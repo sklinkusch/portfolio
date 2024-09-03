@@ -5,6 +5,12 @@ const editors = {
   title: 'Editors',
   content: [
     {
+      name: 'Brackets',
+      imageSrc: brackets,
+      imageId: 'brackets',
+      link: 'https://brackets.io/',
+    },
+    {
       name: 'VS Code',
       imageSrc: vscode,
       imageId: 'vscode',
@@ -12,12 +18,6 @@ const editors = {
       imgStyles: {
         width: '190px',
       },
-    },
-    {
-      name: 'Brackets',
-      imageSrc: brackets,
-      imageId: 'brackets',
-      link: 'https://brackets.io/',
     },
   ],
 };
