@@ -1,4 +1,5 @@
 import handlebars from '../../images/handlebars.png';
+import php from '../../images/PHP-logo.svg';
 import liquid from '../../images/Shopify-liquid.jpg';
 
 const template = {
@@ -11,16 +12,16 @@ const template = {
       link: 'https://handlebarsjs.com/',
     },
     {
+      name: 'PHP',
+      imageSrc: php,
+      imageId: 'php',
+      link: 'https://www.php.net/',
+    },
+    {
       name: 'Shopify Liquid',
       imageSrc: liquid,
       imageId: 'liquid',
       link: 'https://shopify.github.io/liquid/',
-    },
-    {
-      name: 'PHP',
-      imageSrc: 'https://cdn-1.wp.nginx.com/wp-content/uploads/2016/03/PHP-logo.svg_.png',
-      imageId: 'php',
-      link: 'https://www.php.net/',
     },
   ],
 };
