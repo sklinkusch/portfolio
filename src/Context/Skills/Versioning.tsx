@@ -7,6 +7,15 @@ const versioning = {
   title: 'Versioning',
   content: [
     {
+      name: 'Atlassian Bitbucket',
+      imageSrc: bitbucket,
+      imageId: 'bitbucket',
+      link: 'https://www.atlassian.com/',
+      imgStyles: {
+        width: '200px',
+      },
+    },
+    {
       name: 'git',
       imageSrc: git,
       imageId: 'git',
@@ -20,15 +29,6 @@ const versioning = {
       imageSrc: github,
       imageId: 'github',
       link: 'https://github.com',
-      imgStyles: {
-        width: '200px',
-      },
-    },
-    {
-      name: 'Atlassian Bitbucket',
-      imageSrc: bitbucket,
-      imageId: 'bitbucket',
-      link: 'https://www.atlassian.com/',
       imgStyles: {
         width: '200px',
       },
