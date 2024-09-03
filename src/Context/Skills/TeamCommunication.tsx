@@ -6,12 +6,12 @@ const teamcommunication = {
   title: 'Team Communication',
   content: [
     {
-      name: 'Slack',
-      imageSrc: slack,
-      imageId: 'slack',
-      link: 'https://slack.com/',
+      name: 'Microsoft Teams',
+      imageSrc: teams,
+      imageId: 'teams',
+      link: 'https://www.microsoft.com/de-de/microsoft-teams/log-in',
       imgStyles: {
-        width: '190px',
+        width: '180px',
       },
     },
     {
@@ -24,12 +24,12 @@ const teamcommunication = {
       },
     },
     {
-      name: 'Microsoft Teams',
-      imageSrc: teams,
-      imageId: 'teams',
-      link: 'https://www.microsoft.com/de-de/microsoft-teams/log-in',
+      name: 'Slack',
+      imageSrc: slack,
+      imageId: 'slack',
+      link: 'https://slack.com/',
       imgStyles: {
-        width: '180px',
+        width: '190px',
       },
     },
   ],
