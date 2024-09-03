@@ -7,19 +7,21 @@ const scripting = {
   title: 'Scripting Languages',
   content: [
     {
+      name: 'Bourne-Again Shell',
+      imageSrc: bash,
+      imageId: 'bash',
+      link: 'https://www.gnu.org/software/bash/',
+      imgStyles: {
+        maxHeight: '200px',
+        maxWidth: '190px',
+        width: '100%',
+      },
+    },
+    {
       name: 'ECMAScript 6',
       imageSrc: javascript,
       imageId: 'ecmascript',
       link: 'https://www.ecma-international.org/publications-and-standards/standards/ecma-262/',
-      imgStyles: {
-        width: '150px',
-      },
-    },
-    {
-      name: 'TypeScript',
-      imageSrc: typescript,
-      imageId: 'typescript',
-      link: 'https://www.typescriptlang.org/',
       imgStyles: {
         width: '150px',
       },
@@ -37,14 +39,12 @@ const scripting = {
       },
     },
     {
-      name: 'Bourne-Again Shell',
-      imageSrc: bash,
-      imageId: 'bash',
-      link: 'https://www.gnu.org/software/bash/',
+      name: 'TypeScript',
+      imageSrc: typescript,
+      imageId: 'typescript',
+      link: 'https://www.typescriptlang.org/',
       imgStyles: {
-        maxHeight: '200px',
-        maxWidth: '190px',
-        width: '100%',
+        width: '150px',
       },
     },
   ],
