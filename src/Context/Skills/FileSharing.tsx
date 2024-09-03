@@ -6,19 +6,19 @@ const filesharing = {
   title: 'File Sharing',
   content: [
     {
-      name: 'Google Drive',
-      imageSrc: gdrive,
-      imageId: 'gdrive',
-      link: 'https://workspace.google.com/products/drive/',
+      name: 'Dropbox',
+      imageSrc: dropbox,
+      imageId: 'dropbox',
+      link: 'https://www.dropbox.com/',
       imgStyles: {
         width: '200px',
       },
     },
     {
-      name: 'Dropbox',
-      imageSrc: dropbox,
-      imageId: 'dropbox',
-      link: 'https://www.dropbox.com/',
+      name: 'Google Drive',
+      imageSrc: gdrive,
+      imageId: 'gdrive',
+      link: 'https://workspace.google.com/products/drive/',
       imgStyles: {
         width: '200px',
       },
