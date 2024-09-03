@@ -7,6 +7,24 @@ const shop = {
   title: 'eCommerce Platforms',
   content: [
     {
+      name: 'BillBee',
+      imageSrc: billbee,
+      imageId: 'billbee',
+      link: 'https://www.billbee.io/',
+      imgStyles: {
+        width: '200px',
+      },
+    },
+    {
+      name: 'Drip',
+      imageSrc: drip,
+      imageId: 'Drip',
+      link: 'https://www.drip.com/',
+      imgStyles: {
+        width: '200px',
+      },
+    },
+    {
       name: 'Shopify',
       imageSrc: shopify,
       imageId: 'shopify',
@@ -20,24 +38,6 @@ const shop = {
       imageSrc: woocommerce,
       imageId: 'WooCommerce',
       link: 'https://woocommerce.com/',
-    },
-    {
-      name: 'Drip',
-      imageSrc: drip,
-      imageId: 'Drip',
-      link: 'https://www.drip.com/',
-      imgStyles: {
-        width: '200px',
-      },
-    },
-    {
-      name: 'BillBee',
-      imageSrc: billbee,
-      imageId: 'billbee',
-      link: 'https://www.billbee.io/',
-      imgStyles: {
-        width: '200px',
-      },
     },
   ],
 };
