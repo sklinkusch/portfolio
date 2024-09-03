@@ -16,12 +16,12 @@ const operating = {
       },
     },
     {
-      name: 'Ubuntu',
-      imageSrc: ubuntu,
-      imageId: 'ubuntu',
-      link: 'https://ubuntu.com/',
+      name: 'macOS',
+      imageSrc: macos,
+      imageId: 'macos',
+      link: 'https://www.apple.com/de/macos/',
       imgStyles: {
-        width: '190px',
+        width: '180px',
       },
     },
     {
@@ -34,12 +34,12 @@ const operating = {
       },
     },
     {
-      name: 'macOS',
-      imageSrc: macos,
-      imageId: 'macos',
-      link: 'https://www.apple.com/de/macos/',
+      name: 'Ubuntu',
+      imageSrc: ubuntu,
+      imageId: 'ubuntu',
+      link: 'https://ubuntu.com/',
       imgStyles: {
-        width: '180px',
+        width: '190px',
       },
     },
   ],
