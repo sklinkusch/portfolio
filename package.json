@@ -46,13 +46,12 @@
     "typescript": "5.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "now-build": "react-scripts build",
+    "start": "vite",
+    "build": "vite build",
+    "now-build": "vite buils",
+    "serve": "vite preview",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
-    "format": "prettier --write ./src",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "format": "prettier --write ./src"
   },
   "browserslist": {
     "production": [
