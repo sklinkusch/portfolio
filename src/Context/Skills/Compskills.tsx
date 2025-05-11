@@ -5,6 +5,7 @@ import scripting from './Scripting';
 import programming from './Programming';
 import frontend from './Frontend';
 import felibraries from './FELibraries';
+import componentLibraries from './ComponentLibraries';
 import mobile from './Mobile';
 import state from './State';
 import backend from './Backend';
@@ -41,6 +42,7 @@ const skills: Compskill[] = [
   programming,
   frontend,
   felibraries,
+  componentLibraries,
   mobile,
   state,
   backend,
