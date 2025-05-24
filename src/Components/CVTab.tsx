@@ -1,5 +1,6 @@
 import React from 'react';
 import { TabPane } from 'reactstrap';
+import type { JSX } from 'react';
 
 type Props = {
   data: {

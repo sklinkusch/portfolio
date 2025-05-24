@@ -1,6 +1,7 @@
 import { TabContent } from 'reactstrap';
 import CVTab from './CVTab';
 import AppContext from '../Context/AppContext';
+import type { JSX } from 'react';
 
 type Props = {
   activeTab: number;
