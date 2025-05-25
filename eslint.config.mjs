@@ -38,4 +38,7 @@ export default [
     },
   },
   prettier,
+  {
+    ignores: ['vite.config.ts'],
+  },
 ];

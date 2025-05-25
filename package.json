@@ -48,7 +48,8 @@
     "reactstrap": "^9.2.3",
     "theme-ui": "^0.17.2",
     "typescript": "5.8",
-    "typescript-eslint": "^8.32.1"
+    "typescript-eslint": "^8.32.1",
+    "vite-plugin-favicon": "^1.0.8"
   },
   "scripts": {
     "start": "vite",
