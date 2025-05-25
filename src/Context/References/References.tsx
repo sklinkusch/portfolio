@@ -73,6 +73,5 @@ const references = [
 ];
 
 type ReferenceType = typeof references;
-export { ReferenceType };
-
-export default references;
+export type { ReferenceType };
+export { references };

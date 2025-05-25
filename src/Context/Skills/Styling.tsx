@@ -3,7 +3,6 @@ import sass from '../../images/Sass_Logo_Color.png';
 import bootstrap from '../../images/Boostrap_logo.png';
 import themeUi from '../../images/theme-ui.png';
 import styled from '../../images/styled-components.png';
-import materialui from '../../images/materialUI.svg';
 
 const styling = {
   title: 'Styling',
@@ -24,15 +23,6 @@ const styling = {
       link: 'https://www.w3.org/Style/CSS/',
       imgStyles: {
         width: '150px',
-      },
-    },
-    {
-      name: 'Material UI',
-      imageSrc: materialui,
-      imageId: 'material-ui',
-      link: 'https://mui.com/material-ui/',
-      imgStyles: {
-        width: '200px',
       },
     },
     {

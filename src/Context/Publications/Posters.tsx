@@ -53,5 +53,5 @@ const posters = {
 };
 
 type PostersType = typeof posters;
-export { PostersType };
-export default posters;
+export type { PostersType };
+export { posters };

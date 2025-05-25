@@ -178,6 +178,5 @@ const talks = {
 };
 
 type TalksType = typeof talks;
-export { TalksType };
-
-export default talks;
+export type { TalksType };
+export { talks };

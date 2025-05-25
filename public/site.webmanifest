@@ -1,0 +1,8 @@
+{
+  "name": "",
+  "short_name": "",
+  "icons": [{ "src": "/Stefan-Ausschnitt.ico", "sizes": "40x40", "type": "image/vnd.microsoft.icon" }],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

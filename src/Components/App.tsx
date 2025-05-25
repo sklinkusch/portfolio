@@ -12,7 +12,6 @@ import Examples from './Examples';
 import Contact from './Contact';
 import Footer from './Footer';
 import background from '../images/photo-1515524738708-327f6b0037a7.jpeg';
-/* eslint-disable react-hooks/exhaustive-deps */
 
 const App = () => {
   return (
