@@ -5,7 +5,15 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: './',
   plugins: [react()],
-  server: { open: true, port: 3000 },
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://sklinkusch.vercel.app',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ''),
+      },
+    },
+  },
   resolve: {
     alias: {
       '@components': path.resolve(__dirname, './src/Components'),
