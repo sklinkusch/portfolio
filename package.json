@@ -53,8 +53,8 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "vite build",
-    "now-build": "vite build",
+    "build": "tsc -b && vite build",
+    "now-build": "tsc -b && vite build",
     "serve": "vite preview",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "format": "prettier --write ./src"

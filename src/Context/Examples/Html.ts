@@ -51,6 +51,6 @@ const html = [
 ];
 
 type HtmlType = typeof html;
-export { HtmlType };
+export type { HtmlType };
 
 export default html;
