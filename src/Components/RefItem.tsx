@@ -22,7 +22,12 @@ const RefLink = (props: Props) => {
   const { href, title } = data;
   if (hasHref) {
     return (
-      <a href={href} target="_blank" rel="noopener noreferrer" sx={{ color: 'ggrey', textDecoration: 'none' }}>
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        sx={{ color: 'ggrey', backgroundColor: '#eee', textDecoration: 'none' }}
+      >
         {title}
       </a>
     );

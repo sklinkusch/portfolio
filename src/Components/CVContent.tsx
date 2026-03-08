@@ -1,6 +1,6 @@
 import { TabContent } from 'reactstrap';
 import CVTab from './CVTab';
-import AppContext from '../Context/AppContext';
+import { useAppContext } from '../Hooks/useAppContext';
 import type { JSX } from 'react';
 
 type Props = {
@@ -14,17 +14,14 @@ type Tab = {
   }[];
 };
 
-const CVContent = (props: Props) => (
-  <TabContent activeTab={props.activeTab}>
-    <AppContext.Consumer>
-      {(context) =>
-        'CVContent' in context &&
-        Array.isArray(context.CVContent) &&
-        context.CVContent.length > 0 &&
-        context.CVContent.map((tab: Tab, index: number) => <CVTab key={index} data={tab} number={index} />)
-      }
-    </AppContext.Consumer>
-  </TabContent>
-);
+const CVContent = (props: Props) => {
+  const { CVContent } = useAppContext();
+  return (
+    <TabContent activeTab={props.activeTab}>
+      {CVContent.length > 0 &&
+        CVContent.map((tab: Tab, index: number) => <CVTab key={index} data={tab} number={index} />)}
+    </TabContent>
+  );
+};
 
 export default CVContent;

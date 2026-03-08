@@ -1,5 +1,5 @@
 import { ReactNode, useState } from 'react';
-import AppContext from './AppContext';
+import AppContext, { AppContextType } from './AppContext';
 import compskills from './Skills/Compskills';
 import { titles as CVTabTitles, content as CVContent } from './CV/CV';
 import { titles as PubTabTitles, theses, journals, posters, talks } from './Publications/Publications';
@@ -10,7 +10,7 @@ import react from './Examples/React';
 import footerLinks from './Footer/FooterLinks';
 
 const AppProvider = (props: { children: ReactNode; [key: string]: unknown }) => {
-  const [state] = useState({
+  const [state] = useState<AppContextType>({
     skills: compskills,
     CVTabTitles,
     CVContent,

@@ -27,5 +27,6 @@ const theses = {
 };
 
 type ThesesType = typeof theses;
-export type { ThesesType };
+type ThesesContent = typeof theses.content;
+export type { ThesesType, ThesesContent };
 export { theses };

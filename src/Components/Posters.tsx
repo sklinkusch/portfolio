@@ -1,41 +1,37 @@
+import { JSX } from 'react';
 import { TabPane } from 'reactstrap';
-import AppContext from '../Context/AppContext';
+import { useAppContext } from '../Hooks/useAppContext';
 
 type Poster = {
   authors: string;
-  title: HTMLQuoteElement;
-  event: HTMLSpanElement;
-  place: HTMLSpanElement;
-  year: HTMLSpanElement;
+  title: JSX.Element;
+  event: JSX.Element;
+  place: JSX.Element;
+  year: JSX.Element;
 };
 
 const Posters = () => {
+  const { posters } = useAppContext();
   const number = 2;
   const space = ' ';
   return (
     <TabPane tabId={number}>
       <ol reversed>
-        <AppContext.Consumer>
-          {(context) =>
-            'posters' in context &&
-            Array.isArray(context.posters) &&
-            context.posters.length > 0 &&
-            context.posters.map((poster: Poster, index: number) => {
-              const { authors, title, event, place, year } = poster;
-              return (
-                <li key={index}>
-                  <>
-                    <span className="authors">{authors}</span>,{space}
-                    {title},{space}
-                    {event},{space}
-                    {place},{space}
-                    {year}
-                  </>
-                </li>
-              );
-            })
-          }
-        </AppContext.Consumer>
+        {posters.length > 0 &&
+          posters.map((poster: Poster, index: number) => {
+            const { authors, title, event, place, year } = poster;
+            return (
+              <li key={index}>
+                <>
+                  <span className="authors">{authors}</span>,{space}
+                  {title},{space}
+                  {event},{space}
+                  {place},{space}
+                  {year}
+                </>
+              </li>
+            );
+          })}
       </ol>
     </TabPane>
   );

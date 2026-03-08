@@ -1,26 +1,23 @@
 import { Dispatch, SetStateAction } from 'react';
 import { Nav } from 'reactstrap';
 import CVTitle from './CVTitle';
-import AppContext from '../Context/AppContext';
+import { useAppContext } from '../Hooks/useAppContext';
 
 type Props = {
   activeTab: number;
   setTab: Dispatch<SetStateAction<number>>;
 };
 
-const PubTitles = (props: Props) => (
-  <Nav tabs>
-    <AppContext.Consumer>
-      {(context) =>
-        'PubTabTitles' in context &&
-        Array.isArray(context.PubTabTitles) &&
-        context.PubTabTitles.length > 0 &&
-        context.PubTabTitles.map((title: string, index: number) => (
-          <CVTitle activeTab={props.activeTab} title={title} number={index} setTab={props.setTab} key={index} />
-        ))
-      }
-    </AppContext.Consumer>
-  </Nav>
-);
+const PubTitles = ({ activeTab, setTab }: Props) => {
+  const { PubTabTitles } = useAppContext();
+  return (
+    <Nav tabs>
+      {PubTabTitles.length > 0 &&
+        PubTabTitles.map((title: string, index: number) => (
+          <CVTitle activeTab={activeTab} title={title} number={index} setTab={setTab} key={index} />
+        ))}
+    </Nav>
+  );
+};
 
 export default PubTitles;

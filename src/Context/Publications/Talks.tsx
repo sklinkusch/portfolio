@@ -178,5 +178,6 @@ const talks = {
 };
 
 type TalksType = typeof talks;
-export type { TalksType };
+type TalksContent = typeof talks.content;
+export type { TalksType, TalksContent };
 export { talks };

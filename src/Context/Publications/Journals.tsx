@@ -75,5 +75,6 @@ const journals = {
 };
 
 type JournalsType = typeof journals;
-export type { JournalsType };
+type JournalsContent = typeof journals.content;
+export type { JournalsType, JournalsContent };
 export { journals };

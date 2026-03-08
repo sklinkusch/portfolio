@@ -53,5 +53,6 @@ const posters = {
 };
 
 type PostersType = typeof posters;
-export type { PostersType };
+type PostersContent = typeof posters.content;
+export type { PostersType, PostersContent };
 export { posters };
